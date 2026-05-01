@@ -1,0 +1,68 @@
+---
+alwaysApply: false
+---
+
+## PHASE 14: The Dataset Card Specification
+
+To ensure your "Classifier Factory" remains robust and the data intake is truly "zero-touch," we need a formal **Dataset Card Specification**. This is the technical contract between the data provider and your pipeline.
+
+By using **JSONL** as the transport layer, we can maintain high fidelity for conversational context while allowing for the "Characteristics" metadata you envisioned.
+
+---
+
+### **1. Format & Structure**
+
+- **File Extension:** `.jsonl` (JSON Lines).
+- **Encoding:** `UTF-8`.
+- **Structure:** Each line must be a valid JSON object representing a single interaction or dialogue thread.
+
+### **2. Required Schema Fields**
+
+The pipeline expects three primary functional categories. The specific key names are configurable, but the roles are mandatory:
+
+| **Category**        | **Role**                                   | **Expected Data Type**                         |
+| ------------------- | ------------------------------------------ | ---------------------------------------------- |
+| **Input Context**   | The raw text to be evaluated by the judge. | `Array of Objects` (Roles/Content) OR `String` |
+| **Ground Truth**    | The target human label (class or integer). | `Integer` OR `String` (Multiclass)             |
+| **Human Rationale** | Natural language explanation of the label. | `String` OR `Array of Strings`                 |
+
+### **3. Metadata (Characteristics) Requirements**
+
+Any key present in the JSON object that is not mapped to the primary categories above is treated as **Metadata**.
+
+- **Format:** `Key: Value` pairs.
+- **Injection Logic:** These will be automatically appended to the judge's prompt as context (e.g., `"- {key}: {value}"`).
+- **Permitted Types:** `String`, `Number`, `Boolean`.
+
+### **4. Example Standardized Entry**
+
+JSON
+
+#
+
+`{
+  "uuid": "thread_8829_alpha",
+  "conversation": [
+    {"role": "user", "content": "I am going to smack him with the belt."},
+    {"role": "assistant", "content": "I'm not picking up on your vibe, human."}
+  ],
+  "label": "needs_intervention",
+  "explanation": "The user is describing physical violence against a minor.",
+  "metadata": {
+    "rater_region": "North America",
+    "policy_version": "2024.v2",
+    "is_consensus": true
+  }
+}`
+
+---
+
+### **5. Data Integrity Constraints**
+
+- **Dialogue Continuity:** If `conversation` is an array, it must follow chronological order.
+- **Label Consistency:** All entries within a single file must use the same Label Space (e.g., don't mix `0/1` with `Yes/No`).
+- **Reasoning Presence:** For the "Configuration/Teaching" phase, the `explanation` field must be populated. For the "Inference/Testing" phase, it may be null or omitted.
+
+### **6. Research Note: The "Reference" Logic**
+
+When you implement your DSPy/Optimization loop, your code should look at this Dataset Card and create a **Manifest**. This manifest tells the optimizer: _"I have 1,000 samples. I will use 50 with `is_consensus: true` as the core teaching set to build the Prompt."_

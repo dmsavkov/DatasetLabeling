@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-04-30T12:30:15.316084+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_llm\\20260430_122210",
+  "ran": 4,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_llm\\20260430_122210\\gemma_banking-10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "openai_compat_chat_batch:gemma-3-4b-it",
+        "metrics": {
+          "f1_macro": 0.8394531609977562,
+          "accuracy": 0.845
+        },
+        "extras": {
+          "infer_time_s": 129.81090089998906,
+          "usage": {
+            "in_tokens_total": 165920,
+            "out_tokens_total": 0
+          }
+        },
+        "created_at": "2026-04-30T12:24:22.685323+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_llm\\20260430_122210\\gemma_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "openai_compat_chat_batch:gemma-3-4b-it",
+        "metrics": {
+          "f1_macro": 0.7298919567827131,
+          "accuracy": 0.73
+        },
+        "extras": {
+          "infer_time_s": 65.14443250000477,
+          "usage": {
+            "in_tokens_total": 131235,
+            "out_tokens_total": 0
+          }
+        },
+        "created_at": "2026-04-30T12:25:28.699816+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_llm\\20260430_122210\\gemma_implicit_hate_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "openai_compat_chat_batch:gemma-3-4b-it",
+        "metrics": {
+          "f1_macro": 0.5477841422972565,
+          "accuracy": 0.55
+        },
+        "extras": {
+          "infer_time_s": 168.85901419998845,
+          "usage": {
+            "in_tokens_total": 151160,
+            "out_tokens_total": 0
+          }
+        },
+        "created_at": "2026-04-30T12:28:18.497911+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_llm\\20260430_122210\\gemma_pubmed_20k_rct_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "openai_compat_chat_batch:gemma-3-4b-it",
+        "metrics": {
+          "f1_macro": 0.3020531016100636,
+          "accuracy": 0.37
+        },
+        "extras": {
+          "infer_time_s": 116.0393439999898,
+          "usage": {
+            "in_tokens_total": 144440,
+            "out_tokens_total": 0
+          }
+        },
+        "created_at": "2026-04-30T12:30:15.306572+00:00"
+      }
+    }
+  ]
+}

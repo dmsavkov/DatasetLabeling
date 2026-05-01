@@ -1,0 +1,15 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "setfit",
+  "metrics": {
+    "f1_macro": 0.5987301587301588,
+    "accuracy": 0.605
+  },
+  "extras": {
+    "infer_time_s": 6.134753200050909,
+    "train_time_s": 886.2008192999638
+  },
+  "created_at": "2026-04-30T11:26:15.635323+00:00"
+}

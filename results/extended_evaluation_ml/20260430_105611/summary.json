@@ -1,0 +1,839 @@
+{
+  "created_at": "2026-04-30T12:13:24.140593+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611",
+  "ran": 40,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\svm_banking-10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "sklearn_tfidf_svm",
+        "metrics": {
+          "f1_macro": 0.7633655667651972,
+          "accuracy": 0.77
+        },
+        "extras": {
+          "infer_time_s": 0.0038500000373460352,
+          "train_time_s": 8.85354510002071
+        },
+        "created_at": "2026-04-30T10:56:21.004842+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\tfidf_xgb_banking-10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "tfidf_xgb",
+        "metrics": {
+          "f1_macro": 0.21489687256598292,
+          "accuracy": 0.22
+        },
+        "extras": {
+          "infer_time_s": 0.11586810002336279,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.847388528678385,
+            "mean_entropy": 0.42397940059054257
+          },
+          "train_time_s": 16.851349500007927
+        },
+        "created_at": "2026-04-30T10:56:38.024707+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_banking-10_trainseed100_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.7344283779004159,
+          "accuracy": 0.735
+        },
+        "extras": {
+          "infer_time_s": 6.887679199979175,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7771091681718826,
+            "mean_entropy": 0.7359873358359301
+          },
+          "train_time_s": 80.63767570001073
+        },
+        "created_at": "2026-04-30T10:58:05.608946+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_banking-10_trainseed100_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.7524573482915243,
+          "accuracy": 0.76
+        },
+        "extras": {
+          "infer_time_s": 1.6955159999779426,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.6127912431635886,
+            "mean_entropy": 1.0738731312307004
+          },
+          "train_time_s": 1.051955800037831
+        },
+        "created_at": "2026-04-30T10:58:08.411662+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_banking-10_trainseed100_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.7606843644013314,
+          "accuracy": 0.77
+        },
+        "extras": {
+          "infer_time_s": 1.6697838000254706,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.8340000000000001,
+            "mean_entropy": 0.3467665086384518
+          },
+          "train_time_s": 0.9805509999860078
+        },
+        "created_at": "2026-04-30T10:58:11.113928+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_banking-10_traintier5000_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.9349284327140553,
+          "accuracy": 0.935
+        },
+        "extras": {
+          "infer_time_s": 2.287210199981928,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.9601802629232407,
+            "mean_entropy": 0.10803595348674283
+          },
+          "train_time_s": 21.000827099953312
+        },
+        "created_at": "2026-04-30T10:58:34.467116+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_banking-10_traintier5000_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.9050093168372418,
+          "accuracy": 0.905
+        },
+        "extras": {
+          "infer_time_s": 2.342919599963352,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.8963097966991217,
+            "mean_entropy": 0.31084545009674674
+          },
+          "train_time_s": 19.377531700010877
+        },
+        "created_at": "2026-04-30T10:58:56.241370+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_banking-10_traintier5000_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.934917202688645,
+          "accuracy": 0.935
+        },
+        "extras": {
+          "infer_time_s": 2.2443004000233486,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.9630000000000001,
+            "mean_entropy": 0.08223530987296471
+          },
+          "train_time_s": 18.105496099975426
+        },
+        "created_at": "2026-04-30T10:59:16.646523+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_banking-10_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.6557179897767906,
+          "accuracy": 0.665
+        },
+        "extras": {
+          "infer_time_s": 0.6372766999993473,
+          "train_time_s": 43.932491899991874
+        },
+        "created_at": "2026-04-30T11:00:01.266821+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_banking-10_trainseed100_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.9045798316377714,
+          "accuracy": 0.905
+        },
+        "extras": {
+          "infer_time_s": 0.9282616999698803,
+          "train_time_s": 448.49794530001236
+        },
+        "created_at": "2026-04-30T11:07:30.776453+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\svm_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "sklearn_tfidf_svm",
+        "metrics": {
+          "f1_macro": 0.5733854180051914,
+          "accuracy": 0.585
+        },
+        "extras": {
+          "infer_time_s": 0.013889699999708682,
+          "train_time_s": 0.06375830003526062
+        },
+        "created_at": "2026-04-30T11:07:30.956804+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\tfidf_xgb_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "tfidf_xgb",
+        "metrics": {
+          "f1_macro": 0.5191815856777494,
+          "accuracy": 0.53
+        },
+        "extras": {
+          "infer_time_s": 0.03984789998503402,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.6450620380731302,
+            "mean_entropy": 0.6178169162122276
+          },
+          "train_time_s": 3.2581371999694966
+        },
+        "created_at": "2026-04-30T11:07:34.327331+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_tweet_eval_irony_trainseed100_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5542918619841697,
+          "accuracy": 0.565
+        },
+        "extras": {
+          "infer_time_s": 2.0707433999632485,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.8565502455830574,
+            "mean_entropy": 0.3370265354715653
+          },
+          "train_time_s": 1.1179752000025474
+        },
+        "created_at": "2026-04-30T11:07:37.571454+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_tweet_eval_irony_trainseed100_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5989197572127597,
+          "accuracy": 0.625
+        },
+        "extras": {
+          "infer_time_s": 1.9127047000220045,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.655417193241102,
+            "mean_entropy": 0.6287587224596877
+          },
+          "train_time_s": 1.064377099974081
+        },
+        "created_at": "2026-04-30T11:07:40.601062+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_tweet_eval_irony_trainseed100_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5981105978757275,
+          "accuracy": 0.615
+        },
+        "extras": {
+          "infer_time_s": 1.8300299000111409,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.74,
+            "mean_entropy": 0.4980993218665987
+          },
+          "train_time_s": 0.8993044999660924
+        },
+        "created_at": "2026-04-30T11:07:43.375078+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_tweet_eval_irony_traintier5000_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5880959736381424,
+          "accuracy": 0.6
+        },
+        "extras": {
+          "infer_time_s": 4.835965199978091,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.6797203478217125,
+            "mean_entropy": 0.5896767863288295
+          },
+          "train_time_s": 58.38994669995736
+        },
+        "created_at": "2026-04-30T11:08:46.678435+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_tweet_eval_irony_traintier5000_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.6129302228266555,
+          "accuracy": 0.63
+        },
+        "extras": {
+          "infer_time_s": 4.5471648999955505,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.6018375974084629,
+            "mean_entropy": 0.6627594870807805
+          },
+          "train_time_s": 59.54517810000107
+        },
+        "created_at": "2026-04-30T11:09:50.848809+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_tweet_eval_irony_traintier5000_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5866518802298619,
+          "accuracy": 0.59
+        },
+        "extras": {
+          "infer_time_s": 5.08533809997607,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7289999999999999,
+            "mean_entropy": 0.5125097279584994
+          },
+          "train_time_s": 68.97554239997407
+        },
+        "created_at": "2026-04-30T11:11:04.991011+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_tweet_eval_irony_trainseed10_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.5822050290135397,
+          "accuracy": 0.595
+        },
+        "extras": {
+          "infer_time_s": 2.8690964999841526,
+          "train_time_s": 15.25986120000016
+        },
+        "created_at": "2026-04-30T11:11:23.202810+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_tweet_eval_irony_trainseed100_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.5987301587301588,
+          "accuracy": 0.605
+        },
+        "extras": {
+          "infer_time_s": 6.134753200050909,
+          "train_time_s": 886.2008192999638
+        },
+        "created_at": "2026-04-30T11:26:15.635323+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\svm_implicit_hate_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "sklearn_tfidf_svm",
+        "metrics": {
+          "f1_macro": 0.32215073529411764,
+          "accuracy": 0.41
+        },
+        "extras": {
+          "infer_time_s": 0.01977769995573908,
+          "train_time_s": 0.03766339999856427
+        },
+        "created_at": "2026-04-30T11:26:15.903206+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\tfidf_xgb_implicit_hate_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "tfidf_xgb",
+        "metrics": {
+          "f1_macro": 0.4430432955023119,
+          "accuracy": 0.47
+        },
+        "extras": {
+          "infer_time_s": 0.12641520000761375,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.8155214612117178,
+            "mean_entropy": 0.37794804576943997
+          },
+          "train_time_s": 13.060128800047096
+        },
+        "created_at": "2026-04-30T11:26:29.226722+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_implicit_hate_trainseed100_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.4615140956604371,
+          "accuracy": 0.49
+        },
+        "extras": {
+          "infer_time_s": 20.055223800009117,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.8582516407966614,
+            "mean_entropy": 0.3205233331913553
+          },
+          "train_time_s": 6.941293300013058
+        },
+        "created_at": "2026-04-30T11:26:56.351785+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_implicit_hate_trainseed100_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.4140625,
+          "accuracy": 0.46
+        },
+        "extras": {
+          "infer_time_s": 16.523972399998456,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7781663750617542,
+            "mean_entropy": 0.48237731937800904
+          },
+          "train_time_s": 6.946997299965005
+        },
+        "created_at": "2026-04-30T11:27:19.988720+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_implicit_hate_trainseed100_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.47733333333333333,
+          "accuracy": 0.51
+        },
+        "extras": {
+          "infer_time_s": 15.69826540001668,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.816,
+            "mean_entropy": 0.37022710513503
+          },
+          "train_time_s": 6.127719199983403
+        },
+        "created_at": "2026-04-30T11:27:41.997090+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_implicit_hate_traintier5000_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5913115870733369,
+          "accuracy": 0.595
+        },
+        "extras": {
+          "infer_time_s": 60.57841910002753,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7991067531704903,
+            "mean_entropy": 0.4324386987850351
+          },
+          "train_time_s": 362.01365180005087
+        },
+        "created_at": "2026-04-30T11:34:44.821787+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_implicit_hate_traintier5000_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.37327188940092165,
+          "accuracy": 0.405
+        },
+        "extras": {
+          "infer_time_s": 4.241713199997321,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7299784926199294,
+            "mean_entropy": 0.528518792129746
+          },
+          "train_time_s": 178.7979847000097
+        },
+        "created_at": "2026-04-30T11:37:47.931240+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_implicit_hate_traintier5000_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.5702621400945423,
+          "accuracy": 0.575
+        },
+        "extras": {
+          "infer_time_s": 5.34813060000306,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.861,
+            "mean_entropy": 0.28222104834412165
+          },
+          "train_time_s": 66.74248020001687
+        },
+        "created_at": "2026-04-30T11:39:00.070738+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_implicit_hate_trainseed10_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.2779783393501805,
+          "accuracy": 0.385
+        },
+        "extras": {
+          "infer_time_s": 1.078367599984631,
+          "train_time_s": 12.863724099996034
+        },
+        "created_at": "2026-04-30T11:39:14.067704+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_implicit_hate_trainseed100_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.6376811594202898,
+          "accuracy": 0.64
+        },
+        "extras": {
+          "infer_time_s": 1.2034709000145085,
+          "train_time_s": 632.5328194999602
+        },
+        "created_at": "2026-04-30T11:49:47.928411+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\svm_pubmed_20k_rct_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "sklearn_tfidf_svm",
+        "metrics": {
+          "f1_macro": 0.35923187016271346,
+          "accuracy": 0.525
+        },
+        "extras": {
+          "infer_time_s": 0.00863039999967441,
+          "train_time_s": 0.03596129996003583
+        },
+        "created_at": "2026-04-30T11:49:48.147995+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\tfidf_xgb_pubmed_20k_rct_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "tfidf_xgb",
+        "metrics": {
+          "f1_macro": 0.25019524241720664,
+          "accuracy": 0.34
+        },
+        "extras": {
+          "infer_time_s": 0.10246769996592775,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7760518058458022,
+            "mean_entropy": 0.5247080357313325
+          },
+          "train_time_s": 18.495355500024743
+        },
+        "created_at": "2026-04-30T11:50:06.796259+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_pubmed_20k_rct_trainseed100_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.277476959718339,
+          "accuracy": 0.37
+        },
+        "extras": {
+          "infer_time_s": 4.650344999972731,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.7366275160014629,
+            "mean_entropy": 0.7055298176940048
+          },
+          "train_time_s": 4.1405935999937356
+        },
+        "created_at": "2026-04-30T11:50:15.656850+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_pubmed_20k_rct_trainseed100_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.3119704103850445,
+          "accuracy": 0.47
+        },
+        "extras": {
+          "infer_time_s": 4.583376700000372,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.548961945632787,
+            "mean_entropy": 1.1191901271668612
+          },
+          "train_time_s": 3.125999799987767
+        },
+        "created_at": "2026-04-30T11:50:23.432587+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_pubmed_20k_rct_trainseed100_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.3030184287445597,
+          "accuracy": 0.42
+        },
+        "extras": {
+          "infer_time_s": 3.5594976999564096,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.56,
+            "mean_entropy": 0.9000753708112353
+          },
+          "train_time_s": 1.9902142999926582
+        },
+        "created_at": "2026-04-30T11:50:29.024610+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_xgb_pubmed_20k_rct_traintier5000_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.3920604885310768,
+          "accuracy": 0.505
+        },
+        "extras": {
+          "infer_time_s": 5.327287399966735,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.5455745739489793,
+            "mean_entropy": 1.1142937600267617
+          },
+          "train_time_s": 85.00549289997434
+        },
+        "created_at": "2026-04-30T11:51:59.446837+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_logreg_pubmed_20k_rct_traintier5000_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.26993755776470324,
+          "accuracy": 0.45
+        },
+        "extras": {
+          "infer_time_s": 4.22803409997141,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.47663870241846207,
+            "mean_entropy": 1.247319036880718
+          },
+          "train_time_s": 77.68078049999895
+        },
+        "created_at": "2026-04-30T11:53:21.415862+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\emb_umap_head_knn_pubmed_20k_rct_traintier5000_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "emb_umap_head",
+        "metrics": {
+          "f1_macro": 0.3863658081049385,
+          "accuracy": 0.49
+        },
+        "extras": {
+          "infer_time_s": 5.86217239999678,
+          "probs_if_accessible": {
+            "mean_max_prob": 0.642,
+            "mean_entropy": 0.7303805795218858
+          },
+          "train_time_s": 85.34652670001378
+        },
+        "created_at": "2026-04-30T11:54:52.686390+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_pubmed_20k_rct_trainseed10_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.16434085836595808,
+          "accuracy": 0.345
+        },
+        "extras": {
+          "infer_time_s": 1.1843963999999687,
+          "train_time_s": 12.680626099987421
+        },
+        "created_at": "2026-04-30T11:55:06.616757+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\extended_evaluation_ml\\20260430_105611\\setfit_pubmed_20k_rct_trainseed100_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "setfit",
+        "metrics": {
+          "f1_macro": 0.5202088554720135,
+          "accuracy": 0.7
+        },
+        "extras": {
+          "infer_time_s": 1.1949571000295691,
+          "train_time_s": 1096.1610424999963
+        },
+        "created_at": "2026-04-30T12:13:24.123358+00:00"
+      }
+    }
+  ]
+}

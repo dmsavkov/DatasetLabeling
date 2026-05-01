@@ -1,0 +1,15 @@
+{
+  "dataset_name": "pubmed_20k_rct",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "setfit",
+  "metrics": {
+    "f1_macro": 0.5202088554720135,
+    "accuracy": 0.7
+  },
+  "extras": {
+    "infer_time_s": 1.1949571000295691,
+    "train_time_s": 1096.1610424999963
+  },
+  "created_at": "2026-04-30T12:13:24.123358+00:00"
+}

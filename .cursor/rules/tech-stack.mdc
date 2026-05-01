@@ -1,0 +1,36 @@
+---
+alwaysApply: true
+---
+
+### Tools
+
+python 13.5
+uv
+pyproject.toml: for dependencies and project configuration.
+ollama: pure HTTP requests, no SDK. Using ManualOllamaLM for this reason  
+openai: for the API. Used for the Google AI endpoint. default max_tokens: None, default max_retries: 20, max_concurrency: 5
+huggingface: used for datasets and inference client for some models.
+pytest
+pydantic
+loguru: for logging. Minimalistically, but exposing major workflows.
+setfit
+umap
+sklearn
+transformers<5.0: used for the transformers library and setfit specifically.
+dotenv: for loading environment variables from a .env file whenever any token is being used.
+
+many others, not listed here.
+
+### Models
+
+- Google. Used with openai API.
+  - gemma-3-4b-it: smaller google model. It doesn't have system prompt and json endpoint.
+  - gemini-3.1-flash-lite-preview: larger google model. Has system prompt and json endpoint.
+
+- Hugging Face. Used with huggingface API.
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - meta-llama/Meta-Llama-3-8B-Instruct
+  - openai/gpt-oss-20b
+  - mistralai/Mixtral-8x22B-Instruct-v0.1
+
+### Datasets

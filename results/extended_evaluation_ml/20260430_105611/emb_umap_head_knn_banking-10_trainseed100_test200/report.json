@@ -1,0 +1,19 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "emb_umap_head",
+  "metrics": {
+    "f1_macro": 0.7606843644013314,
+    "accuracy": 0.77
+  },
+  "extras": {
+    "infer_time_s": 1.6697838000254706,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.8340000000000001,
+      "mean_entropy": 0.3467665086384518
+    },
+    "train_time_s": 0.9805509999860078
+  },
+  "created_at": "2026-04-30T10:58:11.113928+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "emb_umap_head",
+  "metrics": {
+    "f1_macro": 0.47733333333333333,
+    "accuracy": 0.51
+  },
+  "extras": {
+    "infer_time_s": 15.69826540001668,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.816,
+      "mean_entropy": 0.37022710513503
+    },
+    "train_time_s": 6.127719199983403
+  },
+  "created_at": "2026-04-30T11:27:41.997090+00:00"
+}

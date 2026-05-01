@@ -1,0 +1,18 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "google_openai_batch:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.9653707480706913,
+    "accuracy": 0.965
+  },
+  "extras": {
+    "infer_time_s": 158.67316780000692,
+    "usage": {
+      "in_tokens_total": 89860,
+      "out_tokens_total": 21200
+    }
+  },
+  "created_at": "2026-04-28T07:54:52.799407+00:00"
+}

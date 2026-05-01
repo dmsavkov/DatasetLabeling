@@ -1,0 +1,19 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "tfidf_xgb",
+  "metrics": {
+    "f1_macro": 0.5191815856777494,
+    "accuracy": 0.53
+  },
+  "extras": {
+    "infer_time_s": 0.03984789998503402,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.6450620380731302,
+      "mean_entropy": 0.6178169162122276
+    },
+    "train_time_s": 3.2581371999694966
+  },
+  "created_at": "2026-04-30T11:07:34.327331+00:00"
+}

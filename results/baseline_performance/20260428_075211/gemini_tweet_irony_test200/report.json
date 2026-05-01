@@ -1,0 +1,18 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "google_openai_batch:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.9029597282872392,
+    "accuracy": 0.905
+  },
+  "extras": {
+    "infer_time_s": 159.70254109997768,
+    "usage": {
+      "in_tokens_total": 61030,
+      "out_tokens_total": 15930
+    }
+  },
+  "created_at": "2026-04-28T07:57:33.548545+00:00"
+}

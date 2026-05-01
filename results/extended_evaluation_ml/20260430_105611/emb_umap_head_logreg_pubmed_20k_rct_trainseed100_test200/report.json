@@ -1,0 +1,19 @@
+{
+  "dataset_name": "pubmed_20k_rct",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "emb_umap_head",
+  "metrics": {
+    "f1_macro": 0.3119704103850445,
+    "accuracy": 0.47
+  },
+  "extras": {
+    "infer_time_s": 4.583376700000372,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.548961945632787,
+      "mean_entropy": 1.1191901271668612
+    },
+    "train_time_s": 3.125999799987767
+  },
+  "created_at": "2026-04-30T11:50:23.432587+00:00"
+}

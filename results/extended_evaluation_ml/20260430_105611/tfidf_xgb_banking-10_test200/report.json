@@ -1,0 +1,19 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "tfidf_xgb",
+  "metrics": {
+    "f1_macro": 0.21489687256598292,
+    "accuracy": 0.22
+  },
+  "extras": {
+    "infer_time_s": 0.11586810002336279,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.847388528678385,
+      "mean_entropy": 0.42397940059054257
+    },
+    "train_time_s": 16.851349500007927
+  },
+  "created_at": "2026-04-30T10:56:38.024707+00:00"
+}

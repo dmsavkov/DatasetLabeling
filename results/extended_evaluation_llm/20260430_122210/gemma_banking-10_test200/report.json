@@ -1,0 +1,18 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "openai_compat_chat_batch:gemma-3-4b-it",
+  "metrics": {
+    "f1_macro": 0.8394531609977562,
+    "accuracy": 0.845
+  },
+  "extras": {
+    "infer_time_s": 129.81090089998906,
+    "usage": {
+      "in_tokens_total": 165920,
+      "out_tokens_total": 0
+    }
+  },
+  "created_at": "2026-04-30T12:24:22.685323+00:00"
+}

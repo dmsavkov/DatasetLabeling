@@ -1,0 +1,14 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "sklearn_tfidf_svm",
+  "metrics": {
+    "f1_macro": 0.5733854180051914,
+    "accuracy": 0.585
+  },
+  "extras": {
+    "infer_time_s": 0.006989200017414987
+  },
+  "created_at": "2026-04-28T07:57:33.890871+00:00"
+}

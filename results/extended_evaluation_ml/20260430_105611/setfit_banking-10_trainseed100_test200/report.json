@@ -1,0 +1,15 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "setfit",
+  "metrics": {
+    "f1_macro": 0.9045798316377714,
+    "accuracy": 0.905
+  },
+  "extras": {
+    "infer_time_s": 0.9282616999698803,
+    "train_time_s": 448.49794530001236
+  },
+  "created_at": "2026-04-30T11:07:30.776453+00:00"
+}

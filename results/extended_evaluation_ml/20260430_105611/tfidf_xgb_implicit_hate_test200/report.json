@@ -1,0 +1,19 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "tfidf_xgb",
+  "metrics": {
+    "f1_macro": 0.4430432955023119,
+    "accuracy": 0.47
+  },
+  "extras": {
+    "infer_time_s": 0.12641520000761375,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.8155214612117178,
+      "mean_entropy": 0.37794804576943997
+    },
+    "train_time_s": 13.060128800047096
+  },
+  "created_at": "2026-04-30T11:26:29.226722+00:00"
+}

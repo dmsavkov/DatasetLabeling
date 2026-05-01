@@ -1,0 +1,41 @@
+---
+alwaysApply: true
+---
+
+**Project Summary**
+
+This is an independent, iterative AI engineering project focused on building a practical, production-oriented **text classification and data labeling system** centered on LLMs acting as intelligent judges/evaluators.
+
+### Core Purpose
+
+The goal is to create a reliable, low-effort tool that automates (or greatly assists) labeling and classifying text data using very few initial human-labeled examples (typically 10–100 “golden seed” samples). It targets real-world scenarios where traditional ML struggles—such as subjective, nuanced, implicit, or context-heavy tasks (e.g., intent routing, toxicity detection, sarcasm/irony, customer support categorization)—while remaining usable for straightforward classification.
+
+The ultimate product vision evolved into **“Judge-as-a-Service”**: a convenient SaaS-style API (or lightweight tool) that lets developers/startups upload a small set of examples and instantly get high-quality automated classifications for new text streams (support tickets, forum comments, reviews, moderation, etc.). It also supports a “bootstrap” mode to generate labeled datasets for users who later want to train their own local models.
+
+### Key Dynamics and Architecture Evolution
+
+- **Hybrid ensemble/committee approach**: LLMs (frontier or local/open-weight models, optimized via techniques like DSPy, agentic prompting, dynamic few-shot retrieval/RAG-style context selection) serve as the primary reasoning engine. Traditional ML models (SetFit, SVM, XGBoost/LightGBM on embeddings/TF-IDF) act as fast, rigid guardrails/advisors that catch different error types (e.g., keyword patterns vs. deep pragmatics).
+- **Active learning & human-in-the-loop**: Targeted sample selection (clustering for diversity, uncertainty/confusion scoring for edge cases) to efficiently grow the golden seed with minimal manual effort. Disagreements between models flag high-value rows for quick human review.
+- **Flexibility layers**: Cost/accuracy trade-offs via switches (e.g., “LLM on” for max quality vs. “LLM off”/export to local ML for zero-cost inference), with emphasis on uncorrelated errors across model families.
+- **Iterative refinement**: Heavy focus on maximizing accuracy first (especially in low-data regimes), then efficiency/cost. Avoidance of compounding errors from naive pseudo-labeling or over-engineered routing.
+
+The project repeatedly pivoted from pure research experiments (comparing SetFit/XGBoost vs. LLM-as-Judge on benchmarks) toward pragmatic productization, balancing theoretical power with real-user convenience and developer constraints.
+
+### Scope and Boundaries
+
+- **In scope**: Short-to-medium conversational/operational text; few-shot/zero-shot operation; hybrid LLM+ML ensembles; active learning loops; API-friendly deployment; zero-touch onboarding for most users.
+- **Out of scope** (deliberately scoped down): Extremely long documents (e.g., full contracts or legal opinions), multimodal data, massive-scale fine-tuning, or fully offline/local-only for the primary product path. High-cardinality or ultra-specialized domains are simplified where needed for realism.
+- **Target users**: Solo devs, small teams, or ops people who need quick, accurate text routing/moderation/labeling without building full ML pipelines or hiring annotators.
+
+### Constraints
+
+- Extremely limited labeled data at the start (cold-start problem).
+- Cost awareness (API quotas during development; preference for free tiers like Groq, Ollama, Gemini; later optimization via ensembles and export switches).
+- User convenience and universality prioritized over peak academic SOTA (minimal manual labeling required).
+- Zero-budget development mindset for the builder (local models for plumbing, micro-benchmarks for evaluation).
+
+### Field and Evaluation Approach
+
+The project lives at the intersection of **NLP/text classification**, **LLM orchestration/agentic systems**, **few-shot learning**, and **MLOps/lightweight active learning**. Evaluation relies on a small, standardized set of representative benchmarks covering objective topics, business intents, semantic nuance (e.g., irony), and subjectivity—using consistent metrics like macro F1, accuracy, committee agreement rate, abstention/confusion rate, latency, and token/cost tracking. Development follows a disciplined order: lock benchmarks → data selection pipeline → LLM architecture optimization.
+
+Overall, the project embodies a pragmatic, systems-thinking approach to making advanced LLM capabilities accessible and reliable for practical text-handling workflows, constantly trading off between raw intelligence, efficiency, and usability while learning from empirical benchmarks and architectural trade-offs.

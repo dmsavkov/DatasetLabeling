@@ -1,0 +1,19 @@
+{
+  "dataset_name": "pubmed_20k_rct",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "tfidf_xgb",
+  "metrics": {
+    "f1_macro": 0.25019524241720664,
+    "accuracy": 0.34
+  },
+  "extras": {
+    "infer_time_s": 0.10246769996592775,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.7760518058458022,
+      "mean_entropy": 0.5247080357313325
+    },
+    "train_time_s": 18.495355500024743
+  },
+  "created_at": "2026-04-30T11:50:06.796259+00:00"
+}

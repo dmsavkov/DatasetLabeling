@@ -1,0 +1,15 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "setfit",
+  "metrics": {
+    "f1_macro": 0.6376811594202898,
+    "accuracy": 0.64
+  },
+  "extras": {
+    "infer_time_s": 1.2034709000145085,
+    "train_time_s": 632.5328194999602
+  },
+  "created_at": "2026-04-30T11:49:47.928411+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "emb_umap_head",
+  "metrics": {
+    "f1_macro": 0.5866518802298619,
+    "accuracy": 0.59
+  },
+  "extras": {
+    "infer_time_s": 5.08533809997607,
+    "probs_if_accessible": {
+      "mean_max_prob": 0.7289999999999999,
+      "mean_entropy": 0.5125097279584994
+    },
+    "train_time_s": 68.97554239997407
+  },
+  "created_at": "2026-04-30T11:11:04.991011+00:00"
+}
