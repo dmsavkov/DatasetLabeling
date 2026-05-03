@@ -22,7 +22,7 @@ from loguru import logger
 
 from src.models.clients.dispatch import _google_genai_api_key
 from src.models.clients.registry import model_supports_system_prompt
-from src.models.interfaces import Prediction, Usage
+from src.models.interfaces import Prediction, Usage, split_call_usage_across_rows
 from src.models.llm.openai_compat_chat_batch import OpenAICompatChatBatchPredictor
 from src.prompts.baseline import BatchItem, DEFAULT_BATCH_SIZE, parse_batch_predictions
 from src.prompts.registry import get_prompt
@@ -62,6 +62,7 @@ def _predictions_from_genai_response(
 ) -> dict[str, Prediction]:
     answer_text, thought_text, part_debug = _parts_from_response(resp)
     usage, raw_um = _usage_from_response(resp)
+    per_row_usage = split_call_usage_across_rows(usage, len(items))
     mapping = parse_batch_predictions(answer_text, allowed_labels=allowed_labels)
     reason = thought_text if thought_text else None
     raw_base: dict[str, Any] = {
@@ -80,10 +81,10 @@ def _predictions_from_genai_response(
             confidence=None,
             reason=reason,
             probs=None,
-            usage=usage,
+            usage=per_row_usage[idx],
             raw=raw_base,
         )
-        for it in items
+        for idx, it in enumerate(items)
     }
 
 

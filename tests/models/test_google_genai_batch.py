@@ -9,6 +9,7 @@ import pytest
 
 from src.experiments.config import ExperimentConfig
 from src.experiments.run import build_predictor
+from src.models.interfaces import Usage, split_call_usage_across_rows
 from src.models.llm.google_genai_batch import GoogleGenaiBatchParams, GoogleGenaiBatchPredictor
 
 
@@ -73,11 +74,23 @@ def test_google_genai_batch_apredict_parses_usage_and_thought(monkeypatch: pytes
     assert out[0].pred_label == "alpha"
     assert out[1].pred_label == "beta"
     assert out[0].usage is not None
-    assert out[0].usage.in_tokens == 10
-    assert out[0].usage.out_tokens == 8  # 5 + 3 thoughts
+    assert out[0].usage.in_tokens == 5  # 10 prompt tokens split across 2 rows
+    assert out[0].usage.out_tokens == 4  # 8 = 5 + 3 thoughts, split across 2 rows
+    assert out[1].usage is not None
+    assert out[1].usage.in_tokens == 5
+    assert out[1].usage.out_tokens == 4
     assert out[0].reason is not None
     assert isinstance(out[0].raw, dict)
     assert out[0].raw.get("usage_metadata")
+
+
+def test_split_call_usage_across_rows_remainder_goes_to_first_rows() -> None:
+    u = Usage(in_tokens=10, out_tokens=5)
+    parts = split_call_usage_across_rows(u, 3)
+    assert [p.in_tokens for p in parts] == [4, 3, 3]
+    assert [p.out_tokens for p in parts] == [2, 2, 1]
+    assert sum(p.in_tokens or 0 for p in parts) == 10
+    assert sum(p.out_tokens or 0 for p in parts) == 5
 
 
 def test_build_predictor_google_genai_chat(monkeypatch: pytest.MonkeyPatch) -> None:

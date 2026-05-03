@@ -27,7 +27,7 @@ from typing import Any
 from loguru import logger
 from openai import AsyncOpenAI
 
-from src.models.interfaces import Prediction, Usage
+from src.models.interfaces import Prediction, Usage, split_call_usage_across_rows
 from src.models.clients.registry import model_supports_system_prompt
 from src.prompts.baseline import BatchItem, DEFAULT_BATCH_SIZE, parse_batch_predictions
 from src.prompts.registry import get_prompt
@@ -101,16 +101,18 @@ class OpenAICompatChatBatchPredictor:
                 usage = getattr(resp, "usage", None)
                 in_tokens = getattr(usage, "prompt_tokens", None) if usage is not None else None
                 out_tokens = getattr(usage, "completion_tokens", None) if usage is not None else None
+                call_usage = Usage(in_tokens=in_tokens, out_tokens=out_tokens)
+                per_row_usage = split_call_usage_across_rows(call_usage, len(items))
 
                 preds: dict[str, Prediction] = {}
-                for it in items:
+                for idx, it in enumerate(items):
                     label = mapping.get(it.id)
                     preds[it.id] = Prediction(
                         pred_label=label,
                         confidence=None,
                         reason=None,
                         probs=None,
-                        usage=Usage(in_tokens=in_tokens, out_tokens=out_tokens),
+                        usage=per_row_usage[idx],
                         raw={"attempt": attempt, "content": content[:2000]},
                     )
                 return preds
