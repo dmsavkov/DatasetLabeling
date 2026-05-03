@@ -23,6 +23,7 @@ from src.models.baselines.emb_umap_head import EmbUmapHeadPredictor
 from src.models.baselines.setfit import SetFitPredictor
 from src.models.clients.dispatch import get_google_openai_chat_backend, get_llm_backend
 from src.models.ensemble.committee import CommitteeMember, CommitteePredictor
+from src.models.llm.google_genai_batch import GoogleGenaiBatchParams, GoogleGenaiBatchPredictor
 from src.models.llm.openai_compat_chat_batch import OpenAICompatChatBatchParams, OpenAICompatChatBatchPredictor
 from src.models.llm.hf_inference_textgen_batch import (
     HFInferenceTextGenBatchParams,
@@ -32,6 +33,7 @@ from src.models.llm.hf_inference_textgen_batch import (
 from .config import (
     CommitteeLLMSpec,
     ExperimentConfig,
+    GoogleGenaiChatSpec,
     GoogleOpenAIChatSpec,
     SklearnLogRegSpec,
     SklearnSvmSpec,
@@ -83,6 +85,23 @@ def build_predictor(cfg: ExperimentConfig, *, train_df: pd.DataFrame | None = No
         return SklearnTfidfSvmPredictor()
     if isinstance(m, SklearnLogRegSpec):
         return SklearnTfidfLogRegPredictor()
+    if isinstance(m, GoogleGenaiChatSpec):
+        few_shot = _few_shot_from_train_df(train_df, n=10) if train_df is not None else None
+        p = m.params
+        return GoogleGenaiBatchPredictor(
+            params=GoogleGenaiBatchParams(
+                model_id=p.model_id,
+                prompt_id=p.prompt_id,
+                few_shot=few_shot,
+                batch_size=p.batch_size,
+                max_concurrency=p.max_concurrency,
+                temperature=p.temperature,
+                max_tokens=p.max_tokens,
+                retries=p.retries,
+                thinking_level=p.thinking_level,
+                include_thoughts=p.include_thoughts,
+            ),
+        )
     if isinstance(m, GoogleOpenAIChatSpec):
         few_shot = _few_shot_from_train_df(train_df, n=10) if train_df is not None else None
         backend = get_google_openai_chat_backend(m.params.model_id)
@@ -187,9 +206,10 @@ async def arun_experiment(config_path: str | Path) -> dict[str, Any]:
         str(test_df[SCHEMA.dataset_name].iloc[0]),
     )
 
-    train_df = _shuffle_llm_df(train_df, seed=cfg.seed)
-    test_df = _shuffle_llm_df(test_df, seed=cfg.seed + 1)
-    logger.info("LLM run: shuffled train/test row order (seeded) before predict")
+    if isinstance(cfg.model, (GoogleOpenAIChatSpec, CommitteeLLMSpec, GoogleGenaiChatSpec)):
+        train_df = _shuffle_llm_df(train_df, seed=cfg.seed)
+        test_df = _shuffle_llm_df(test_df, seed=cfg.seed + 1)
+        logger.info("LLM run: shuffled train/test row order (seeded) before predict")
 
     predictor = build_predictor(cfg, train_df=train_df)
     logger.info("Built predictor: {}", getattr(predictor, "name", type(predictor).__name__))
@@ -209,7 +229,7 @@ async def arun_experiment(config_path: str | Path) -> dict[str, Any]:
     allowed_labels = _allowed_labels_for_df(test_df)
     logger.info("Allowed labels: {}", len(allowed_labels))
 
-    if isinstance(cfg.model, (GoogleOpenAIChatSpec, CommitteeLLMSpec)):
+    if isinstance(cfg.model, (GoogleOpenAIChatSpec, CommitteeLLMSpec, GoogleGenaiChatSpec)):
         logger.info("Evaluating LLM predictor (async) on {} rows", len(test_df))
         res = await aevaluate_predictor_on_df(
             predictor,

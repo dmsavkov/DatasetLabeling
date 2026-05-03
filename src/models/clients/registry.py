@@ -122,6 +122,8 @@ _MODEL_CAPABILITIES: dict[str, ModelCapabilities] = {
     # Gemma IT via Google endpoint behaves like a single-user endpoint and
     # does not reliably honor system prompts.
     "gemma-3-4b-it": ModelCapabilities(supports_system_prompt=False),
+    "gemma-3-27b-it": ModelCapabilities(supports_system_prompt=False),
+    "gemma-4-31b-it": ModelCapabilities(supports_system_prompt=False),
 }
 
 

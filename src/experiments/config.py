@@ -9,6 +9,23 @@ import yaml
 from pydantic import BaseModel, Field, model_validator
 
 # What the user can specify in an experiment config
+ThinkingLevelLiteral = Literal["off", "low", "high"]
+
+
+class GoogleGenaiChatParams(BaseModel):
+    """Google AI Studio / Gemini API via `google.genai` SDK (native thinking + usage_metadata)."""
+
+    model_id: str
+    prompt_id: str = "baseline_v1"
+    batch_size: int = 5
+    max_concurrency: int = 5
+    temperature: float = 0.0
+    max_tokens: int | None = None
+    retries: int = 20
+    thinking_level: ThinkingLevelLiteral = "off"
+    include_thoughts: bool = False
+
+
 class GoogleOpenAIChatParams(BaseModel):
     model_id: str
     prompt_id: str = "baseline_v1"
@@ -80,6 +97,7 @@ class SetFitParams(BaseModel):
 
 
 ModelKind = Literal[
+    "google_genai_chat",
     "google_openai_chat",
     "committee_llm",
     "sklearn_svm",
@@ -88,6 +106,11 @@ ModelKind = Literal[
     "emb_umap_head",
     "setfit",
 ]
+
+
+class GoogleGenaiChatSpec(BaseModel):
+    kind: Literal["google_genai_chat"]
+    params: GoogleGenaiChatParams
 
 
 class GoogleOpenAIChatSpec(BaseModel):
@@ -136,6 +159,7 @@ class SetFitSpec(BaseModel):
 
 
 ModelSpec = Union[
+    GoogleGenaiChatSpec,
     GoogleOpenAIChatSpec,
     CommitteeLLMSpec,
     SklearnSvmSpec,
