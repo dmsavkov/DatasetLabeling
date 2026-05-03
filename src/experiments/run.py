@@ -48,6 +48,17 @@ def _load_parquet(path: str) -> pd.DataFrame:
     return df
 
 
+def _shuffle_llm_df(df: pd.DataFrame, *, seed: int) -> pd.DataFrame:
+    """
+    Break correlation between on-disk row order (often label-clustered) and API batch order.
+
+    Uses cfg.seed so shuffle is reproducible. Classification metrics are unchanged; only the
+    sequence of LLM requests changes (reduces spurious ``repeat last label'' batch effects).
+    """
+
+    return df.sample(frac=1.0, random_state=int(seed)).reset_index(drop=True)
+
+
 def _allowed_labels_for_df(df: pd.DataFrame, *, processed_root: Path | None = None) -> list[str]:
     dataset_name = str(df[SCHEMA.dataset_name].iloc[0])
     pr = processed_root_fn(processed_root)
@@ -175,6 +186,10 @@ async def arun_experiment(config_path: str | Path) -> dict[str, Any]:
         len(test_df),
         str(test_df[SCHEMA.dataset_name].iloc[0]),
     )
+
+    train_df = _shuffle_llm_df(train_df, seed=cfg.seed)
+    test_df = _shuffle_llm_df(test_df, seed=cfg.seed + 1)
+    logger.info("LLM run: shuffled train/test row order (seeded) before predict")
 
     predictor = build_predictor(cfg, train_df=train_df)
     logger.info("Built predictor: {}", getattr(predictor, "name", type(predictor).__name__))
