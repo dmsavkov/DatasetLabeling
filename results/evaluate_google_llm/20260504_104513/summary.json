@@ -1,0 +1,276 @@
+{
+  "created_at": "2026-05-06T10:27:55.668269+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "google_genai_gemini31_flash_think_low_banking-10_bs3_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemini31_flash_think_low_banking-10_bs3_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/banking-10/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/banking-10/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_low_banking-10_bs3_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemini-3.1-flash-lite-preview",
+            "prompt_id": "baseline_v1",
+            "batch_size": 3,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "low",
+            "include_thoughts": true
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemini31_flash_think_low_banking-10_bs5_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemini31_flash_think_low_banking-10_bs5_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/banking-10/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/banking-10/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_low_banking-10_bs5_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemini-3.1-flash-lite-preview",
+            "prompt_id": "baseline_v1",
+            "batch_size": 5,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "low",
+            "include_thoughts": true
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemini31_flash_think_low_banking-10_bs10_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemini31_flash_think_low_banking-10_bs10_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/banking-10/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/banking-10/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_low_banking-10_bs10_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemini-3.1-flash-lite-preview",
+            "prompt_id": "baseline_v1",
+            "batch_size": 10,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "low",
+            "include_thoughts": true
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemini31_flash_think_high_banking-10_bs3_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemini31_flash_think_high_banking-10_bs3_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/banking-10/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/banking-10/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_high_banking-10_bs3_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemini-3.1-flash-lite-preview",
+            "prompt_id": "baseline_v1",
+            "batch_size": 3,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemini31_flash_think_high_banking-10_bs5_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemini31_flash_think_high_banking-10_bs5_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/banking-10/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/banking-10/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_high_banking-10_bs5_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemini-3.1-flash-lite-preview",
+            "prompt_id": "baseline_v1",
+            "batch_size": 5,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemini31_flash_think_high_banking-10_bs10_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemini31_flash_think_high_banking-10_bs10_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/banking-10/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/banking-10/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_high_banking-10_bs10_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemini-3.1-flash-lite-preview",
+            "prompt_id": "baseline_v1",
+            "batch_size": 10,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true
+          }
+        }
+      }
+    }
+  ],
+  "ran": 6,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_low_banking-10_bs3_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.2819206558336993,
+          "accuracy": 0.19
+        },
+        "extras": {
+          "infer_time_s": 46025.40065789991,
+          "usage": {
+            "in_tokens_total": 10097,
+            "out_tokens_total": 2347
+          }
+        },
+        "created_at": "2026-05-04T23:32:35.867670+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_low_banking-10_bs5_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.08579299488390396,
+          "accuracy": 0.05
+        },
+        "extras": {
+          "infer_time_s": 69017.42614650005,
+          "usage": {
+            "in_tokens_total": 1692,
+            "out_tokens_total": 336
+          }
+        },
+        "created_at": "2026-05-05T18:42:50.575480+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_low_banking-10_bs10_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.0,
+          "accuracy": 0.0
+        },
+        "extras": {
+          "infer_time_s": 1119.0844620999414
+        },
+        "created_at": "2026-05-05T19:01:31.911693+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_high_banking-10_bs3_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.017316017316017316,
+          "accuracy": 0.01
+        },
+        "extras": {
+          "infer_time_s": 13530.35746050009,
+          "usage": {
+            "in_tokens_total": 783,
+            "out_tokens_total": 61
+          }
+        },
+        "created_at": "2026-05-05T22:47:04.238795+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_high_banking-10_bs5_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.7835716067423384,
+          "accuracy": 0.81
+        },
+        "extras": {
+          "infer_time_s": 41623.448981199996,
+          "usage": {
+            "in_tokens_total": 29042,
+            "out_tokens_total": 283276
+          }
+        },
+        "created_at": "2026-05-06T10:20:47.305181+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_104513\\google_genai_gemini31_flash_think_high_banking-10_bs10_trainseed10_test200",
+      "report": {
+        "dataset_name": "banking-10",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.9296624926920177,
+          "accuracy": 0.93
+        },
+        "extras": {
+          "infer_time_s": 427.3030621999642,
+          "usage": {
+            "in_tokens_total": 19520,
+            "out_tokens_total": 647224
+          }
+        },
+        "created_at": "2026-05-06T10:27:55.625240+00:00"
+      }
+    }
+  ]
+}

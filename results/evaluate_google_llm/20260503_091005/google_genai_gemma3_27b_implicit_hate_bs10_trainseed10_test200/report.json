@@ -1,0 +1,18 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "google_genai_batch:gemma-3-27b-it",
+  "metrics": {
+    "f1_macro": 0.72997299729973,
+    "accuracy": 0.73
+  },
+  "extras": {
+    "infer_time_s": 80.0900474000955,
+    "usage": {
+      "in_tokens_total": 19281,
+      "out_tokens_total": null
+    }
+  },
+  "created_at": "2026-05-04T10:02:13.882789+00:00"
+}

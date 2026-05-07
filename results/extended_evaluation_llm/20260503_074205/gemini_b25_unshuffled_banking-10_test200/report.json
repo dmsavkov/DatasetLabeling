@@ -1,0 +1,16 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "test",
+  "tier_size": 200,
+  "predictor_name": "google_openai_batch:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.9899937460913071,
+    "accuracy": 0.99
+  },
+  "extras": {
+    "requested_model_id": "gemini-3.1-flash-lite-preview",
+    "used_model_id": "gemini-3.1-flash-lite-preview",
+    "num_predictions": 200
+  },
+  "created_at": "2026-05-03T07:42:05.645474+00:00"
+}

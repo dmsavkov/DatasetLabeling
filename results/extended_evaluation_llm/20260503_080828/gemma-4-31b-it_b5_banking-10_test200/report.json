@@ -1,0 +1,16 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "test",
+  "tier_size": 200,
+  "predictor_name": "google_openai_batch:gemma-4-31b-it",
+  "metrics": {
+    "f1_macro": 0.9202893096795537,
+    "accuracy": 0.92
+  },
+  "extras": {
+    "requested_model_id": "gemma-4-31b-it",
+    "used_model_id": "gemma-4-31b-it",
+    "num_predictions": 200
+  },
+  "created_at": "2026-05-03T08:08:28.713965+00:00"
+}

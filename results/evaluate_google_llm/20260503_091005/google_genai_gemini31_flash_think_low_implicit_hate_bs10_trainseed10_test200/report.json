@@ -1,0 +1,18 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "google_genai_batch:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.7640953054965793,
+    "accuracy": 0.775
+  },
+  "extras": {
+    "infer_time_s": 102.30536110000685,
+    "usage": {
+      "in_tokens_total": 19281,
+      "out_tokens_total": 5542
+    }
+  },
+  "created_at": "2026-05-04T07:47:13.501448+00:00"
+}

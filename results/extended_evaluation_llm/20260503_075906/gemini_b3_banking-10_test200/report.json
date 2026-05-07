@@ -1,0 +1,16 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "test",
+  "tier_size": 200,
+  "predictor_name": "google_openai_batch:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.8249164299607759,
+    "accuracy": 0.905
+  },
+  "extras": {
+    "requested_model_id": "gemini-3.1-flash-lite-preview",
+    "used_model_id": "gemini-3.1-flash-lite-preview",
+    "num_predictions": 200
+  },
+  "created_at": "2026-05-03T07:59:06.045962+00:00"
+}

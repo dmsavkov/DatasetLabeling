@@ -1,0 +1,18 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "google_genai_batch:gemma-3-4b-it",
+  "metrics": {
+    "f1_macro": 0.4609885620915033,
+    "accuracy": 0.685
+  },
+  "extras": {
+    "infer_time_s": 107.8506575000938,
+    "usage": {
+      "in_tokens_total": 168510,
+      "out_tokens_total": null
+    }
+  },
+  "created_at": "2026-05-03T21:50:47.672117+00:00"
+}

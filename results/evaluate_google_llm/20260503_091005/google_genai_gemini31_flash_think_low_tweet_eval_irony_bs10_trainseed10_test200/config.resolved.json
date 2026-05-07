@@ -1,0 +1,21 @@
+{
+  "name": "google_genai_gemini31_flash_think_low_tweet_eval_irony_bs10_trainseed10_test200",
+  "seed": 42,
+  "train_data": "data/processed/tweet_eval_irony/train_seed/tier_10/samples.parquet",
+  "test_data": "data/processed/tweet_eval_irony/test/tier_200/samples.parquet",
+  "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260504_070431\\google_genai_gemini31_flash_think_low_tweet_eval_irony_bs10_trainseed10_test200",
+  "model": {
+    "kind": "google_genai_chat",
+    "params": {
+      "model_id": "gemini-3.1-flash-lite-preview",
+      "prompt_id": "baseline_v1",
+      "batch_size": 10,
+      "max_concurrency": 5,
+      "temperature": 0.0,
+      "max_tokens": null,
+      "retries": 20,
+      "thinking_level": "low",
+      "include_thoughts": true
+    }
+  }
+}
