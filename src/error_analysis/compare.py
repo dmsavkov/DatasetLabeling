@@ -109,14 +109,24 @@ def disagreements(df: pd.DataFrame) -> pd.DataFrame:
     return df.loc[distinct >= 2].copy()
 
 
-def pairwise_diff(df: pd.DataFrame, a_id: str, b_id: str) -> pd.DataFrame:
-    a = f"pred_label__{a_id}"
-    b = f"pred_label__{b_id}"
-    if a not in df.columns or b not in df.columns:
-        raise ValueError(f"Missing prediction columns: {a} or {b}")
-    keep = [c for c in ["sample_id", "dataset_name", "text", "true_label", a, b] if c in df.columns]
+def multiwise_diff(df: pd.DataFrame, exp_ids: list[str]) -> pd.DataFrame:
+    """
+    Return rows where at least two pred_label__{exp_id} columns differ (ignoring NaN).
+    Compares all provided experiment ids.
+    """
+    if not exp_ids or len(exp_ids) < 2:
+        raise ValueError("Need at least two experiment ids for multiwise_diff.")
+    pred_cols = [f"pred_label__{eid}" for eid in exp_ids]
+    missing = [c for c in pred_cols if c not in df.columns]
+    if missing:
+        raise ValueError(f"Missing prediction columns: {missing}")
+    keep = [c for c in ["sample_id", "dataset_name", "text", "true_label"] if c in df.columns] + pred_cols
     sub = df[keep].copy()
-    return sub.loc[sub[a].astype("string") != sub[b].astype("string")].copy()
+    # Compare as string (for consistency, also handles None/NaN by string)
+    str_pred = sub[pred_cols].astype("string")
+    # Row is a diff if at least two non-empty preds are non-equal (set length > 1)
+    differing = str_pred.apply(lambda row: len({v for v in row if v != ""}) > 1, axis=1)
+    return sub.loc[differing].copy()
 
 
 def confusions(df: pd.DataFrame, exp_id: str, top_k: int = 20) -> pd.DataFrame:

@@ -6,10 +6,17 @@ from src.error_analysis.compare import (
     confusions,
     disagreements,
     pairwise_agreement_matrix,
-    pairwise_diff,
+    multiwise_diff,
 )
 from src.error_analysis.io import LoadedExperiment, discover_experiments, load_experiment, load_many
 from src.error_analysis.reports import aggregate_reports, plot_overview, save_artifacts
+from src.error_analysis.row_metrics import (
+    RowVoteMetricsConfig,
+    add_model_correctness_flags,
+    add_row_vote_metrics,
+    calibration_bins,
+    expected_calibration_error,
+)
 
 __all__ = [
     "LoadedExperiment",
@@ -19,11 +26,16 @@ __all__ = [
     "assert_same_dataset",
     "build_comparison_df",
     "disagreements",
-    "pairwise_diff",
+    "multiwise_diff",
     "confusions",
     "pairwise_agreement_matrix",
     "aggregate_reports",
     "plot_overview",
     "save_artifacts",
+    "RowVoteMetricsConfig",
+    "add_row_vote_metrics",
+    "add_model_correctness_flags",
+    "calibration_bins",
+    "expected_calibration_error",
 ]
 

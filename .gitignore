@@ -139,6 +139,7 @@ temp/
 /results/**/*.yaml
 /results/**/*.csv
 /notebooks/error_analysis/
+/checkpoints/
 
 # MlFlow
 /mlruns/
