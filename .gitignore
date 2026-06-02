@@ -135,15 +135,100 @@ temp/
 # Project
 /ai/
 /data/
-/raw-experiments/
-/results/**/*.yaml
-/results/**/*.csv
 /notebooks/error_analysis/
-/checkpoints/
+checkpoints/
+.hf/
+/results/debug_accuracy/
+*.jsonl
+logs/
+/raw-experiments/request_google.py
+/raw-experiments/ollama-request.py
+
+# ---------------------------------------------------------------------------
+# Experiment outputs (results/)
+# Ignore all run artifacts by default; track only configs, manifests, and metrics.
+# Row-level predictions, batches, compiled programs, and analysis exports stay local.
+# ---------------------------------------------------------------------------
+/results/**
+!/results/**/
+# Provenance & resolved parameters
+!/results/**/config.resolved.json
+!/results/**/run_manifest.json
+!/results/**/configs/
+!/results/**/configs/**
+# Metrics & reports (no per-row predictions)
+!/results/**/report.json
+!/results/**/metrics.json
+!/results/**/summary.json
+!/results/**/summary*.json
+!/results/**/manifest.json
+!/results/**/full_metadata.json
+!/results/**/*_metadata.json
+!/results/**/*_classification_report.json
+!/results/**/*_classification_report.txt
+!/results/**/full_classification_report.txt
+!/results/**/val_eval_macro_f1.json
+!/results/**/preliminary_classification_report.json
+!/results/**/preliminary_classification_report.txt
+# Legacy / exploratory campaign aggregations (hf_llms, prosocial, mvp, raw rollups)
+!/results/**/metrics_*.csv
+!/results/**/errors_*.csv
+!/results/**/comparison_*.csv
+!/results/**/comparison_*.md
+!/results/**/*_summary_*.json
+!/results/**/mvp4_final_results.csv
+!/results/**/mvp4_final_results.json
+!/results/**/mvp4_pivot_f1.csv
+!/results/**/mvp_table_comparison.md
+!/results/**/_aggregate_prompt_eng.json
+!/results/**/_runs_ts.json
+!/results/**/representative_meta_*.json
+!/results/**/summary_by_run.csv
+!/results/**/delta_*.csv
+!/results/**/dspy_cache_folder_summary.csv
+!/results/**/REPORT.md
+!/results/**/README.txt
+# Heavy artifacts (explicit; redundant with /results/** but documents intent)
+/results/**/full_predictions.json
+/results/**/*_predictions.json
+/results/**/predictions.csv
+/results/**/predictions_wide_*.csv
+/results/**/predictions_long_*.csv
+/results/**/preds_*.csv
+/results/**/*_preds_*.csv
+/results/**/representative_*_dataset_*.csv
+/results/**/eval_batches.json
+/results/**/train_batches.json
+/results/**/val_batches.json
+/results/**/eval_samples.json
+/results/**/tier_*.json
+/results/**/optimized_program_state.json
+/results/**/compiled_program/
+/results/**/gepa_sets_source.json
+/results/**/*.parquet
+/results/**/*.pkl
+/results/**/*.npy
+/results/**/rows_long.csv
+/results/**/wide_*.csv
+/results/**/disagreements.csv
+/results/**/comparison_wide.csv
+/results/**/pairwise_agreement.csv
+/results/**/indices_where_runs_disagree.csv
+/results/**/loaded_experiments.csv
+/results/**/reports_aggregated.csv
+/results/**/train_sentences_flat.csv
+/results/**/eval_sentences_flat.csv
+/results/**/*_explicit.json
+/results/**/eval_batches_with_preds.json
+/results/**/dspy_cache_batch_like_samples.json
+/results/**/uncompiled_baseline_predictions.csv
+/results/**/*.py
+
+*.png
 
 # MlFlow
-/mlruns/
-/runs/
+mlruns/
+runs/
 
 # Documentation
 /_build/

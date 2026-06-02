@@ -1,0 +1,16 @@
+                                                  precision    recall  f1-score   support
+
+         balance_not_updated_after_bank_transfer       1.00      1.00      1.00         1
+balance_not_updated_after_cheque_or_cash_deposit       1.00      1.00      1.00         2
+                        card_payment_fee_charged       1.00      0.50      0.67         2
+                          cash_withdrawal_charge       0.00      0.00      0.00         0
+                        declined_cash_withdrawal       1.00      1.00      1.00         1
+             direct_debit_payment_not_recognised       1.00      1.00      1.00         1
+                       transaction_charged_twice       0.00      0.00      0.00         0
+                            transfer_fee_charged       1.00      1.00      1.00         1
+              transfer_not_received_by_recipient       1.00      1.00      1.00         1
+                   wrong_amount_of_cash_received       1.00      1.00      1.00         1
+
+                                        accuracy                           0.90        10
+                                       macro avg       0.80      0.75      0.77        10
+                                    weighted avg       1.00      0.90      0.93        10

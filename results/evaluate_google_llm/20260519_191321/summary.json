@@ -1,0 +1,148 @@
+{
+  "created_at": "2026-05-19T19:47:47.275583+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs3_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs3_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/pubmed_20k_rct/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/pubmed_20k_rct/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321\\google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs3_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemma-4-31b-it",
+            "prompt_id": "baseline_v1",
+            "batch_size": 3,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true,
+            "sequential_batches": false
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs5_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs5_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/pubmed_20k_rct/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/pubmed_20k_rct/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321\\google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs5_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemma-4-31b-it",
+            "prompt_id": "baseline_v1",
+            "batch_size": 5,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true,
+            "sequential_batches": false
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs10_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs10_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/pubmed_20k_rct/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/pubmed_20k_rct/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321\\google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs10_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemma-4-31b-it",
+            "prompt_id": "baseline_v1",
+            "batch_size": 10,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true,
+            "sequential_batches": false
+          }
+        }
+      }
+    }
+  ],
+  "ran": 3,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321\\google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs3_trainseed10_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.6998408223309409,
+          "accuracy": 0.765
+        },
+        "extras": {
+          "infer_time_s": 871.4491654001176,
+          "usage": {
+            "in_tokens_total": 42415,
+            "out_tokens_total": 123015
+          }
+        },
+        "created_at": "2026-05-19T19:27:54.706758+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321\\google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs5_trainseed10_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.6721656620441359,
+          "accuracy": 0.755
+        },
+        "extras": {
+          "infer_time_s": 765.928057000041,
+          "usage": {
+            "in_tokens_total": 28807,
+            "out_tokens_total": 108197
+          }
+        },
+        "created_at": "2026-05-19T19:40:41.782351+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_191321\\google_genai_gemma4_31b_think_high_pubmed_20k_rct_bs10_trainseed10_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.7014826555682355,
+          "accuracy": 0.77
+        },
+        "extras": {
+          "infer_time_s": 424.3808396998793,
+          "usage": {
+            "in_tokens_total": 18727,
+            "out_tokens_total": 65497
+          }
+        },
+        "created_at": "2026-05-19T19:47:47.194027+00:00"
+      }
+    }
+  ]
+}

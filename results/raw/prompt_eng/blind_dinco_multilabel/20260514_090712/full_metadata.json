@@ -1,0 +1,21 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-14T09:19:07.420991+00:00",
+  "duration_seconds": 682.1204087999649,
+  "metrics": {
+    "accuracy_excl_confusing": 0.6551724137931034,
+    "n_confusing": 1,
+    "mean_normalized_target_conf": 0.9090944240944147,
+    "mean_multilabel_count": 1.0666666666666667
+  },
+  "settings": {
+    "SMART_MODEL": "gemini-3.1-flash-lite-preview",
+    "CHEAP_MODEL": "gemma-4-31b-it",
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "2-call blind DiNCo on multilabel-derived claims."
+}

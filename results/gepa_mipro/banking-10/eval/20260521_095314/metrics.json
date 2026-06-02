@@ -1,0 +1,81 @@
+{
+  "accuracy": 0.9,
+  "f1_macro": 0.7666666666666666,
+  "n_samples": 10,
+  "classification_report": {
+    "balance_not_updated_after_bank_transfer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "balance_not_updated_after_cheque_or_cash_deposit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "card_payment_fee_charged": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "cash_withdrawal_charge": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "declined_cash_withdrawal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "direct_debit_payment_not_recognised": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "transaction_charged_twice": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "transfer_fee_charged": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "transfer_not_received_by_recipient": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "wrong_amount_of_cash_received": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+      "precision": 0.8,
+      "recall": 0.75,
+      "f1-score": 0.7666666666666666,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9333333333333332,
+      "support": 10.0
+    }
+  },
+  "classification_report_text": "                                                  precision    recall  f1-score   support\n\n         balance_not_updated_after_bank_transfer       1.00      1.00      1.00         1\nbalance_not_updated_after_cheque_or_cash_deposit       1.00      1.00      1.00         2\n                        card_payment_fee_charged       1.00      0.50      0.67         2\n                          cash_withdrawal_charge       0.00      0.00      0.00         0\n                        declined_cash_withdrawal       1.00      1.00      1.00         1\n             direct_debit_payment_not_recognised       1.00      1.00      1.00         1\n                       transaction_charged_twice       0.00      0.00      0.00         0\n                            transfer_fee_charged       1.00      1.00      1.00         1\n              transfer_not_received_by_recipient       1.00      1.00      1.00         1\n                   wrong_amount_of_cash_received       1.00      1.00      1.00         1\n\n                                        accuracy                           0.90        10\n                                       macro avg       0.80      0.75      0.77        10\n                                    weighted avg       1.00      0.90      0.93        10\n"
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-14T11:01:52.711460+00:00",
+  "duration_seconds": 1755.7160020000301,
+  "metrics": {
+    "accuracy_excl_confusing": 0.7,
+    "n_confusing": 0,
+    "mean_coverage_confidence": 0.7722222222222224
+  },
+  "settings": {
+    "SMART_MODEL": "gemma-4-31b-it",
+    "EXECUTOR_MODEL": "gemma-4-31b-it",
+    "EVAL_N": 30,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "CoVE-style; blind cheap answers; confidence from confusing + 1 - not_stated_frac."
+}

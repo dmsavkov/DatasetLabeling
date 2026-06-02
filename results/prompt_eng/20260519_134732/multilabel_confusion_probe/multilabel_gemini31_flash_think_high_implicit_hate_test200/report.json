@@ -1,0 +1,26 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "multilabel_confusion_probe:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.7524687294272547,
+    "accuracy": 0.765
+  },
+  "extras": {
+    "infer_time_s": 1192.881192700006,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 200,
+      "n_confusing": 0,
+      "confusing_rate": 0.0,
+      "n_zero_labels": 0,
+      "n_multi_labels": 0
+    },
+    "usage": {
+      "in_tokens_total": 48418,
+      "out_tokens_total": 1048796
+    }
+  },
+  "created_at": "2026-05-19T14:07:26.605780+00:00"
+}

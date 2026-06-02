@@ -1,0 +1,23 @@
+group_key=tweet_eval_irony__tier200.0
+dataset_name=tweet_eval_irony
+tier_size=200
+runs_with_predictions=25
+items_intersection=3
+
+Top McNemar pairs (exact two-sided p):
+                                 model_a                                          model_b  both_correct  a_only  b_only  both_wrong  disagreements  p_value_exact
+gemini_b25_unshuffled_banking-10_test200 self_debate_gemini31_flash_think_low_tweet_eval_             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 google_genai_gemma4_31b_think_high_tweet_eval_ir             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 google_genai_gemini31_flash_think_high_tweet_eva             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 self_debate_gemma4_31b_think_high_tweet_eval_iro             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200                       gemini_tweet_irony_test200             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 multilabel_gemini31_flash_think_high_tweet_eval_             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 multilabel_gemini31_flash_think_low_tweet_eval_i             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 self_debate_gemini31_flash_think_high_tweet_eval             0       3       0           0              3           0.25
+               gemini_banking-10_test200 google_genai_gemma4_31b_think_high_tweet_eval_ir             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 multilabel_gemma4_31b_think_high_tweet_eval_iron             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 google_genai_gemini31_flash_think_low_tweet_eval             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 google_genai_gemma3_27b_tweet_eval_irony_bs10_tr             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 google_genai_gemma3_27b_tweet_eval_irony_bs5_tra             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200 google_genai_gemma3_27b_tweet_eval_irony_bs3_tra             0       3       0           0              3           0.25
+gemini_b25_unshuffled_banking-10_test200                   gemma_tweet_eval_irony_test200             0       3       0           0              3           0.25

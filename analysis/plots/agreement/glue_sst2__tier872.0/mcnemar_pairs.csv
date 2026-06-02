@@ -1,0 +1,4 @@
+model_a,model_b,both_correct,a_only,b_only,both_wrong,disagreements,p_value_exact
+train100,train5000,189,220,323,140,543,1.1356105697300099e-05
+train1000,train5000,251,222,261,138,483,0.08369209626574622
+train1000,train100,293,180,116,283,296,0.0002380298343478055

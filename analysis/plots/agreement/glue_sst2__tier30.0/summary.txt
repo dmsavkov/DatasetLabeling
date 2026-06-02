@@ -1,0 +1,8 @@
+group_key=glue_sst2__tier30.0
+dataset_name=glue_sst2
+tier_size=30
+runs_with_predictions=2
+items_intersection=30
+
+Top McNemar pairs (exact two-sided p):
+(no pairs)

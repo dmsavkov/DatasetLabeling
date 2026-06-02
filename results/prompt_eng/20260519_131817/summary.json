@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-05-19T13:34:53.901698+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_131817",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "multilabel_gemma4_31b_think_high_tweet_eval_irony_test200",
+      "kind": "multilabel_confusion_probe",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_131817\\multilabel_confusion_probe\\multilabel_gemma4_31b_think_high_tweet_eval_irony_test200"
+    },
+    {
+      "name": "self_debate_gemma4_31b_think_high_tweet_eval_irony_test200",
+      "kind": "self_debate",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_131817\\self_debate\\self_debate_gemma4_31b_think_high_tweet_eval_irony_test200"
+    }
+  ],
+  "ran": 2,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_131817\\multilabel_confusion_probe\\multilabel_gemma4_31b_think_high_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "multilabel_confusion_probe:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.8935927643079729,
+          "accuracy": 0.895
+        },
+        "extras": {
+          "infer_time_s": 297.0203880001791,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 200,
+            "n_confusing": 0,
+            "confusing_rate": 0.0,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 42896,
+            "out_tokens_total": 32598
+          }
+        },
+        "created_at": "2026-05-19T13:23:16.181063+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_131817\\self_debate\\self_debate_gemma4_31b_think_high_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "self_debate:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.912405513561583,
+          "accuracy": 0.9137055837563451
+        },
+        "extras": {
+          "infer_time_s": 696.5989331998862,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 197,
+            "n_confusing": 3,
+            "confusing_rate": 0.015,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 23532,
+            "out_tokens_total": 50983
+          }
+        },
+        "created_at": "2026-05-19T13:34:53.869713+00:00"
+      }
+    }
+  ]
+}

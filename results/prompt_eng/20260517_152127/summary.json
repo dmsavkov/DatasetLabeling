@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-05-17T15:46:39.423106+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260517_152127",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "multilabel_gemini31_flash_think_high_pubmed_20k_rct_test200",
+      "kind": "multilabel_confusion_probe",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260517_152127\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_high_pubmed_20k_rct_test200"
+    }
+  ],
+  "ran": 1,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260517_152127\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_high_pubmed_20k_rct_test200",
+      "report": {
+        "dataset_name": "pubmed_20k_rct",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "multilabel_confusion_probe:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.5398312420824033,
+          "accuracy": 0.6564102564102564
+        },
+        "extras": {
+          "infer_time_s": 1510.7122608998325,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 195,
+            "n_confusing": 5,
+            "confusing_rate": 0.025,
+            "n_zero_labels": 0,
+            "n_multi_labels": 5
+          },
+          "usage": {
+            "in_tokens_total": 30967,
+            "out_tokens_total": 2153184
+          }
+        },
+        "created_at": "2026-05-17T15:46:39.348917+00:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "workflow": "prosocial_v3_matrix",
+  "models": {
+    "flash": "gemini-3.1-flash-lite-preview",
+    "gemma_default": "gemma-3-4b-it",
+    "moe_experts": [
+      "gemma-3-4b-it",
+      "gemma-3-12b-it",
+      "gemma-3-27b-it"
+    ]
+  },
+  "google_openai_base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+  "timing_seconds": {
+    "baseline_prompt_optimization": 10.620398799976101
+  },
+  "shared_test25_indices": [
+    3984,
+    2501,
+    23904,
+    1460,
+    8353,
+    9267,
+    803,
+    5004,
+    4541,
+    161,
+    40,
+    20057,
+    19354,
+    17905,
+    16429,
+    7305,
+    10411,
+    1604,
+    3103,
+    16221,
+    23426,
+    10380,
+    20083,
+    22020,
+    22815
+  ],
+  "comparison_artifacts": {
+    "comparison_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\comparison_20260421_220149.csv",
+    "comparison_md": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\comparison_20260421_220149.md"
+  },
+  "representative_meta": {
+    "fastembed_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "unanimous_total": 269,
+    "representative_total": 269,
+    "top100_total": 47,
+    "kmeans": {
+      "casual": {
+        "status": "ok",
+        "k": 20,
+        "size": 69,
+        "cluster_counts": {
+          "0": 4,
+          "1": 6,
+          "2": 6,
+          "3": 5,
+          "4": 3,
+          "5": 4,
+          "6": 2,
+          "7": 6,
+          "8": 4,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3,
+          "13": 1,
+          "14": 4,
+          "15": 2,
+          "16": 1,
+          "17": 3,
+          "18": 3,
+          "19": 3
+        }
+      },
+      "possibly_needs_caution": {
+        "status": "empty",
+        "k": 0,
+        "size": 0
+      },
+      "probably_needs_caution": {
+        "status": "empty",
+        "k": 0,
+        "size": 0
+      },
+      "needs_caution": {
+        "status": "ok",
+        "k": 20,
+        "size": 196,
+        "cluster_counts": {
+          "0": 8,
+          "1": 11,
+          "2": 19,
+          "3": 12,
+          "4": 6,
+          "5": 7,
+          "6": 7,
+          "7": 5,
+          "8": 2,
+          "9": 13,
+          "10": 4,
+          "11": 14,
+          "12": 11,
+          "13": 15,
+          "14": 11,
+          "15": 8,
+          "16": 8,
+          "17": 19,
+          "18": 12,
+          "19": 4
+        }
+      },
+      "needs_intervention": {
+        "status": "ok",
+        "k": 4,
+        "size": 4,
+        "cluster_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        }
+      }
+    },
+    "artifacts": {
+      "representative_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_clustered_dataset_20260421_214001.csv",
+      "top100_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_top100_dataset_20260421_214001.csv",
+      "embedding_npy": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_embeddings_20260421_214001.npy"
+    }
+  },
+  "experiments_run": [
+    "exp_full_features_reasons_flash_gemma",
+    "exp_representative_prompt_flash_gemma",
+    "exp_more_fewshot_flash_gemma",
+    "exp_calibrated_rubric_flash_gemma",
+    "exp_optimized_rubric_flash_gemma",
+    "exp_assertion_hardened_flash_gemma",
+    "exp_batch5_flash_gemma",
+    "exp_two_call_extract_statements_flash_gemma",
+    "exp_dynamic_top3_retrieval_flash_gemma",
+    "exp_flash_direct_predictions",
+    "exp_moe_flash_gemma_experts"
+  ]
+}

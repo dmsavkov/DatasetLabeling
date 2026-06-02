@@ -1,0 +1,22 @@
+{
+  "workflow": "tfidf_xgboost",
+  "train_size": 140652,
+  "timing_seconds": {
+    "fit": 1088.0864703999978
+  },
+  "metrics": {
+    "full_test": {
+      "accuracy": 0.4579887330696392,
+      "macro_f1": 0.23503902368820784,
+      "weighted_f1": 0.34989375846056436
+    },
+    "dspy_test_25": {
+      "accuracy": 0.4,
+      "macro_f1": 0.18666666666666668,
+      "weighted_f1": 0.3173333333333333
+    }
+  },
+  "artifacts": {
+    "predictions_25_test_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\mvp_xgb_preds_25test_20260420_223658.csv"
+  }
+}

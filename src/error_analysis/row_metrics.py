@@ -5,6 +5,9 @@ from dataclasses import dataclass
 
 import pandas as pd
 
+from src.error_analysis.labels import canonical_pred_value, dataset_name_from_frame
+from src.eval.label_compare import labels_equal_for_metrics
+
 
 @dataclass(frozen=True, slots=True)
 class RowVoteMetricsConfig:
@@ -26,7 +29,12 @@ def _shannon_entropy(counts: list[int]) -> float:
     return float(h)
 
 
-def add_row_vote_metrics(df: pd.DataFrame, *, cfg: RowVoteMetricsConfig = RowVoteMetricsConfig()) -> pd.DataFrame:
+def add_row_vote_metrics(
+    df: pd.DataFrame,
+    *,
+    cfg: RowVoteMetricsConfig = RowVoteMetricsConfig(),
+    dataset_name: str | None = None,
+) -> pd.DataFrame:
     """
     Adds per-row label-consistency metrics across columns that start with `cfg.pred_prefix`.
 
@@ -45,9 +53,14 @@ def add_row_vote_metrics(df: pd.DataFrame, *, cfg: RowVoteMetricsConfig = RowVot
         return df.copy()
 
     m = df[pred_cols].astype("string").fillna(cfg.empty_token)
+    ds = dataset_name or dataset_name_from_frame(df)
 
     def per_row_metrics(row: pd.Series) -> dict[str, object]:
-        vals = [v for v in row.tolist() if v and v != cfg.empty_token]
+        raw_vals = [v for v in row.tolist() if v and v != cfg.empty_token]
+        if ds:
+            vals = [c for c in (canonical_pred_value(v, dataset_name=ds) for v in raw_vals) if c]
+        else:
+            vals = raw_vals
         n_models = int(len(row))
         n_nonempty = int(len(vals))
         if n_nonempty == 0:
@@ -163,20 +176,40 @@ def add_probs_confidence_from_probs_json(
     return out
 
 
-def add_model_correctness_flags(df: pd.DataFrame) -> pd.DataFrame:
+def add_model_correctness_flags(
+    df: pd.DataFrame,
+    *,
+    dataset_name: str | None = None,
+) -> pd.DataFrame:
     """
     For each `pred_label__{exp_id}` column, adds `is_correct__{exp_id}` if `true_label` exists.
+
+    Uses dataset-aware label equality. Skips rows marked confusing when
+    `is_confusing__{exp_id}` is present.
     """
     if "true_label" not in df.columns:
         return df.copy()
     pred_cols = [c for c in df.columns if c.startswith("pred_label__")]
     if not pred_cols:
         return df.copy()
+    ds = dataset_name or dataset_name_from_frame(df)
     out = df.copy()
-    true = out["true_label"].astype("string")
     for c in pred_cols:
         exp_id = c.split("__", 1)[1]
-        out[f"is_correct__{exp_id}"] = out[c].astype("string").eq(true)
+        confusing_col = f"is_confusing__{exp_id}"
+
+        def row_ok(row: pd.Series) -> bool:
+            if confusing_col in out.columns and bool(row.get(confusing_col)):
+                return False
+            if not ds:
+                return str(row.get("true_label")) == str(row.get(c))
+            return labels_equal_for_metrics(
+                row.get("true_label"),
+                row.get(c),
+                dataset_name=ds,
+            )
+
+        out[f"is_correct__{exp_id}"] = out.apply(row_ok, axis=1)
     return out
 
 

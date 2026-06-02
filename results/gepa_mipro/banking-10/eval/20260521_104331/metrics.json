@@ -1,0 +1,81 @@
+{
+  "accuracy": 0.92,
+  "f1_macro": 0.9194513476598187,
+  "n_samples": 200,
+  "classification_report": {
+    "balance_not_updated_after_bank_transfer": {
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1-score": 0.8235294117647058,
+      "support": 20.0
+    },
+    "balance_not_updated_after_cheque_or_cash_deposit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "card_payment_fee_charged": {
+      "precision": 0.8571428571428571,
+      "recall": 0.9,
+      "f1-score": 0.8780487804878049,
+      "support": 20.0
+    },
+    "cash_withdrawal_charge": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1-score": 0.9743589743589743,
+      "support": 20.0
+    },
+    "declined_cash_withdrawal": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 20.0
+    },
+    "direct_debit_payment_not_recognised": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1-score": 0.975609756097561,
+      "support": 20.0
+    },
+    "transaction_charged_twice": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1-score": 0.975609756097561,
+      "support": 20.0
+    },
+    "transfer_fee_charged": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 20.0
+    },
+    "transfer_not_received_by_recipient": {
+      "precision": 0.7307692307692307,
+      "recall": 0.95,
+      "f1-score": 0.8260869565217391,
+      "support": 20.0
+    },
+    "wrong_amount_of_cash_received": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1-score": 0.9,
+      "support": 20.0
+    },
+    "accuracy": 0.92,
+    "macro avg": {
+      "precision": 0.9301764901764902,
+      "recall": 0.9199999999999999,
+      "f1-score": 0.9194513476598187,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.9301764901764902,
+      "recall": 0.92,
+      "f1-score": 0.9194513476598187,
+      "support": 200.0
+    }
+  },
+  "classification_report_text": "                                                  precision    recall  f1-score   support\n\n         balance_not_updated_after_bank_transfer       1.00      0.70      0.82        20\nbalance_not_updated_after_cheque_or_cash_deposit       1.00      1.00      1.00        20\n                        card_payment_fee_charged       0.86      0.90      0.88        20\n                          cash_withdrawal_charge       1.00      0.95      0.97        20\n                        declined_cash_withdrawal       0.91      1.00      0.95        20\n             direct_debit_payment_not_recognised       0.95      1.00      0.98        20\n                       transaction_charged_twice       0.95      1.00      0.98        20\n                            transfer_fee_charged       1.00      0.80      0.89        20\n              transfer_not_received_by_recipient       0.73      0.95      0.83        20\n                   wrong_amount_of_cash_received       0.90      0.90      0.90        20\n\n                                        accuracy                           0.92       200\n                                       macro avg       0.93      0.92      0.92       200\n                                    weighted avg       0.93      0.92      0.92       200\n"
+}

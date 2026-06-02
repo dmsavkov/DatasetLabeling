@@ -1,0 +1,21 @@
+{
+  "phase": "preliminary",
+  "saved_utc": "2026-05-10T22:08:32.731937+00:00",
+  "duration_seconds": 15.016599300084636,
+  "metrics": {
+    "accuracy": 0.8,
+    "n_samples": 5,
+    "n_batches": 1
+  },
+  "settings": {
+    "model": "openai/gemini-3.1-flash-lite-preview",
+    "BATCH_SIZE": 5,
+    "num_retries": 3,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "30",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": null
+}

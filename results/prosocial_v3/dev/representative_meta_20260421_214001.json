@@ -1,0 +1,88 @@
+{
+  "fastembed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "unanimous_total": 269,
+  "representative_total": 269,
+  "top100_total": 47,
+  "kmeans": {
+    "casual": {
+      "status": "ok",
+      "k": 20,
+      "size": 69,
+      "cluster_counts": {
+        "0": 4,
+        "1": 6,
+        "2": 6,
+        "3": 5,
+        "4": 3,
+        "5": 4,
+        "6": 2,
+        "7": 6,
+        "8": 4,
+        "9": 3,
+        "10": 3,
+        "11": 3,
+        "12": 3,
+        "13": 1,
+        "14": 4,
+        "15": 2,
+        "16": 1,
+        "17": 3,
+        "18": 3,
+        "19": 3
+      }
+    },
+    "possibly_needs_caution": {
+      "status": "empty",
+      "k": 0,
+      "size": 0
+    },
+    "probably_needs_caution": {
+      "status": "empty",
+      "k": 0,
+      "size": 0
+    },
+    "needs_caution": {
+      "status": "ok",
+      "k": 20,
+      "size": 196,
+      "cluster_counts": {
+        "0": 8,
+        "1": 11,
+        "2": 19,
+        "3": 12,
+        "4": 6,
+        "5": 7,
+        "6": 7,
+        "7": 5,
+        "8": 2,
+        "9": 13,
+        "10": 4,
+        "11": 14,
+        "12": 11,
+        "13": 15,
+        "14": 11,
+        "15": 8,
+        "16": 8,
+        "17": 19,
+        "18": 12,
+        "19": 4
+      }
+    },
+    "needs_intervention": {
+      "status": "ok",
+      "k": 4,
+      "size": 4,
+      "cluster_counts": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    }
+  },
+  "artifacts": {
+    "representative_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_clustered_dataset_20260421_214001.csv",
+    "top100_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_top100_dataset_20260421_214001.csv",
+    "embedding_npy": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_embeddings_20260421_214001.npy"
+  }
+}

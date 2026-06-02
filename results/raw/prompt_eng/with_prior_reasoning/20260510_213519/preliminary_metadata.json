@@ -1,0 +1,18 @@
+{
+  "phase": "preliminary",
+  "saved_utc": "2026-05-10T21:35:29.031983+00:00",
+  "duration_seconds": 0.8553601999301463,
+  "metrics": {
+    "accuracy": 1.0,
+    "n_rows": 1
+  },
+  "settings": {
+    "reasoning_model": "openai/gemma-4-26b-a4b-it",
+    "verdict_model": "openai/gemma-4-31b-it",
+    "num_retries": 3,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "30",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research"
+  },
+  "notes": null
+}

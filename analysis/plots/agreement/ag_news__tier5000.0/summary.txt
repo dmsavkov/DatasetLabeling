@@ -1,0 +1,11 @@
+group_key=ag_news__tier5000.0
+dataset_name=ag_news
+tier_size=5000
+runs_with_predictions=7
+items_intersection=5000
+
+Top McNemar pairs (exact two-sided p):
+  model_a   model_b  both_correct  a_only  b_only  both_wrong  disagreements  p_value_exact
+train1000  train100           132    1134    1490        2244           2624   3.903552e-12
+train1000 train5000            18    1248    1252        2482           2500   9.521572e-01
+ train100 train5000           362    1260     908        2470           2168   4.198210e-14

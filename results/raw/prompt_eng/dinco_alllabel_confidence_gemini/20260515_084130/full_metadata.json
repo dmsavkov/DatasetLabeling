@@ -1,0 +1,24 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-15T08:43:24.955444+00:00",
+  "duration_seconds": 111.91545529989526,
+  "metrics": {
+    "accuracy": 0.6382978723404256,
+    "n": 47,
+    "n_error": 0,
+    "mean_softmax_max_prob": 0.3498106382978724,
+    "mean_label_entropy_bits": 2.231287234042553,
+    "mean_reliability_combined": 0.19441914893617024
+  },
+  "settings": {
+    "MODEL": "gemini-3.1-flash-lite-preview",
+    "EVAL_LIMIT": 47,
+    "FEWSHOT_N": 8,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Single pass: all-label confidences + softmax; pred=argmax(softmax); reliability from max prob and normalized entropy."
+}

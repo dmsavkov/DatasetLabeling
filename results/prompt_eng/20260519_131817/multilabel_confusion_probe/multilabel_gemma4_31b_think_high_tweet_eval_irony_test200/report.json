@@ -1,0 +1,26 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "multilabel_confusion_probe:gemma-4-31b-it",
+  "metrics": {
+    "f1_macro": 0.8935927643079729,
+    "accuracy": 0.895
+  },
+  "extras": {
+    "infer_time_s": 297.0203880001791,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 200,
+      "n_confusing": 0,
+      "confusing_rate": 0.0,
+      "n_zero_labels": 0,
+      "n_multi_labels": 0
+    },
+    "usage": {
+      "in_tokens_total": 42896,
+      "out_tokens_total": 32598
+    }
+  },
+  "created_at": "2026-05-19T13:23:16.181063+00:00"
+}

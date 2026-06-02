@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-05-19T14:30:48.151469+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_134732",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "multilabel_gemini31_flash_think_high_implicit_hate_test200",
+      "kind": "multilabel_confusion_probe",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_134732\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_high_implicit_hate_test200"
+    },
+    {
+      "name": "self_debate_gemini31_flash_think_high_implicit_hate_test200",
+      "kind": "self_debate",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_134732\\self_debate\\self_debate_gemini31_flash_think_high_implicit_hate_test200"
+    }
+  ],
+  "ran": 2,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_134732\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_high_implicit_hate_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "multilabel_confusion_probe:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.7524687294272547,
+          "accuracy": 0.765
+        },
+        "extras": {
+          "infer_time_s": 1192.881192700006,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 200,
+            "n_confusing": 0,
+            "confusing_rate": 0.0,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 48418,
+            "out_tokens_total": 1048796
+          }
+        },
+        "created_at": "2026-05-19T14:07:26.605780+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_134732\\self_debate\\self_debate_gemini31_flash_think_high_implicit_hate_test200",
+      "report": {
+        "dataset_name": "implicit_hate",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "self_debate:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.7317593343546304,
+          "accuracy": 0.7526315789473684
+        },
+        "extras": {
+          "infer_time_s": 1400.323689899873,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 190,
+            "n_confusing": 10,
+            "confusing_rate": 0.05,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 23535,
+            "out_tokens_total": 72044
+          }
+        },
+        "created_at": "2026-05-19T14:30:48.132806+00:00"
+      }
+    }
+  ]
+}

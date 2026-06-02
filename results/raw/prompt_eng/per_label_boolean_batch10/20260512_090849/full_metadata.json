@@ -1,0 +1,23 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-12T09:09:46.171183+00:00",
+  "duration_seconds": 28.696866699960083,
+  "metrics": {
+    "accuracy": 0.85,
+    "n_texts": 40,
+    "target_label": "methods"
+  },
+  "settings": {
+    "MODEL": "gemini-3.1-flash-lite-preview",
+    "TARGET_LABEL": "methods",
+    "BATCH_SIZE": 10,
+    "FULL_N": 40,
+    "MAX_WORKERS": 5,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "One label only; one request per 10 texts; returns JSON list of booleans."
+}

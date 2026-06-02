@@ -1,0 +1,2 @@
+slug,run_folder,n_rows,n_eval_labels,accuracy_eval_labels,n_with_confidence,predictions_path
+rubric_confidence_gemini_perfect16,20260516_085608,47,47,0.6595744680851063,47,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\rubric_confidence_gemini_perfect16\20260516_085608\full_predictions.json

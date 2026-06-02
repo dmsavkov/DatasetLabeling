@@ -1,0 +1,24 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-12T13:26:29.724488+00:00",
+  "duration_seconds": 649.5381367001683,
+  "metrics": {
+    "accuracy": 0.6,
+    "n_samples": 40,
+    "n_batches": 8
+  },
+  "settings": {
+    "EXECUTOR_MODEL": "gemma-4-31b-it",
+    "TRAIN_N": 50,
+    "EVAL_N": 40,
+    "BATCH_SIZE": 5,
+    "MIN_PER_CLASS": 8,
+    "N_DEMOS": 10,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Chain-of-Thought with static few-shot demos for batched classification."
+}

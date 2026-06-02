@@ -1,0 +1,22 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-12T10:38:42.860686+00:00",
+  "duration_seconds": 1438.83534780005,
+  "metrics": {
+    "accuracy": 0.8611111111111112,
+    "n_texts": 40,
+    "n_eval": 36,
+    "n_confusing": 4
+  },
+  "settings": {
+    "MODEL": "gemini-3.1-flash-lite-preview",
+    "FULL_N": 40,
+    "BATCH_SIZE": 5,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Pass A label+confidence, then forced critique Pass B; if labels differ => confusing exclude."
+}

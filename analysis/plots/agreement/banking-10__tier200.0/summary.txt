@@ -1,0 +1,23 @@
+group_key=banking-10__tier200.0
+dataset_name=banking-10
+tier_size=200
+runs_with_predictions=25
+items_intersection=177
+
+Top McNemar pairs (exact two-sided p):
+                                         model_a                                          model_b  both_correct  a_only  b_only  both_wrong  disagreements  p_value_exact
+          setfit_banking-10_trainseed100_test200                         gemma_banking-10_test200           145      18       9           5             27       0.122078
+emb_umap_head_xgb_banking-10_traintier5000_test2                         gemma_banking-10_test200           148      19       6           4             25       0.014633
+emb_umap_head_xgb_banking-10_traintier5000_test2 google_genai_gemma3_4b_banking-10_bs3_trainseed1           150      17       7           3             24       0.063915
+          setfit_banking-10_trainseed100_test200 google_genai_gemma3_4b_banking-10_bs5_trainseed1           148      15       9           5             24       0.307456
+          setfit_banking-10_trainseed100_test200 google_genai_gemma3_4b_banking-10_bs3_trainseed1           148      15       9           5             24       0.307456
+emb_umap_head_logreg_banking-10_traintier5000_te                         gemma_banking-10_test200           147      17       7           6             24       0.063915
+          setfit_banking-10_trainseed100_test200 google_genai_gemma3_4b_banking-10_bs10_trainseed           148      15       9           5             24       0.307456
+emb_umap_head_logreg_banking-10_traintier5000_te google_genai_gemma3_4b_banking-10_bs3_trainseed1           149      15       8           5             23       0.210040
+emb_umap_head_logreg_banking-10_traintier5000_te           setfit_banking-10_trainseed100_test200           152      12      11           2             23       1.000000
+emb_umap_head_xgb_banking-10_traintier5000_test2 google_genai_gemma3_4b_banking-10_bs5_trainseed1           151      16       6           4             22       0.052479
+emb_umap_head_knn_banking-10_traintier5000_test2                         gemma_banking-10_test200           151      19       3           4             22       0.000855
+emb_umap_head_knn_banking-10_traintier5000_test2 google_genai_gemma3_4b_banking-10_bs3_trainseed1           153      17       4           3             21       0.007197
+                    gemma_26b_banking-10_test200                         gemma_banking-10_test200           152      18       2           5             20       0.000402
+emb_umap_head_xgb_banking-10_traintier5000_test2 google_genai_gemma3_4b_banking-10_bs10_trainseed           152      15       5           5             20       0.041389
+google_genai_gemma3_27b_banking-10_bs3_trainseed                         gemma_banking-10_test200           151      17       3           6             20       0.002577

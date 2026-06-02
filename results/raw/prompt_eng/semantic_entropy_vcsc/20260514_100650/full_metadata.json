@@ -1,0 +1,26 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-14T10:29:11.999431+00:00",
+  "duration_seconds": 1288.454705900047,
+  "metrics": {
+    "accuracy_excl_confusing": 0.7,
+    "n": 30,
+    "n_confusing": 0,
+    "n_error": 0,
+    "mean_VCSC": 0.986388888888889,
+    "mean_label_entropy": 0.030609861133658732
+  },
+  "settings": {
+    "EXECUTOR_MODEL": "gemma-4-31b-it",
+    "M_TRACES": 3,
+    "VCSC_LAMBDA": 0.5,
+    "EVAL_N": 30,
+    "MIN_PER_CLASS": 5,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "High-T ensemble; SC and VCavg from label matching only; VCSC = \u03bb*SC+(1-\u03bb)*VCavg/100; no separate judge API call."
+}

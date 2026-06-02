@@ -1,0 +1,26 @@
+{
+  "dataset_name": "implicit_hate",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "self_debate:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.7317593343546304,
+    "accuracy": 0.7526315789473684
+  },
+  "extras": {
+    "infer_time_s": 1400.323689899873,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 190,
+      "n_confusing": 10,
+      "confusing_rate": 0.05,
+      "n_zero_labels": 0,
+      "n_multi_labels": 0
+    },
+    "usage": {
+      "in_tokens_total": 23535,
+      "out_tokens_total": 72044
+    }
+  },
+  "created_at": "2026-05-19T14:30:48.132806+00:00"
+}

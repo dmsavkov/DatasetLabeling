@@ -1,0 +1,23 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-10T22:02:50.107414+00:00",
+  "duration_seconds": 591.0490700001828,
+  "metrics": {
+    "accuracy": 0.7,
+    "mean_conf_correct": 0.988,
+    "mean_conf_wrong": 0.9599999999999999,
+    "n_rows": 50,
+    "plot": "confidence_vs_accuracy.png"
+  },
+  "settings": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "FULL_N": 50,
+    "num_retries": 30,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "30",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": null
+}

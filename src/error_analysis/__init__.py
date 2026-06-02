@@ -9,6 +9,10 @@ from src.error_analysis.compare import (
     multiwise_diff,
 )
 from src.error_analysis.io import LoadedExperiment, discover_experiments, load_experiment, load_many
+from src.error_analysis.pairing import (
+    build_paired_row_comparison,
+    compare_prompt_eng_vs_google_eval,
+)
 from src.error_analysis.reports import aggregate_reports, plot_overview, save_artifacts
 from src.error_analysis.row_metrics import (
     RowVoteMetricsConfig,
@@ -23,6 +27,8 @@ __all__ = [
     "discover_experiments",
     "load_experiment",
     "load_many",
+    "compare_prompt_eng_vs_google_eval",
+    "build_paired_row_comparison",
     "assert_same_dataset",
     "build_comparison_df",
     "disagreements",

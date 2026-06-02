@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+  background       0.80      0.67      0.73         6
+ conclusions       0.33      0.33      0.33         3
+     methods       1.00      1.00      1.00        10
+   objective       1.00      0.50      0.67         2
+     results       0.82      1.00      0.90         9
+
+    accuracy                           0.83        30
+   macro avg       0.79      0.70      0.73        30
+weighted avg       0.84      0.83      0.83        30

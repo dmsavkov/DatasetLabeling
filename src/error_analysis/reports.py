@@ -30,8 +30,19 @@ def aggregate_reports(exps: list[LoadedExperiment]) -> pd.DataFrame:
             {
                 "exp_id": e.exp_id,
                 "path": str(e.path),
+                "series": e.meta.get("series"),
+                "campaign": e.meta.get("campaign"),
+                "suite": e.meta.get("suite"),
                 "ok": len(e.errors) == 0,
-                "dataset_name": r.get("dataset_name") or (e.predictions_df["dataset_name"].iloc[0] if e.predictions_df is not None and "dataset_name" in e.predictions_df.columns and len(e.predictions_df) else None),
+                "dataset_name": e.meta.get("dataset_name")
+                or r.get("dataset_name")
+                or (
+                    e.predictions_df["dataset_name"].iloc[0]
+                    if e.predictions_df is not None
+                    and "dataset_name" in e.predictions_df.columns
+                    and len(e.predictions_df)
+                    else None
+                ),
                 "tier_size": r.get("tier_size"),
                 "predictor_name": r.get("predictor_name"),
                 "f1_macro": _get(r, "metrics", "f1_macro"),
@@ -50,6 +61,13 @@ def aggregate_reports(exps: list[LoadedExperiment]) -> pd.DataFrame:
                 "out_tokens_total": _get(r, "extras", "usage", "out_tokens_total"),
                 "n_warnings": len(e.warnings),
                 "n_errors": len(e.errors),
+                "has_confusion_stats": _get(r, "extras", "confusion_stats") is not None,
+                "n_total": _get(r, "extras", "confusion_stats", "n_total"),
+                "n_scored": _get(r, "extras", "confusion_stats", "n_scored"),
+                "n_confusing": _get(r, "extras", "confusion_stats", "n_confusing"),
+                "confusing_rate": _get(r, "extras", "confusion_stats", "confusing_rate"),
+                "n_zero_labels": _get(r, "extras", "confusion_stats", "n_zero_labels"),
+                "n_multi_labels": _get(r, "extras", "confusion_stats", "n_multi_labels"),
             }
         )
     return pd.DataFrame(rows)

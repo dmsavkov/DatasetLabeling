@@ -1,0 +1,102 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-11T08:01:25.956328+00:00",
+  "duration_seconds": 76.87415820010938,
+  "metrics": {
+    "exact_match_accuracy": 0.8,
+    "micro_f1": 0.8333333333333334,
+    "macro_f1": 0.7705413105413105,
+    "n_texts": 40,
+    "n_mismatched": 8,
+    "confusion_cases_sample": [
+      {
+        "text": "There have been several studies of atrial fibrillation ( AF ) over the past decades ; however , data from Chinese patients are scarce .",
+        "true_labels": [
+          "objective"
+        ],
+        "predicted_labels": [
+          "background"
+        ]
+      },
+      {
+        "text": "Effects of poverty on children 's cognition are mostly mediated through parental education , birth size , growth in the first @ months , and home stimulation in the first @ years .",
+        "true_labels": [
+          "conclusions"
+        ],
+        "predicted_labels": [
+          "conclusions",
+          "results"
+        ]
+      },
+      {
+        "text": "The isolated use of tacrolimus and the combined use of tacrolimus and olopatadine seems to have the same efficacy , although controlled studies with larger samples are required to confirm this hypothesis .",
+        "true_labels": [
+          "conclusions"
+        ],
+        "predicted_labels": [
+          "conclusions",
+          "results"
+        ]
+      },
+      {
+        "text": "Fifteen women per group ( n = @ total ) were randomized ; @ per group underwent surgery .",
+        "true_labels": [
+          "results"
+        ],
+        "predicted_labels": [
+          "methods"
+        ]
+      },
+      {
+        "text": "The aluminum oxide disc polishing system resulted in less enamel roughness than did the multilaminated carbide bur system .",
+        "true_labels": [
+          "conclusions"
+        ],
+        "predicted_labels": [
+          "results"
+        ]
+      },
+      {
+        "text": "After @ years , @ subjects and @ teeth were included in the analysis of the primary outcome .",
+        "true_labels": [
+          "results"
+        ],
+        "predicted_labels": [
+          "methods"
+        ]
+      },
+      {
+        "text": "Primary endpoint : consumption of fentanyl and midazolam in the @ hours following the onset of study medication ( main observation period ) in the overall study population .",
+        "true_labels": [
+          "results"
+        ],
+        "predicted_labels": [
+          "methods",
+          "objective"
+        ]
+      },
+      {
+        "text": "Enhanced volume was larger on delayed phase , and it may influence selection of therapeutic strategy .",
+        "true_labels": [
+          "conclusions"
+        ],
+        "predicted_labels": [
+          "conclusions",
+          "results"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "model": "openai/gemini-3.1-flash-lite-preview",
+    "FULL_N": 40,
+    "num_retries": 30,
+    "multi_label_joint": true,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "30",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Parallel per-text; each text runs a single LM call for joint multi-label prediction."
+}

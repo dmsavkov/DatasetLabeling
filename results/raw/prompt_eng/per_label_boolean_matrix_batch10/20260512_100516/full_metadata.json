@@ -1,0 +1,29 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-12T10:13:09.607243+00:00",
+  "duration_seconds": 457.526965000201,
+  "metrics": {
+    "accuracy": 0.6,
+    "n_texts": 20,
+    "n_confusing": 15,
+    "labels": [
+      "background",
+      "objective",
+      "methods",
+      "results",
+      "conclusions"
+    ]
+  },
+  "settings": {
+    "MODEL": "gemma-4-31b-it",
+    "BATCH_SIZE": 1,
+    "FULL_N": 20,
+    "MAX_WORKERS": 5,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Five labels; one request per (label \u00d7 10 texts); aggregate booleans; multi-true => confusing."
+}

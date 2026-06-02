@@ -1,0 +1,18 @@
+{
+  "tiers": [
+    {
+      "tier": 5,
+      "name": "gemma_native_heavy",
+      "model_id": "gemma-4-26b-a4b-it",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.2,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": 807,
+      "elapsed_s": 19.6773,
+      "error": null
+    }
+  ]
+}

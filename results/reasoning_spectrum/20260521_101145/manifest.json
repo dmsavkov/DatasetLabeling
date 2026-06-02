@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-05-21T10:11:45.131863+00:00",
+  "n_items": 5,
+  "samples": [
+    {
+      "id": "0",
+      "text": "This study analyzed liver function abnormalities in heart failure patients admitted with severe acute decompensated heart failure ( ADHF ) .",
+      "gold_label": "background"
+    },
+    {
+      "id": "1",
+      "text": "A post hoc analysis was conducted with the use of data from the Evaluation Study of Congestive Heart Failure and Pulmonary Artery Catheterization Effectiveness ( ESCAPE ) .",
+      "gold_label": "results"
+    },
+    {
+      "id": "2",
+      "text": "Abnormal LFTs are common in the ADHF population and are a dynamic marker of an impaired hemodynamic state .",
+      "gold_label": "conclusions"
+    },
+    {
+      "id": "3",
+      "text": "Resource use was determined from the Amsterdam Acute Aneurysm ( AJAX ) trial , a multicentre randomized trial comparing EVAR with OR in patients with rAAA .",
+      "gold_label": "methods"
+    },
+    {
+      "id": "4",
+      "text": "Depressive disorders are one of the leading components of the global burden of disease with a prevalence of up to @ % in the general population .",
+      "gold_label": "objective"
+    }
+  ],
+  "tiers_planned": [
+    "surface_external_cot"
+  ]
+}

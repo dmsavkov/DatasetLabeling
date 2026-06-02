@@ -1,0 +1,146 @@
+{
+  "created_at": "2026-05-20T13:13:30.976222+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "multilabel_gemini31_flash_think_low_tweet_eval_irony_test200",
+      "kind": "multilabel_confusion_probe",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_low_tweet_eval_irony_test200"
+    },
+    {
+      "name": "self_debate_gemini31_flash_think_low_tweet_eval_irony_test200",
+      "kind": "self_debate",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\self_debate\\self_debate_gemini31_flash_think_low_tweet_eval_irony_test200"
+    },
+    {
+      "name": "multilabel_gemini31_flash_think_high_tweet_eval_irony_test200",
+      "kind": "multilabel_confusion_probe",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_high_tweet_eval_irony_test200"
+    },
+    {
+      "name": "self_debate_gemini31_flash_think_high_tweet_eval_irony_test200",
+      "kind": "self_debate",
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\self_debate\\self_debate_gemini31_flash_think_high_tweet_eval_irony_test200"
+    }
+  ],
+  "ran": 4,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_low_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "multilabel_confusion_probe:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.8976982097186701,
+          "accuracy": 0.9
+        },
+        "extras": {
+          "infer_time_s": 217.50853760028258,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 200,
+            "n_confusing": 0,
+            "confusing_rate": 0.0,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 42896,
+            "out_tokens_total": 11658
+          }
+        },
+        "created_at": "2026-05-20T12:36:54.637093+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\self_debate\\self_debate_gemini31_flash_think_low_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "self_debate:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.9173455784328248,
+          "accuracy": 0.9193548387096774
+        },
+        "extras": {
+          "infer_time_s": 444.94714990025386,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 186,
+            "n_confusing": 14,
+            "confusing_rate": 0.07,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 24383,
+            "out_tokens_total": 19661
+          }
+        },
+        "created_at": "2026-05-20T12:44:20.922109+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\multilabel_confusion_probe\\multilabel_gemini31_flash_think_high_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "multilabel_confusion_probe:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.9029597282872392,
+          "accuracy": 0.905
+        },
+        "extras": {
+          "infer_time_s": 257.52650139993057,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 200,
+            "n_confusing": 0,
+            "confusing_rate": 0.0,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 42896,
+            "out_tokens_total": 40584
+          }
+        },
+        "created_at": "2026-05-20T12:48:39.524907+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260520_123316\\self_debate\\self_debate_gemini31_flash_think_high_tweet_eval_irony_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "self_debate:gemini-3.1-flash-lite-preview",
+        "metrics": {
+          "f1_macro": 0.8976126775056597,
+          "accuracy": 0.8994974874371859
+        },
+        "extras": {
+          "infer_time_s": 1490.4135237997398,
+          "confusion_stats": {
+            "n_total": 200,
+            "n_scored": 199,
+            "n_confusing": 1,
+            "confusing_rate": 0.005,
+            "n_zero_labels": 0,
+            "n_multi_labels": 0
+          },
+          "usage": {
+            "in_tokens_total": 23408,
+            "out_tokens_total": 80542
+          }
+        },
+        "created_at": "2026-05-20T13:13:30.935427+00:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+slug,run_folder,n_rows,n_eval_labels,accuracy_eval_labels,n_with_confidence,predictions_path
+dinco_alllabel_confidence_gemini,20260515_084130,47,47,0.6382978723404256,47,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\dinco_alllabel_confidence_gemini\20260515_084130\full_predictions.json

@@ -1,0 +1,26 @@
+{
+  "dataset_name": "pubmed_20k_rct",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "multilabel_confusion_probe:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.53806133965644,
+    "accuracy": 0.6767676767676768
+  },
+  "extras": {
+    "infer_time_s": 2489.450877199881,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 198,
+      "n_confusing": 2,
+      "confusing_rate": 0.01,
+      "n_zero_labels": 0,
+      "n_multi_labels": 2
+    },
+    "usage": {
+      "in_tokens_total": 46033,
+      "out_tokens_total": 2738280
+    }
+  },
+  "created_at": "2026-05-18T08:36:05.679214+00:00"
+}

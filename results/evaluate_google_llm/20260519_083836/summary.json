@@ -1,0 +1,148 @@
+{
+  "created_at": "2026-05-19T09:16:20.959403+00:00",
+  "results_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836",
+  "test_tier": 200,
+  "planned": [
+    {
+      "name": "google_genai_gemma4_31b_think_high_tweet_eval_irony_bs3_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemma4_31b_think_high_tweet_eval_irony_bs3_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/tweet_eval_irony/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/tweet_eval_irony/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836\\google_genai_gemma4_31b_think_high_tweet_eval_irony_bs3_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemma-4-31b-it",
+            "prompt_id": "baseline_v1",
+            "batch_size": 3,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true,
+            "sequential_batches": false
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemma4_31b_think_high_tweet_eval_irony_bs5_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemma4_31b_think_high_tweet_eval_irony_bs5_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/tweet_eval_irony/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/tweet_eval_irony/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836\\google_genai_gemma4_31b_think_high_tweet_eval_irony_bs5_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemma-4-31b-it",
+            "prompt_id": "baseline_v1",
+            "batch_size": 5,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true,
+            "sequential_batches": false
+          }
+        }
+      }
+    },
+    {
+      "name": "google_genai_gemma4_31b_think_high_tweet_eval_irony_bs10_trainseed10_test200",
+      "config": {
+        "name": "google_genai_gemma4_31b_think_high_tweet_eval_irony_bs10_trainseed10_test200",
+        "seed": 42,
+        "train_data": "data/processed/tweet_eval_irony/train_seed/tier_10/samples.parquet",
+        "test_data": "data/processed/tweet_eval_irony/test/tier_200/samples.parquet",
+        "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836\\google_genai_gemma4_31b_think_high_tweet_eval_irony_bs10_trainseed10_test200",
+        "model": {
+          "kind": "google_genai_chat",
+          "params": {
+            "model_id": "gemma-4-31b-it",
+            "prompt_id": "baseline_v1",
+            "batch_size": 10,
+            "max_concurrency": 5,
+            "temperature": 0.0,
+            "max_tokens": null,
+            "retries": 20,
+            "thinking_level": "high",
+            "include_thoughts": true,
+            "sequential_batches": false
+          }
+        }
+      }
+    }
+  ],
+  "ran": 3,
+  "results": [
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836\\google_genai_gemma4_31b_think_high_tweet_eval_irony_bs3_trainseed10_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.9136507936507936,
+          "accuracy": 0.915
+        },
+        "extras": {
+          "infer_time_s": 1426.000019799918,
+          "usage": {
+            "in_tokens_total": 39278,
+            "out_tokens_total": 31633
+          }
+        },
+        "created_at": "2026-05-19T09:02:24.642095+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836\\google_genai_gemma4_31b_think_high_tweet_eval_irony_bs5_trainseed10_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.9134221181024165,
+          "accuracy": 0.915
+        },
+        "extras": {
+          "infer_time_s": 589.512877699919,
+          "usage": {
+            "in_tokens_total": 26484,
+            "out_tokens_total": 31228
+          }
+        },
+        "created_at": "2026-05-19T09:12:15.159608+00:00"
+      }
+    },
+    {
+      "output_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\evaluate_google_llm\\20260519_083836\\google_genai_gemma4_31b_think_high_tweet_eval_irony_bs10_trainseed10_test200",
+      "report": {
+        "dataset_name": "tweet_eval_irony",
+        "split_name": "experiment",
+        "tier_size": 200,
+        "predictor_name": "google_genai_batch:gemma-4-31b-it",
+        "metrics": {
+          "f1_macro": 0.898538961038961,
+          "accuracy": 0.9
+        },
+        "extras": {
+          "infer_time_s": 244.82427190011367,
+          "usage": {
+            "in_tokens_total": 17005,
+            "out_tokens_total": 20987
+          }
+        },
+        "created_at": "2026-05-19T09:16:20.920159+00:00"
+      }
+    }
+  ]
+}

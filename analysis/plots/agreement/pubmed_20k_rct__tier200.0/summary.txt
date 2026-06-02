@@ -1,0 +1,23 @@
+group_key=pubmed_20k_rct__tier200.0
+dataset_name=pubmed_20k_rct
+tier_size=200
+runs_with_predictions=24
+items_intersection=198
+
+Top McNemar pairs (exact two-sided p):
+                                         model_a                                          model_b  both_correct  a_only  b_only  both_wrong  disagreements  p_value_exact
+google_genai_gemma4_31b_think_high_pubmed_20k_rc                 tfidf_xgb_pubmed_20k_rct_test200            53      97      15          33            112   7.121860e-16
+emb_umap_head_xgb_pubmed_20k_rct_traintier5000_t                     gemma_pubmed_20k_rct_test200            34      67      39          58            106   8.416994e-03
+google_genai_gemma4_31b_think_high_pubmed_20k_rc emb_umap_head_xgb_pubmed_20k_rct_trainseed100_te            60      90      13          35            103   2.457097e-15
+emb_umap_head_logreg_pubmed_20k_rct_trainseed100                     gemma_pubmed_20k_rct_test200            32      62      41          63            103   4.823365e-02
+      setfit_pubmed_20k_rct_trainseed100_test200                 tfidf_xgb_pubmed_20k_rct_test200            53      87      15          43            102   1.653403e-13
+multilabel_gemini31_flash_think_high_pubmed_20k_                 tfidf_xgb_pubmed_20k_rct_test200            50      84      18          46            102   2.257000e-11
+google_genai_gemma3_27b_pubmed_20k_rct_bs10_trai emb_umap_head_knn_pubmed_20k_rct_traintier5000_t            49      52      49          48            101   8.423821e-01
+google_genai_gemma3_27b_pubmed_20k_rct_bs5_train emb_umap_head_knn_pubmed_20k_rct_traintier5000_t            48      50      50          50            100   1.000000e+00
+google_genai_gemma4_31b_think_high_pubmed_20k_rc                     gemma_pubmed_20k_rct_test200            62      88      11          37             99   4.529580e-16
+google_genai_gemma4_31b_think_high_pubmed_20k_rc emb_umap_head_logreg_pubmed_20k_rct_trainseed100            73      77      21          27             98   1.089255e-08
+emb_umap_head_knn_pubmed_20k_rct_traintier5000_t                     gemma_pubmed_20k_rct_test200            37      61      36          64             97   1.438963e-02
+google_genai_gemma3_27b_pubmed_20k_rct_bs3_train                 tfidf_xgb_pubmed_20k_rct_test200            40      68      28          62             96   5.459154e-05
+google_genai_gemma4_31b_think_high_pubmed_20k_rc emb_umap_head_logreg_pubmed_20k_rct_traintier500            73      77      17          31             94   2.704642e-10
+google_genai_gemma3_27b_pubmed_20k_rct_bs10_trai                 tfidf_xgb_pubmed_20k_rct_test200            38      63      30          67             93   8.100088e-04
+                    gemma_pubmed_20k_rct_test200 emb_umap_head_logreg_pubmed_20k_rct_traintier500            35      38      55          70             93   9.656520e-02

@@ -8,9 +8,16 @@ import pandas as pd
 import warnings
 
 from src.error_analysis.io import LoadedExperiment
+from src.error_analysis.labels import (
+    canonical_pred_value,
+    dataset_name_from_frame,
+    preds_equal,
+)
 
 
 def _dataset_name_from_exp(e: LoadedExperiment) -> str | None:
+    if isinstance(e.meta.get("dataset_name"), str):
+        return e.meta["dataset_name"]
     if e.report and isinstance(e.report.get("dataset_name"), str):
         return e.report["dataset_name"]
     if e.predictions_df is not None and "dataset_name" in e.predictions_df.columns:
@@ -69,7 +76,16 @@ def build_comparison_df(exps: list[LoadedExperiment], *, join: JoinKind = "inner
         assert df is not None
         keep_shared = [c for c in base_cols if c in df.columns] if include_shared else ["sample_id"]
         per_cols: dict[str, str] = {}
-        for c in ["pred_label", "confidence", "reason", "in_tokens", "out_tokens"]:
+        for c in [
+            "pred_label",
+            "confidence",
+            "reason",
+            "in_tokens",
+            "out_tokens",
+            "is_confusing",
+            "n_pred_labels",
+            "pred_labels",
+        ]:
             if c in df.columns:
                 per_cols[c] = f"{c}__{e.exp_id}"
         out = df[keep_shared + list(per_cols.keys())].copy()
@@ -99,14 +115,28 @@ def build_comparison_df(exps: list[LoadedExperiment], *, join: JoinKind = "inner
     return merged
 
 
-def disagreements(df: pd.DataFrame) -> pd.DataFrame:
+def disagreements(df: pd.DataFrame, *, dataset_name: str | None = None) -> pd.DataFrame:
     pred_cols = [c for c in df.columns if c.startswith("pred_label__")]
     if len(pred_cols) < 2:
         return df.iloc[0:0].copy()
-    m = df[pred_cols].astype("string").fillna("")
-    # row disagrees if >1 distinct non-empty pred among experiments
-    distinct = m.apply(lambda r: len({x for x in r.tolist() if x}), axis=1)
-    return df.loc[distinct >= 2].copy()
+    ds = dataset_name or dataset_name_from_frame(df)
+
+    def row_disagrees(row: pd.Series) -> bool:
+        vals: list[str] = []
+        for c in pred_cols:
+            raw = row.get(c)
+            if ds:
+                canon = canonical_pred_value(raw, dataset_name=ds)
+                if canon is not None:
+                    vals.append(canon)
+            else:
+                s = "" if raw is None or (isinstance(raw, float) and pd.isna(raw)) else str(raw).strip()
+                if s:
+                    vals.append(s)
+        return len(set(vals)) >= 2
+
+    mask = df.apply(row_disagrees, axis=1)
+    return df.loc[mask].copy()
 
 
 def multiwise_diff(df: pd.DataFrame, exp_ids: list[str]) -> pd.DataFrame:
@@ -140,13 +170,23 @@ def confusions(df: pd.DataFrame, exp_id: str, top_k: int = 20) -> pd.DataFrame:
     return c.head(int(top_k)).reset_index(drop=True)
 
 
-def pairwise_agreement_matrix(df: pd.DataFrame) -> pd.DataFrame:
+def pairwise_agreement_matrix(
+    df: pd.DataFrame,
+    *,
+    dataset_name: str | None = None,
+) -> pd.DataFrame:
+    """
+    Fraction of rows where two experiments predict the same class.
+
+    Uses dataset-aware canonical labels (e.g. pubmed id ``2`` vs name ``methods``).
+    Rows where either side has no scorable pred are excluded from the denominator.
+    """
     pred_cols = [c for c in df.columns if c.startswith("pred_label__")]
     ids = [c.split("__", 1)[1] for c in pred_cols]
     if len(pred_cols) < 2:
         return pd.DataFrame()
 
-    m = df[pred_cols].astype("string")
+    ds = dataset_name or dataset_name_from_frame(df)
     out: dict[str, dict[str, float]] = {}
     for i, a in enumerate(pred_cols):
         row: dict[str, float] = {}
@@ -154,8 +194,23 @@ def pairwise_agreement_matrix(df: pd.DataFrame) -> pd.DataFrame:
             if i == j:
                 row[ids[j]] = 1.0
                 continue
-            eq = (m[a] == m[b]).fillna(False)
-            row[ids[j]] = float(eq.mean())
+            if ds:
+                agree = df.apply(
+                    lambda r: preds_equal(r[a], r[b], dataset_name=ds),
+                    axis=1,
+                )
+                comparable = df.apply(
+                    lambda r: canonical_pred_value(r[a], dataset_name=ds) is not None
+                    and canonical_pred_value(r[b], dataset_name=ds) is not None,
+                    axis=1,
+                )
+            else:
+                sa = df[a].astype("string")
+                sb = df[b].astype("string")
+                comparable = sa.notna() & sb.notna() & (sa != "") & (sb != "")
+                agree = (sa == sb) & comparable
+            n = int(comparable.sum())
+            row[ids[j]] = float(agree.sum() / n) if n else 0.0
         out[ids[i]] = row
     return pd.DataFrame(out).T
 

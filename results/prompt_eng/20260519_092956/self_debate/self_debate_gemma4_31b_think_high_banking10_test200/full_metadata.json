@@ -1,0 +1,24 @@
+{
+  "saved_utc": "2026-05-19T10:16:42.030985+00:00",
+  "duration_seconds": 2081.4070902001113,
+  "metrics": {
+    "f1_macro": 0.9328201537025066,
+    "accuracy": 0.934010152284264
+  },
+  "extras": {
+    "infer_time_s": 2080.058994300198,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 197,
+      "n_confusing": 3,
+      "confusing_rate": 0.015,
+      "n_zero_labels": 0,
+      "n_multi_labels": 0
+    },
+    "usage": {
+      "in_tokens_total": 28536,
+      "out_tokens_total": 94313
+    }
+  },
+  "notes": null
+}

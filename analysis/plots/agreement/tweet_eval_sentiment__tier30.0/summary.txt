@@ -1,0 +1,8 @@
+group_key=tweet_eval_sentiment__tier30.0
+dataset_name=tweet_eval_sentiment
+tier_size=30
+runs_with_predictions=2
+items_intersection=30
+
+Top McNemar pairs (exact two-sided p):
+(no pairs)

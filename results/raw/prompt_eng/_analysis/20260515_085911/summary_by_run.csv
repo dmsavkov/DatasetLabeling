@@ -1,0 +1,10 @@
+slug,run_folder,n_rows,n_eval_labels,accuracy_eval_labels,n_with_confidence,predictions_path
+baseline_gemini31_pubmed_rct,20260514_150603,30,30,0.7,30,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\baseline_gemini31_pubmed_rct\20260514_150603\full_predictions.json
+semantic_entropy_vcsc,20260514_100650,30,30,0.7,30,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\semantic_entropy_vcsc\20260514_100650\full_predictions.json
+semantic_entropy_vcsc_by_sample_ids,20260514_220048,47,46,0.5869565217391305,47,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\semantic_entropy_vcsc_by_sample_ids\20260514_220048\full_predictions.json
+chain_of_verification,20260514_103127,30,30,0.7,30,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\chain_of_verification\20260514_103127\full_predictions.json
+blind_dinco_multilabel,20260514_090712,30,29,0.6551724137931034,30,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\blind_dinco_multilabel\20260514_090712\full_predictions.json
+harsh_top2_single_critique,20260514_095722,30,26,0.7307692307692307,26,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\harsh_top2_single_critique\20260514_095722\full_predictions.json
+gemma_top2_gemini_boolean_match,20260515_080220,20,6,0.6666666666666666,0,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\gemma_top2_gemini_boolean_match\20260515_080220\full_predictions.json
+dinco_alllabel_confidence_gemini,20260515_084130,47,47,0.6382978723404256,47,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\dinco_alllabel_confidence_gemini\20260515_084130\full_predictions.json
+gepa_light_batch_opt,20260514_111314,50,50,0.74,0,D:\Coding\VSCFiles\IndependentProjects\AI\uni-judge-research\results\raw\prompt_eng\gepa_light_batch_opt\20260514_111314\full_predictions.json

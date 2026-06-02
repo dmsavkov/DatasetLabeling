@@ -1,0 +1,30 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-16T08:05:20.645279+00:00",
+  "duration_seconds": 394.3088922998868,
+  "metrics": {
+    "accuracy_excluding_abstain_error": 0.6170212765957447,
+    "n": 47,
+    "n_abstain": 0,
+    "n_error": 0,
+    "rubric_histogram": {
+      "1": 0,
+      "2": 0,
+      "3": 7,
+      "4": 40
+    },
+    "mean_confidence_rubric": 3.851063829787234
+  },
+  "settings": {
+    "MODEL": "gemini-3.1-flash-lite-preview",
+    "EVAL_LIMIT": 47,
+    "FEWSHOT_BALANCED_N": 10,
+    "RUBRIC_LEVELS": 4,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Discrete rubric 1\u20134; abstain only at level 1. 10 balanced train few-shot + 3 calibration examples."
+}

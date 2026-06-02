@@ -1,0 +1,16 @@
+dataset,model,n_samples,coverage,accuracy,macro_f1,weighted_f1,all_agree_rate,major_vote_accuracy
+ag_news,qwen_1_5b,50,0.0,,,,0.0,0.46
+ag_news,llama_8b,50,0.1,0.8,0.6666666666666666,0.7333333333333333,0.0,0.46
+ag_news,gpt_oss_20b,50,0.5,0.76,0.7373737373737375,0.7276767676767676,0.0,0.46
+ag_news,mixtral_8x22b,50,0.0,,,,0.0,0.46
+ag_news,major_vote,50,0.6,0.7666666666666667,0.7404761904761905,0.7298412698412698,0.0,0.46
+social_bias_frames,qwen_1_5b,50,0.0,,,,0.0,0.2
+social_bias_frames,llama_8b,50,0.5,0.4,0.3633276740237691,0.4061120543293718,0.0,0.2
+social_bias_frames,gpt_oss_20b,50,0.1,0.0,0.0,0.0,0.0,0.2
+social_bias_frames,mixtral_8x22b,50,0.0,,,,0.0,0.2
+social_bias_frames,major_vote,50,0.5,0.4,0.3633276740237691,0.4061120543293718,0.0,0.2
+tweet_sentiment,qwen_1_5b,50,0.0,,,,0.0,0.56
+tweet_sentiment,llama_8b,50,0.4,0.6,0.5948879551820728,0.5995798319327731,0.0,0.56
+tweet_sentiment,gpt_oss_20b,50,0.6,0.8,0.7893939393939394,0.7993939393939394,0.0,0.56
+tweet_sentiment,mixtral_8x22b,50,0.0,,,,0.0,0.56
+tweet_sentiment,major_vote,50,0.8,0.7,0.6825396825396824,0.6988095238095239,0.0,0.56

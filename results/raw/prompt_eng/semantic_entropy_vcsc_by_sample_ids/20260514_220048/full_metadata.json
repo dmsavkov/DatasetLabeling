@@ -1,0 +1,26 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-14T22:10:19.899381+00:00",
+  "duration_seconds": 554.0394474000204,
+  "metrics": {
+    "accuracy_excl_confusing": 0.5869565217391305,
+    "n": 47,
+    "n_confusing": 1,
+    "n_error": 0,
+    "mean_VCSC": 0.9515957446808511,
+    "mean_label_entropy": 0.15095186180784556
+  },
+  "settings": {
+    "EXECUTOR_MODEL": "gemini-3.1-flash-lite-preview",
+    "M_TRACES": 3,
+    "VCSC_LAMBDA": 0.5,
+    "PUBMED_HF_DATASET": "armanc/pubmed-rct20k",
+    "n_sample_ids": 47,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "VCSC on explicit test_/train_ IDs = positional index in armanc/pubmed-rct20k split. Default executor=DEFAULT_MODEL (Gemini 3.1) unless EXECUTOR_MODEL set."
+}

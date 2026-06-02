@@ -1,0 +1,34 @@
+flat_i,gold_gepa,pred_gepa,gold_baseline,pred_baseline,sentence_idx,text,gepa_ok,base_ok
+0,objective,objective,objective,objective,0,To assess the effects of DICLORAL 's alleviation of pain caused by radiation-induced oral mucositis .,True,True
+1,conclusions,conclusions,conclusions,conclusions,1,Continued remission may be more likely in patients who achieved remission earlier .,True,True
+4,methods,methods,methods,methods,4,"All the patients underwent @-hour electrochocardiography monitoring , cardiac echocardiography , and HRV study .",True,True
+5,results,results,results,results,5,"The average time required for placement in groups I and II was @ and @ minutes , respectively ( P = @ ) .",True,True
+6,results,results,results,results,6,Isthmus ablation was successful in all patients ; pulmonary vein isolation was successful in @ ( @ % ) randomized patients .,True,True
+9,methods,methods,methods,methods,9,"This trial is registered with ClinicalTrials.gov , number NCT@ .",True,True
+11,background,background,background,background,11,"Ensuring adherence to treatment and retention is important in clinical trials , particularly in remote areas and minority groups .",True,True
+13,objective,objective,objective,objective,13,The objective of this trial was to assess which type of warm-up has the highest effect on virtual reality ( VR ) laparoscopy performance .,True,True
+14,background,background,background,background,14,It compromises treatment adherence and accelerates disease progression .,True,True
+15,background,background,background,background,15,Asthma exacerbations are commonly precipitated by viral upper respiratory infections ( URIs ) .,True,True
+16,objective,objective,objective,objective,16,"The main objective of this pilot study was to explore the effect of chiropractic high-velocity , low-amplitude ( HVLA ) manipulation on vertical jump height in young female athletes with talocrural joint dysfunction .",True,True
+17,results,results,results,results,17,"Of @ randomized patients , @ ( @ % ) had a rounded integer SHFM score between -@ and @ , consistent with predicted @-year survival of @ % and @ % , respectively .",True,True
+18,results,results,results,results,18,Isthmus ablation was successful in all patients ; pulmonary vein isolation was successful in @ ( @ % ) randomized patients .,True,True
+21,methods,methods,methods,methods,21,Group A used the sniffing position during the first laryngoscopy while Group B was put in simple head extension position .,True,True
+22,results,results,results,results,22,"There were no significant differences for symptoms of sepsis among groups , except lethargy .",True,True
+24,results,results,results,results,24,"Of @ randomized patients , @ ( @ % ) had a rounded integer SHFM score between -@ and @ , consistent with predicted @-year survival of @ % and @ % , respectively .",True,True
+25,background,background,background,background,25,Understanding this paradox could be helpful to determine the potential for e-cigarettes as an alternative to tobacco smoking .,True,True
+27,results,results,results,results,27,"Compared with usual care , I-IMR was associated with greater improvements in participant and clinician ratings for psychiatric illness self-management , greater diabetes self-management , and an increased preference for detailed diagnosis and treatment information during primary care encounters .",True,True
+28,conclusions,conclusions,conclusions,conclusions,28,"The isolated use of tacrolimus and the combined use of tacrolimus and olopatadine seems to have the same efficacy , although controlled studies with larger samples are required to confirm this hypothesis .",True,True
+29,background,background,background,background,29,The evidence for effective worker-directed interventions for employees with depressive symptoms is limited .,True,True
+31,objective,objective,objective,objective,31,"To determine the degree of dietary adherence or change in eating patterns , and demographic , psychosocial and study characteristics associated with adherence , in the Comparing Healthy Options in Cooking and Eating ( CHOICE ) Study .",True,True
+33,background,background,background,background,33,"Studies have used this drug to determine if other opioid-induced effects besides constipation are altered by MTNX in humans and have suggested , based on their results , that these other effects are altered by peripheral opioid actions .",True,True
+34,methods,methods,methods,methods,34,We analyzed CYP@D@ and CYP@A@ variants affecting flecainide metabolism and performed blinded measurements at lead II .,True,True
+36,methods,methods,methods,methods,36,"Patients received artesunate , administered orally at a daily dose of either @ mg per kilogram of body weight per day or @ mg per kilogram , for @ days , followed by a standard @-day course of artemisinin-based combination therapy .",True,True
+38,methods,methods,methods,methods,38,"On day @ after the last radioembolization procedure , sorafenib @ mg twice daily was initiated escalating to @ mg twice daily @ week later ; a matching sorafenib dose schedule was initiated in the control arm .",True,True
+39,methods,methods,methods,methods,39,"Nose and throat samples obtained during influenza-like illnesses were tested for A/California/@ / @ ( H@N@ ) , using reverse-transcriptase polymerase chain reaction .",True,True
+41,methods,methods,methods,methods,41,The intervention was adapted from a local group-based Interpersonal Therapy ( IPT ) intervention .,True,True
+42,methods,methods,methods,methods,42,A total of @ patients with mite allergy were recruited into the study .,True,True
+43,results,results,results,results,43,"There were no significant differences for symptoms of sepsis among groups , except lethargy .",True,True
+46,results,results,results,results,46,"Skin perfusion returned to baseline levels earlier during @-mA intensity at a @ mA min dose within the treatment , compared to @ mA at @ minutes posttreatment .",True,True
+47,objective,objective,objective,objective,47,"The main objective of this pilot study was to explore the effect of chiropractic high-velocity , low-amplitude ( HVLA ) manipulation on vertical jump height in young female athletes with talocrural joint dysfunction .",True,True
+48,results,results,results,results,48,"In the SSC group only two newborns ( @ % ) had mild hypothermia ( cold stress ) , and , of these two newborns , one had two episodes of hypothermia .",True,True
+49,conclusions,conclusions,conclusions,conclusions,49,This study supports the effectiveness of the water campaign intervention in reducing children 's SSB consumption .,True,True

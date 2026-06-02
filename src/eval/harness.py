@@ -15,7 +15,13 @@ from src.datasets.schema import SCHEMA
 from src.models.interfaces import Prediction, Predictor
 
 from .artifacts import ensure_dir, predictions_path, report_path
-from .metrics import compute_performance_metrics, probs_if_accessible, summarize_usage
+from .label_compare import correctness_series, normalize_label_scalar
+from .metrics import (
+    compute_performance_excluding_confused,
+    compute_performance_metrics,
+    probs_if_accessible,
+    summarize_usage,
+)
 from .reports import new_report, write_report_json
 
 
@@ -39,6 +45,15 @@ def _pred_to_row(pred: Prediction) -> dict[str, Any]:
     }
     raw = pred.raw
     if isinstance(raw, dict):
+        if "is_confusing" in raw:
+            row["is_confusing"] = bool(raw.get("is_confusing"))
+        if "pred_labels" in raw:
+            row["pred_labels"] = raw.get("pred_labels")
+        if "n_pred_labels" in raw:
+            row["n_pred_labels"] = raw.get("n_pred_labels")
+        for key in ("a_label", "a_conf", "a_reasoning", "b_label", "b_conf", "b_reasoning"):
+            if key in raw:
+                row[key] = raw.get(key)
         committee = raw.get("committee")
         if isinstance(committee, dict):
             members = committee.get("members")
@@ -51,6 +66,20 @@ def _pred_to_row(pred: Prediction) -> dict[str, Any]:
             if "majority" in committee:
                 row["pred_label_majority"] = committee.get("majority")
     return row
+
+
+def _attach_eval_columns(out_df: pd.DataFrame, *, dataset_name: str) -> pd.DataFrame:
+    """Canonical correctness + string pred labels for stable CSV reload."""
+    result = out_df.copy()
+    if "pred_label" in result.columns:
+        result["pred_label"] = result["pred_label"].map(normalize_label_scalar)
+    result["correct"] = correctness_series(
+        result,
+        dataset_name=dataset_name,
+        true_col=SCHEMA.true_label,
+        pred_col="pred_label",
+    )
+    return result
 
 
 def evaluate_predictor_on_tier(
@@ -81,14 +110,32 @@ def evaluate_predictor_on_tier(
         raise ValueError(f"Predictor returned {len(preds)} predictions for {len(df)} rows")
 
     pred_rows = [_pred_to_row(p) for p in preds]
-    out_df = pd.concat([df.reset_index(drop=True), pd.DataFrame(pred_rows)], axis=1)
-    out_df["correct"] = out_df[SCHEMA.true_label].astype(str) == out_df["pred_label"].astype(str)
+    out_df = _attach_eval_columns(
+        pd.concat([df.reset_index(drop=True), pd.DataFrame(pred_rows)], axis=1),
+        dataset_name=dataset_name,
+    )
 
-    perf = compute_performance_metrics(out_df.rename(columns={SCHEMA.true_label: "true_label"}))
+    eval_df = out_df.rename(columns={SCHEMA.true_label: "true_label"})
+    if "is_confusing" in eval_df.columns:
+        perf_bundle = compute_performance_excluding_confused(eval_df, dataset_name=dataset_name)
+        perf = perf_bundle.metrics
+        confusion_stats = perf_bundle.confusion_stats
+    else:
+        perf = compute_performance_metrics(eval_df, dataset_name=dataset_name)
+        confusion_stats = None
 
     extras: dict[str, Any] = {
         "infer_time_s": float(infer_s),
     }
+    if confusion_stats is not None:
+        extras["confusion_stats"] = {
+            "n_total": confusion_stats.n_total,
+            "n_scored": confusion_stats.n_scored,
+            "n_confusing": confusion_stats.n_confusing,
+            "confusing_rate": confusion_stats.confusing_rate,
+            "n_zero_labels": confusion_stats.n_zero_labels,
+            "n_multi_labels": confusion_stats.n_multi_labels,
+        }
     pextra = probs_if_accessible(out_df)
     if pextra:
         extras["probs_if_accessible"] = pextra
@@ -139,14 +186,32 @@ async def aevaluate_predictor_on_df(
         raise ValueError(f"Predictor returned {len(preds)} predictions for {len(df)} rows")
 
     pred_rows = [_pred_to_row(p) for p in preds]
-    out_df = pd.concat([df.reset_index(drop=True), pd.DataFrame(pred_rows)], axis=1)
-    out_df["correct"] = out_df[SCHEMA.true_label].astype(str) == out_df["pred_label"].astype(str)
+    out_df = _attach_eval_columns(
+        pd.concat([df.reset_index(drop=True), pd.DataFrame(pred_rows)], axis=1),
+        dataset_name=dataset_name,
+    )
 
-    perf = compute_performance_metrics(out_df.rename(columns={SCHEMA.true_label: "true_label"}))
+    eval_df = out_df.rename(columns={SCHEMA.true_label: "true_label"})
+    if "is_confusing" in eval_df.columns:
+        perf_bundle = compute_performance_excluding_confused(eval_df, dataset_name=dataset_name)
+        perf = perf_bundle.metrics
+        confusion_stats = perf_bundle.confusion_stats
+    else:
+        perf = compute_performance_metrics(eval_df, dataset_name=dataset_name)
+        confusion_stats = None
 
     extras: dict[str, Any] = {
         "infer_time_s": float(infer_s),
     }
+    if confusion_stats is not None:
+        extras["confusion_stats"] = {
+            "n_total": confusion_stats.n_total,
+            "n_scored": confusion_stats.n_scored,
+            "n_confusing": confusion_stats.n_confusing,
+            "confusing_rate": confusion_stats.confusing_rate,
+            "n_zero_labels": confusion_stats.n_zero_labels,
+            "n_multi_labels": confusion_stats.n_multi_labels,
+        }
     pextra = probs_if_accessible(out_df)
     if pextra:
         extras["probs_if_accessible"] = pextra
@@ -190,14 +255,32 @@ def evaluate_predictor_on_df(
         raise ValueError(f"Predictor returned {len(preds)} predictions for {len(df)} rows")
 
     pred_rows = [_pred_to_row(p) for p in preds]
-    out_df = pd.concat([df.reset_index(drop=True), pd.DataFrame(pred_rows)], axis=1)
-    out_df["correct"] = out_df[SCHEMA.true_label].astype(str) == out_df["pred_label"].astype(str)
+    out_df = _attach_eval_columns(
+        pd.concat([df.reset_index(drop=True), pd.DataFrame(pred_rows)], axis=1),
+        dataset_name=dataset_name,
+    )
 
-    perf = compute_performance_metrics(out_df.rename(columns={SCHEMA.true_label: "true_label"}))
+    eval_df = out_df.rename(columns={SCHEMA.true_label: "true_label"})
+    if "is_confusing" in eval_df.columns:
+        perf_bundle = compute_performance_excluding_confused(eval_df, dataset_name=dataset_name)
+        perf = perf_bundle.metrics
+        confusion_stats = perf_bundle.confusion_stats
+    else:
+        perf = compute_performance_metrics(eval_df, dataset_name=dataset_name)
+        confusion_stats = None
 
     extras: dict[str, Any] = {
         "infer_time_s": float(infer_s),
     }
+    if confusion_stats is not None:
+        extras["confusion_stats"] = {
+            "n_total": confusion_stats.n_total,
+            "n_scored": confusion_stats.n_scored,
+            "n_confusing": confusion_stats.n_confusing,
+            "confusing_rate": confusion_stats.confusing_rate,
+            "n_zero_labels": confusion_stats.n_zero_labels,
+            "n_multi_labels": confusion_stats.n_multi_labels,
+        }
     pextra = probs_if_accessible(out_df)
     if pextra:
         extras["probs_if_accessible"] = pextra

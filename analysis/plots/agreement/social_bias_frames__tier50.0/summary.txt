@@ -1,0 +1,14 @@
+group_key=social_bias_frames__tier50.0
+dataset_name=social_bias_frames
+tier_size=50
+runs_with_predictions=6
+items_intersection=10
+
+Top McNemar pairs (exact two-sided p):
+      model_a       model_b  both_correct  a_only  b_only  both_wrong  disagreements  p_value_exact
+    qwen_1_5b      llama_8b             7       2       0           1              2            0.5
+    qwen_1_5b   gpt_oss_20b             7       2       0           1              2            0.5
+     llama_8b   gpt_oss_20b             6       1       1           2              2            1.0
+    qwen_1_5b mixtral_8x22b             8       1       0           1              1            1.0
+     llama_8b mixtral_8x22b             7       0       1           2              1            1.0
+mixtral_8x22b   gpt_oss_20b             7       1       0           2              1            1.0

@@ -1,0 +1,9 @@
+group_key=reward_bench__tier896.0
+dataset_name=reward_bench
+tier_size=896
+runs_with_predictions=6
+items_intersection=896
+
+Top McNemar pairs (exact two-sided p):
+  model_a  model_b  both_correct  a_only  b_only  both_wrong  disagreements  p_value_exact
+train1000 train100           143     196      58         499            254   1.073505e-18

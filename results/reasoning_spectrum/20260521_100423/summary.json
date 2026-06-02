@@ -1,0 +1,58 @@
+{
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "pure_intuition",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.4,
+      "thoughts_token_count": null,
+      "elapsed_s": 0.9085,
+      "error": null
+    },
+    {
+      "tier": 2,
+      "name": "surface_external_cot",
+      "top1_accuracy": null,
+      "gold_in_set_rate": null,
+      "thoughts_token_count": null,
+      "elapsed_s": null,
+      "error": "Expecting ',' delimiter: line 1 column 37 (char 36)"
+    },
+    {
+      "tier": 3,
+      "name": "micro_internal",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.2,
+      "thoughts_token_count": 703,
+      "elapsed_s": 14.8187,
+      "error": null
+    },
+    {
+      "tier": 4,
+      "name": "deep_internal",
+      "top1_accuracy": 0.4,
+      "gold_in_set_rate": 0.4,
+      "thoughts_token_count": 1760,
+      "elapsed_s": 9.7756,
+      "error": null
+    },
+    {
+      "tier": 5,
+      "name": "gemma_native_heavy",
+      "top1_accuracy": null,
+      "gold_in_set_rate": null,
+      "thoughts_token_count": null,
+      "elapsed_s": null,
+      "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'You can only set only one of thinking budget and thinking level.', 'status': 'INVALID_ARGUMENT'}}"
+    },
+    {
+      "tier": 6,
+      "name": "gemma_overclocked_booster",
+      "top1_accuracy": null,
+      "gold_in_set_rate": null,
+      "thoughts_token_count": null,
+      "elapsed_s": null,
+      "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'You can only set only one of thinking budget and thinking level.', 'status': 'INVALID_ARGUMENT'}}"
+    }
+  ]
+}

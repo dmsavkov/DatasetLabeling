@@ -1,0 +1,1243 @@
+dataset,model,batch_no,model_id,stage,error
+tweet_sentiment,llama_8b,1,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe491-40abb6ef5702d5af0f6cbea3;d376e42b-7563-4b77-a8d3-a45221f5aa2c)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+tweet_sentiment,llama_8b,1,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe491-78635dc75f1c7dd01351c8fc;23bdefcc-9acf-45c5-849c-06f476acc97b)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+tweet_sentiment,gpt_oss_20b,1,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qb87afe0vsj5dfm60ksrk)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+tweet_sentiment,gpt_oss_20b,2,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qb90yfe19qfejtz2xwbj0)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+tweet_sentiment,gpt_oss_20b,3,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c6-7af38bcf7498b9d124ec3971;b22debed-725b-48e0-ac85-549c064e5c84)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,3,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c6-7d9ec7ef41c6ddcc5b54625a;dabcd778-b91a-48bb-a734-9aa0c73c6c6c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,4,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c6-526ef19722b970a8115623cf;c42c25d8-9f71-4aa9-96b4-68f3d8baef61)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,4,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c6-7583bbc24b145edd0e3b3dcf;67b42b4c-f5a5-459c-829e-79141be55bcb)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,5,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-59014c134dfa6aae0e9de86a;255b2da9-215f-43a4-8d2b-1ac0d2cb58b1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,5,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-784bd5de4349b77b6d899cf6;2d7f66be-95ba-449f-a087-8d847b68b9a0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,6,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-5141ca582ab6822024462b0e;5e6c4acd-f0ac-4fa7-93a3-d9c6e08702b4)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-05471717752373885f5b1daf;411b61e9-4459-4fbb-ad8b-a7b44bf03a1c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,7,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-68ff66f61306c2347046dd48;20574a77-1ce5-4ce7-ad26-76b2def2541e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,7,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-6485d0ca0737818e6b294c6f;f82402d5-e8c8-4957-b37a-a959485fc03c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,8,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c7-41b1c6f2772b3e4052da76b9;ad20c2f2-b4bb-4fa2-90d7-79c785b3fbcd)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,8,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-37fa4408009bcade0030b7dc;44734130-902b-4297-874f-5f39b8c4688e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,9,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-3116e9e42cebaad0768befdf;35d38547-1320-43f9-be03-b4350ab2a2e5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,9,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-6ae502993c87624612e48865;85aae8dc-0109-49b5-aba0-a55b2f9736fd)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,10,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-6ca3b01d49938d231442bdc7;b3f3bc74-cd02-4bcd-9ffb-1cd9ff254671)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,10,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-741bde1f74d3d0720772a529;ab898a68-cb3c-494a-ba36-4802b4a3b8b1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,11,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-347aa0b84994f3606351a158;59ca690e-7bcd-4bda-9c9e-3696b0426073)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,11,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c8-6f7dcf042d13caf12a9ef1be;fbc072d5-80f7-4101-99e2-9407fb8f8689)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,12,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-623ab52412e3e36846831ba0;739197ef-d3c5-481c-b647-c3343ad05f19)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,12,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-1b68a1f3665e7c8302c62e8c;219bea82-bef5-440d-9068-0a424983852f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,13,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-4b20e0d04809af6b60144256;f08ddf0b-a464-4afe-a6c9-98d510156149)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,13,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-32f0fbed4c1a14ea3a731c1c;ab71f630-75a3-4e7c-830c-90fe1b10850a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,14,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-7d206c501237847a297575e6;5c8e06cd-9ab4-408b-a60a-c832b6970c80)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,14,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-28653c371cf80f0a2f4396d6;a00f0129-6fbc-4e12-a7e7-a33e3efd510b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,15,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4c9-45607243425a64201bb63789;bb1d5d0f-99ad-4272-af29-53049205655d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,15,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4ca-14deb9304996ca1c4be8d1bc;c91957a4-6193-4d78-b679-d9c4ba6da75b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,16,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4ca-2d00c77a04d3142178fb0d11;48787469-a162-48fe-b602-936bb05ce604)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,16,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4ca-6219fcf20ae4642f2ccb00d4;10cdffcc-0486-4c43-8a56-1e3f4ef94fe7)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,17,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4ca-557dd879760b3aa06a53763a;6b139585-82c0-4990-9f01-c26dd90c942c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,17,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe4ca-3950cdf5028151d656e1546f;764fd650-38a4-41f8-a906-bf92790a5dba)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ca-6a3e7db4433f2e7e2e2c9a79;9d106d0e-175a-4dc5-9189-800b79547e55)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-38d4856128516e14021b6fa8;ae5b59a6-de2e-4443-9833-f531fc38a669)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-6d7a001659907b3925363955;c153611a-c5e2-43fc-81fe-4c4bf63347fa)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-2feb108818b8bf3e436f106f;59531e28-c87f-4fe8-a541-277d47a4d2a2)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-5376a50d0268fb6e5f48a7a2;01926079-4a7d-4686-ac8b-20edcf6d26d6)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-4300131a6513c43f65863bcc;de25fbb1-4026-46c2-af2a-95fd676e76fa)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-5adcedb2265e0cc81d4be5d7;658242d1-a6d5-4bb3-b445-bfdb3986fc6a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cb-2615c2f95350540b3ae11c4e;5f985a64-fa36-412f-848e-51364257de09)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cc-28a3a13c13d3818419d3de04;500e5e8a-7e0d-4000-837a-3a40d0f96cf3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cc-74de01d1029e6f12599b2bab;8a2c8c03-fa38-4650-9bab-5347ca06a340)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cc-0e5f604367c5bc7764d1abf3;2312a8d8-1feb-46c1-a4dc-b68f72847abe)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cc-264a34af7696b679558876b9;1a40e514-ad38-455c-ba82-1dcddae61ced)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cc-54579bf01053596f5c6c599a;aa7e01c2-5570-48a1-b768-81f86fffe53a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cc-15799b425494025f1a0ca537;ee81fd89-f6d5-4881-b0ba-b5e12d237387)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-43e9b87601ae6bf838c09a76;a64f0d84-7daa-4505-9642-3cf300b58b74)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-49fccd3c5513613d4b938a76;094f67d6-0e9a-4ce2-8847-687c7a429e4d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-3b45dbf074f58c3e65eae490;9fa3ad5b-f0d9-4577-a975-cec21d9be6e3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-0d3f0752700bb8801a8f827f;0711f3ed-8062-4a4a-a9d9-5bb314023137)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-33ba61fc64e220ca36c14b25;89825ab1-12b9-44a6-a992-cb98c7aa8e32)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-1377109625697ca2555c5732;7a11a0cb-45d9-482c-adec-e50d0c9be19f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,11,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cd-35ec948f2c8c8247350b5759;acc5dfb2-6139-471f-953b-f26a211b6651)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,11,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-4be7510a2187bba7118eec39;aaaa080d-b224-465f-8d8b-34734e24f608)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,12,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-129923c70d2ef19e2d755656;b429a746-47a0-450d-aec4-4c12d10ea379)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,12,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-3167061a5fe84764056d0356;693ceddf-8268-42fc-9f73-fe84ac655de3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,13,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-4eced4936e05bee0453ae579;d83e3c5f-4912-4050-8586-ac72d6eb0ce5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,13,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-2eecf9352234d0f83a67750b;baef5af8-d4d1-48f0-90ae-cda0233ded3e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,14,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-21a39a976676707219956d34;ac979122-0266-4da7-978f-7370ffb22d2f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,14,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4ce-1467e78d2c98e4f32b504941;1f239bfc-9751-4a99-848e-5a5940c088d8)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,15,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cf-0bba112178c7ca2a0a8b210f;fa148d0b-da1d-47f7-bd03-d040f32491ac)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,15,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cf-1659f5ac793c04e5767ef1ad;963fcbd4-9438-4830-94e3-3d23eafa58bf)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,16,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cf-6832a1905eb9209342cb7ac8;fbb460b0-61ee-4990-83ef-ab4c00f26a30)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,16,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cf-519a31fa5ffc291463c69b90;4aecfa67-924c-4b8c-8f4c-aed3e729255d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,17,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cf-5975748b44790366408daa2f;a912f51c-33ca-4195-91a7-fb3cdefc6997)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,17,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe4cf-42ae4e894d29a35040a030d2;f96a0777-b1a7-44d3-9f44-0c8089164a70)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4cf-5c55d0dc1aa32f1a43e9a235;1988f1b5-9210-4bf1-bf88-9437fcb5931b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d0-7e3a48cb24240e72316ceb2c;e16e100f-5261-4a54-bfa6-1f0be1cacd81)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d0-37193da902c69c10364ba0e5;419ac38c-fe86-4dbd-a878-83749f581cc0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d1-7440fa987c2a4bbf3c605067;00a44d54-fc1b-4616-9002-35e96d56d938)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d1-0c1e1d411358b5935c7f9d35;d337c56a-6cd7-4102-a9d9-7c3a30019ce3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d1-22cb91a7289028d0795a0d01;a6fc9552-b4bc-428d-8577-681f5ef70e5b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d2-53f5ab6f106117f55926c31e;fb5eab60-866c-43b7-bdf5-2068ca44a228)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d2-2a89c0e1110f882151cebb75;56c65fe4-ba9d-44d8-9155-beaaf6b1a87b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d2-7b5456bc1960b2f355319d63;3aae15b9-9184-4c8c-ae32-bfb2c469e96d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d2-6846a68f53e7569d5fa51ad9;3a861032-d903-486a-8877-96b0f97a01ac)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d3-4a3adbec0c3e13a86fdac275;f79254e3-c9d4-453c-ab0a-0a1603c92f7d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d3-597a713f245f573f01d79fd2;cb7cc6d9-40c0-4276-a50d-d588d023c045)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d4-42e347443b6118f734620f40;c7596e4f-d642-4a4b-83b3-dbce006651ab)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d4-78cbf57d14a133e20775d032;504362e7-5f24-4130-a2e6-54fb01f0975f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d4-7a67e5320e4ddd821c72e00f;3ae72730-041e-4894-976e-3b8ae91a8537)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d4-5e6a829837a71c450ffef93c;a22feda9-56a5-4cb3-a42b-1da5e9869746)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d5-5be56d9246e6133677a19f91;10415219-ef9b-46a8-8e13-2ed951f91a91)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d5-3e72a477783886dd4cd1197f;10c8e414-e51e-4253-95e9-5fa8ae7b6082)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d5-240dbded72b12b16014a39ae;3c421b53-6f70-4d92-89ba-9c78121313d2)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d6-1136183d6ba798842c034db3;2acddc95-7556-4699-97a0-30f208ed0896)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,11,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d6-5b1b8b9c0b5c56a942e506e6;76c5097c-8b52-446f-b9a2-15b3584cd4e5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,11,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d7-212335e92a37cb891a685187;79348c74-e24a-4be5-aa08-5de1d240e785)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,12,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d7-1db3da8166b339e80b909520;9bbc6a27-99e5-4bf9-a275-2c2a17045e0a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,12,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe4d7-604927f70b545e7f61cef17c;f2ccd008-283e-445b-9cc6-f9cf1115a35b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,qwen_1_5b,13,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4d8-7bfb38c7159f6d3345ec60c2;596b787e-9e55-4ffb-9721-2b85bc2de22c)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,13,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4d9-2a61cded7e5a40a73044c815;bc4b79ff-5004-475f-b569-3a7f524fff98)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,15,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4ef-627b59117d12c93c2801908b;2e0c9233-055d-45be-be2e-cddad6930ded)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,15,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4f0-535433906ef42a1b6d6d9f56;63bacce1-0969-40c3-bf99-32a3ed1b9339)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,16,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4f2-2f420aaa4215f0641e2c7df6;252d7c2c-2c85-43cc-b86b-f77c6e61b622)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,16,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4f3-039f9ed5633f3c7f550019d4;96399c1f-5cae-4ab4-9d6f-41c202939f9f)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,17,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4f5-18dce62114c7a4d646293ec8;0ae44265-9f7a-4300-bb55-5acf142ec71c)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,qwen_1_5b,17,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4f6-370d7f5516d55fad212d55f6;e1d92410-13ba-4486-9c8a-f810c18c6568)
+
+Bad request:
+{'message': ""This model's maximum context length is 32768 tokens. However, you requested 500 output tokens and your prompt contains at least 32269 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=32269)"", 'type': 'invalid_request_error', 'param': None, 'code': 'bad_request'}"
+lex_scotus,llama_8b,1,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4f7-280db6f65fc0851d78b18e9c;b2e76e50-bb31-41d7-ac70-662ba799101a)
+
+Bad request:"
+lex_scotus,llama_8b,1,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4f9-06df0a261b05303a7441d55c;d4fad606-70e9-44b4-9b13-0d949a2d5395)
+
+Bad request:"
+lex_scotus,llama_8b,1,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe4fa-6474b46b1d27c181484fe74f;c3acbb7a-410c-4538-bfe2-445040e3ed8b)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,1,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe4fa-18d1535a6766d24c2042417e;254a4170-a743-4de4-b6f2-6f42b7d48263)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,2,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4fa-716209a90c4a798524c82397;872344c9-3e42-4eff-83b7-f475d7d32dbb)
+
+Bad request:"
+lex_scotus,llama_8b,2,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4fb-0976d77a739f663514d5e591;17a42f41-59f9-48f4-b6ec-a7826f6701ac)
+
+Bad request:"
+lex_scotus,llama_8b,2,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe4fc-08c6a69e3d5aee8c254866df;8e6dac7f-a2fe-4372-9484-b82ba88a9e83)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,2,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe4fd-0c1774ff2ae2c37d53d84293;e919a856-ab8b-449e-85a0-7098ab7f39ac)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,3,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe4fd-553f97b56c9f0cbb3c8cfb33;a6d0811e-b947-498d-811c-73088258e591)
+
+Bad request:"
+lex_scotus,llama_8b,3,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe4fe-7ab0438c38cddec956a10e98;b6ae84b5-c127-4cd5-9f31-c46e6c76b42b)
+
+Bad request:"
+lex_scotus,llama_8b,3,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe4ff-110b000d2c03fd50694ccbca;5a21e4af-7134-46a6-89b8-dc57d155d99e)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,3,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe500-1e0cb9e71a8dc31748d79eb2;e50b864b-5b42-45a6-aec4-12fa81582ac2)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,4,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe500-3b33236a0d0813e4138b363c;cae7555e-3cfe-4d6c-b813-f755fbb9b5d8)
+
+Bad request:"
+lex_scotus,llama_8b,4,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"(Request ID: Root=1-69ebe501-74840ee365a353ac7cabbbd9;0ed586a2-ba91-44c7-899c-4f1a76f2e695)
+
+Bad request:"
+lex_scotus,llama_8b,4,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe502-2691c787094952715b787977;4d17ffe9-b72a-426d-9528-2de8d309e58e)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,4,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe502-15a2757125f2d309797559f1;53b543e7-d8f9-47de-ba7e-90a5528ce4cd)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,5,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"(Request ID: Root=1-69ebe502-60e3fb617805e30d65f16dcf;e1651adb-f0cd-4f60-bcdb-c25405889d65)
+
+Bad request:"
+lex_scotus,llama_8b,5,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe503-5edd88a078b320f7373683aa;e9777cc1-5fce-4e3a-b810-f4e88c11f531)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,5,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe504-1e2e88ac15ef7cea49a30fdc;14d8ace0-bb3a-4b3c-9b36-0fef8712369a)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,5,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe504-5bd9f10d45e0e3682a4162d4;bb568ab2-344d-4a5c-b105-73c746a3a2cf)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,6,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe504-1e348ab8799466345ed80c92;1fac6e68-6355-4c6f-9572-f17f61355709)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,6,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe504-498010cb0d24db907cd7d48a;72e40d3f-128b-43ef-a885-ed81968a59e6)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,6,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe505-505abeb42e8d409a57936104;592c930f-2418-4df3-88de-fb9b1e7c5ac2)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,6,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe505-439c6678238ed2813c87d3ef;7fe4c945-6976-44b8-8527-5c37fb0f7900)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,7,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe505-29de132b6959f05a0eabfb29;d5109b9b-8961-48ac-a5f8-367992886f3f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,7,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe505-57de887159b1744274477de8;17bd633a-1a4f-48db-8508-a26319bdd1d5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,7,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe505-6c641d78560ccaf214c85066;5da33e4b-ef9c-45f5-9a6f-2912f37e6f97)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,7,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe506-2687c0cc55f8d01c42002314;7b1f514c-1fe2-4092-9854-a5a416a8a0f2)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,8,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe506-0883ae37090689b00b4d19b9;2e0ce306-87fd-4764-a80f-1f208b86a116)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,8,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe506-453c2be00b0da810357eff4e;997c3462-d65b-4380-8515-3db3684cfd0d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,8,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe507-7490894e64db971f4fb002c4;dd283063-92d3-4b11-843a-104f88c7867f)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,8,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe507-513d48664f6c19367307209e;955f80b6-697b-4835-b756-82a1a317d28e)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,9,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe507-0e2f3056508535e543277ba2;5c992a5d-dc46-481e-99f9-a7ed34248583)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,9,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe507-587639546149397c1eb76f54;fc223a00-28de-4252-9754-1b8cac629832)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,9,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe507-522c2b8f2791bf627df75e28;49e5cfbf-40a5-43cb-ac0a-577297220b75)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,9,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe508-2ff8df523977e1a400033f7d;084fe4ed-f260-4f90-95b8-3d05cfc025e0)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,10,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe508-3704fa3652bcdae235b76070;f8030480-36de-4c3c-8d0b-c4055069553c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,10,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe508-57c8f4143798440267c61ae2;8dcf8a41-1624-4eba-87c5-73a8249fddcf)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,10,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe508-3de42fcd158966001ea141d8;f04425be-e1a8-474a-baf3-960643e5f9b1)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,10,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe509-1c28cf083792df4e39f57924;c0fc67c9-444e-403a-8f0c-9ff13126e5ff)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,11,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe509-7a8a00167ed0562572bc2aef;6e3d26c8-dd79-4a63-8097-260d3fbc1177)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,11,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe509-6da4434e269ca986469d6158;fa86cc37-9af1-408d-88ae-2847a6df172f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,11,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe509-0aba55121b2ffe390afe3f7a;8c8e0a4c-f75c-4a76-ac92-84b830a02c98)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,11,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50a-19340eb91b1b8b475cfc6399;4d6d0d2e-e4ef-4bfa-8a12-b052372316a9)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,12,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50a-4832d3c6421abbef1a86d515;cd7ee059-e0d6-4803-ad9d-24a624b081ff)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,12,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50a-73136d290e6ad86619e0b3aa;c9bd2050-b4f1-4288-9c53-d60ce816a22e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,12,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50a-2fb8b79d7f0c88e3149a18df;73d95140-8796-4805-9943-a3e624558033)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,12,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50a-0627e926553ff0ee794bb707;a63e9941-c244-4bc3-8155-0def3d3aa4fe)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,13,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50b-0a17d3923605553919f10d68;e29b5278-c15b-4c8a-a5e9-0d14214d0343)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,13,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50b-015ba8332a6414d176374256;2ba51d7d-c573-4f61-9122-92008382a42e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,13,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50b-296022395f4ea7d70b562178;ae4ba4cb-2a07-4c90-a533-f929b636a37b)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,13,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50b-60bfc6a20f1ce207466d86c2;a4df9032-a291-45a7-bae8-3cfcd0409f6e)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,14,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50b-2b1bd06a1b368d1f283db391;05202047-4bdf-4af9-98d1-9de094b63580)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,14,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50c-59b6e4c3304831252b529919;130a34cc-8aa7-4b5b-9f06-191558d5f4af)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,14,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50c-1251d2df43cfa78e6c0b7a06;ae8c04c6-57f4-4255-a104-4d2f520f73c8)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,14,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50c-455c200a66e04b214ccb57bf;9c5043dd-9caa-4dc2-a0be-681a0a18f012)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,15,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50c-43e41b534e18d407015c933a;fa81ae08-cf88-402a-b2fd-144c73ed761a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,15,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50d-46ce681f1d15c2292dca54d9;8a04e35e-fba5-4025-9897-f35522d9e0a4)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,15,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50d-38643033081cf38c72f2a82d;0b67705d-892c-4dde-ac28-a522fb1120f8)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,15,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50d-3673e0e1539ab7ff5776f341;9fec0fce-6757-4e61-928a-df3272bfda0d)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,16,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50d-179c27863dd9561a59ed8d3e;021d470e-8528-4804-8a1a-92ed8b597f9d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,16,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50d-3ed6d2df744f4c514070d4f5;699fe037-017f-407d-ad90-c76d0c1de55b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,16,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50e-532ffa9c079f392937adb92b;64a46bdb-9357-4035-9c21-48ee8a4ad426)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,16,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50e-6060a3836234f36a5d918dd4;41888760-a0c1-4587-acfc-f36413af16a2)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,17,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50e-18fbb7b25c6254b13448d8f7;cff052f0-8871-44ba-bf08-1afc078f0dbe)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,17,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe50f-62cc1ab347236fdf42695218;28e46615-6845-40a1-94b1-b89d5e686f32)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,llama_8b,17,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50f-78d423867266d3df7e2d81c1;e54b1ec0-db21-46f3-b57e-78cb9cc49995)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,llama_8b,17,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe50f-17660a567bfab7a902926f19;7d61801a-7516-4bbf-bcb6-a2a236412b9d)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+lex_scotus,gpt_oss_20b,1,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe50f-6fe0d8c011ac137e66e31120;c9b32e61-b294-40f5-a8f6-f561922a96ec)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,1,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe510-49ffc6411508717249cfcd95;a63ee244-1f60-4b61-89b7-448c0f5fb588)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,2,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe510-5e0894f656c095c6066f52be;3ee20e64-7639-461a-a69e-7edcde4c69c1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,2,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe510-16cd815f109a8ba75e25345e;a34a7501-bb22-4b9a-8608-6b6ada6ac1b0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,3,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe511-41fa12311570dfa0068deb39;2e966efe-9bfa-4220-b9c8-106b8f44ae77)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,3,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe511-0376476404b46043372c7e43;62c9553a-6720-4ebb-b958-da343311cb23)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,4,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe511-386d8c365eaf5558665f9384;d4c93ed6-66d1-4acb-997b-370fbe4dec3a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,4,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe512-0ed794a2590d110f657c4bcf;b3232f7c-4354-46a5-8bae-89c0289d3136)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,5,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe512-10423b1c14a1352d3f584d74;68ecf290-78c7-4077-8969-ee2f556f3956)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,5,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe512-2d445e66090c265514eb0569;1765ea0e-e3a2-43b9-aa9a-78ea96f917d3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,6,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe513-52aef83a27bee3d40ef6a9ed;57c5d2bb-c92c-4faa-8401-7898cccec8fd)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe513-2e0dae4e201ac4402ba4c011;2f9b283d-86d3-406d-af19-c697cf1aefe3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,7,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe513-1d53db16032760de1eef19fc;8592f311-334b-4672-9825-808415d762f3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,8,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qdrd3frqbnjvh3d53jcn9)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,9,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qdyprf01r6vpkb4rg7ns5)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,10,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qe1vrfss9t7k5nsn5rtyc)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,11,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qe65eftaaeymwf1ypaysd)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,12,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qeagef15tq1j1k9vgsnzm)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,13,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qeggxfvcr19zsgh2x7qxa)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,14,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qeksmfw2a3mbc4gvhf0dq)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,15,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qepp0f25spnnjk4ferc8v)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+lex_scotus,gpt_oss_20b,15,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe536-17f318a261f526ec2e4076bc;9c8f3321-2623-4aee-b7fd-b4f5b1622d58)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,16,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe536-260c36601c1afcc73f9b100e;78ab8db4-732e-4713-bcd7-08b99ae1fa5b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,16,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe537-55f938230599076a233c0fa0;0a52394f-2502-4741-8f74-5a8a82e17a6f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,17,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe537-2832d0d67697f8cd711f2163;6e270169-84ca-4886-b61d-85f130147ee5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,gpt_oss_20b,17,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe537-65b3a4635fccfae53095247f;cbf34862-3a4c-4f24-8be5-51f205fe4353)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe537-5f4e9bcb4fd6ef6c31896202;93f508b2-a9f5-4a14-86f1-e868fd38cb21)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe538-04db83ac0dd0c02004968da8;b1ecde2d-2c8f-477b-aeb9-15542a889fd0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe538-3f103bfa5d27d0c12c2d43b7;b0aab7c7-12a0-4bb4-bd30-1c346b2515ec)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe538-1f2e14747ed01cf16bc91ec0;e85c907a-eedd-4bae-9304-e228b59d93dd)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe539-08f0846b4b4f6ff40a6d0e88;600d4254-8b42-4785-8507-261467591454)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe539-4a3eca9758f5a188548b746e;6829ed84-c22f-44d1-a348-775a51d4d8d3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53a-363f17cc073d4cb62a36b2b1;b6be9139-9ba6-4af7-acd9-b7450ed138f5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53a-48c80336762e6de360c695e2;68bfef43-2b1b-4757-92f1-7bada42e48f6)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53a-7e1eb41f31d20fb655127291;3e2f1b78-acde-42c9-a660-a6024381549f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53b-7160f0c079a4ac115f4ef389;018b9752-f5ca-436c-904f-489f94dde719)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53b-0ce7294c0b024d2b14094e76;06c0712f-5790-444f-9e6e-7177a3d1995f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53b-7157c71b5b0e7d79759d774f;88d608bf-d970-4fcd-8df2-88c53090348a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53c-487a5b3979534a7369ec7d1b;1c99b72b-d4eb-4bf1-9b1c-ce1a5b386686)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53c-6edf35c6592de70613e6698a;d1bbd4e9-bbb0-4b45-ab4d-a151ccb53415)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53c-7760ccb6523df3610bb21b17;6691c22c-3349-468d-a11c-b4aa624223c4)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53c-571159da72c008ee1112d5e0;455935b7-f5b7-4d15-8385-1cfaefff0e05)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53d-58076ec00a2fdc753053f76d;f501fc47-a72f-4890-8acf-af8f2b98447d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53d-012961e317fb1c7d3d889595;c625e11d-25bc-4151-8de0-d7700dea5a9a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53d-0d8b5b685b653a6f684df464;2f91ecf5-5d47-4372-8e9d-8f0e586f79b6)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53e-6f8c94540bc3da9f1a2d71e4;07a64b6e-a94c-4db6-9529-3181c38757d7)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,11,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53e-0b493f8b7a0c535a3f307a3c;2ede68ef-5a48-4d42-b93c-ba29bee92e0a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,11,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53e-153ecd135018505e75ee3f7a;ed54a9eb-6e5d-4b07-a6c9-ae777490af2e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,12,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53f-655c430e3b99fd967665b6ca;a373a64a-de8d-4905-ad72-163da58de129)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,12,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53f-18d034c326e70df601204797;d26c8cb6-7abe-4f81-849c-e9ab3494f67b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,13,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe53f-08f7e85243e2973362e1a88a;afb3ef43-d817-4ac8-a142-70112c69da96)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,13,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe540-750d73b83bebbe9d0552ef24;b2350c67-94c0-4558-b258-3b1894440857)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,14,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe540-24ca871537a228ad06977cbf;7446c3e9-3d02-489f-a925-0410b5dcdcd1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,14,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe540-260b3d8140a02edd6cc3d05e;30ffb5b2-617c-4af2-a662-2e8f42ba7938)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,15,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe541-322ed39f1475b7f7116fca5c;19c41d3f-b1d1-44c8-b4fd-1b103cf3f522)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,15,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe541-3e0d28151452118a097bf9b6;115d4a68-0596-4db1-bef1-fd5a85d3202b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,16,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe541-2785bab26f782dd4415f3d3e;974ac044-7cd2-4564-a9db-0337fd87ff9b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,16,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe542-4b988135009acaaf728bcf12;353347c9-85c1-4fd3-a59a-042a7a511933)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,17,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe542-56a54e0438a50c4a27623f3f;2c01b996-671d-4081-a604-c03fc9cdcf08)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+lex_scotus,mixtral_8x22b,17,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe542-37d8aba06bb7b2b739b0eea8;5d54ec61-301a-40a4-a8ec-bfe54419b1cc)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe543-07621e58727cb223378e1448;19aed1eb-7ed1-441a-a004-2f98fc81a8e1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe543-0b2ea5ed45fe9b793b846a84;e2c1d0fa-d15d-46e7-b190-4c2d119856db)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe543-308595f0490abdb7577ff49f;503f0c25-3e55-4ac1-bf0c-885524836a00)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe543-41ba7b706df07cda013b1f23;5bf05ddc-f799-4560-aef1-65012a23e262)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe543-036262166b0f0a034c67079d;21b45428-383e-452e-a8df-fc64072f3f86)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe544-01b1896828441f1b356fee70;ce3ef29f-569b-45b0-95eb-2df485351c7c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe544-47226f5a3dd2e02623862678;5ef5d902-9985-4167-8c8b-7861cef8749f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe544-0650ea2b5bf698e33a2746ee;d5b31ad6-0181-4390-9aa4-d74296285cb1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe544-1ad4ead626afd92b18787aa0;61c6993e-9b69-41c0-861f-17359d89f8ff)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe544-741fdd451028789636736844;35260785-87fb-45db-98dc-b2ebc8e539ac)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe544-55f3cc4760e5d5f21b83b395;f691070d-617c-44a6-9ddc-1e81afd34c87)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe545-424fdb9159b481a45ba6cb97;35e8b0c8-000b-4ef4-87db-1bc002ed6041)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe545-5356c56622244f6143d66e63;398ddf3c-6b69-4044-baf8-404bab9c40fb)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe545-20fc655d48ee98054abcbf12;a85b7a52-d101-4c14-af64-f9a746967e5d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe545-5d1d45cb52ff8ed878a90e74;539ddb18-40cf-4672-b342-9541cd80b104)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe545-7a029d9f0c43c78159b8ec94;c2973258-9921-4800-ab90-850c9fa5a230)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe546-3c9edf526d14f2fc6dba7ebe;6739e3d8-29a4-48c4-b22a-7b8ac9011ff5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe546-776118930e4a4c560d64b9a2;654d10aa-f606-4de3-99b3-811340b4d046)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe546-3047f0b52153ecdf29c87b54;0973929a-f96b-4d88-9878-07c799ce0d9c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe546-3140afbd3920cb0044e080ba;00aa5676-c9f5-436c-8cf3-f4394603a0ea)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,11,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe546-29a9bd1e330635fd40c14751;a4346dc6-c7d0-480b-b557-384be36e25d0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,11,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe546-25a1a52643a5c3017574043c;7c6c8cf6-82b5-4611-94f1-dd1266373f27)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,12,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe547-6d5cf1c45afaac0162c0e388;973b5655-1b77-4f7a-84a7-1a3c09694cd9)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,12,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe547-6235fd531e0007ac45662916;b98f6ee9-8d74-47ec-a043-a35557ed4e1b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,13,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe547-44381fd50b9b6d4c3288213c;7a3ea2e3-49ee-4df3-b4c7-dd2a53f0785c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,13,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe547-20484f151cd42ee677546de0;c5b04d66-84a0-49d7-acad-f38a979431a5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,14,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe547-607d57ce093efd2a07859cca;06e800d6-1e94-418c-8a37-d15dfbcbc363)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,14,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe547-02d1a2575b3f95d369c837f3;3c559ce3-fd99-4a8b-827f-b9df036f7286)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,15,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe548-34ea61d2273fec1834009b4b;8284b723-3803-426c-9dfc-ac02e3341411)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,15,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe548-0b383d4d3de5ebbc38c48589;996a2f39-5f6f-4b6b-8753-1826237f9727)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,16,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe548-03f9182a1661b0bb26a93125;3de0b45b-93fc-4e60-a337-eaaf0307e564)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,16,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe548-5c3b88a9047b5d286604c084;7ace3d1a-fffe-4f15-925b-f274836f9e12)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,17,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe548-35ef1b9926adb9f864c308de;d72dc141-fe18-4602-9ce2-691af6d8e7f3)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,qwen_1_5b,17,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/featherless-ai/v1/chat/completions (Request ID: Root=1-69ebe548-5858cf4e14b368de13a622b0;23a62704-1e49-49ce-abf5-ac6d87a8b37a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,1,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe549-3568a11140ba5bda3387d9cd;65c138cc-2459-47df-a110-07e29e9c3288)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,1,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe549-767bf2097c7ec97e2de76302;9c7c4cdc-7417-4c9b-be88-b0045392014e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,1,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe549-26ab76a34e81a77d446a37f9;5e0b459b-7bc4-4e9c-a9b1-387aa18152fa)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,1,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe549-29b4b57d149660e17030d2de;dd1cf08d-bc95-4d73-951b-903fed590463)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,2,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe549-2de79bbd52107f4f5a841e92;959f4648-c5ed-4444-8b7d-4ecbde2b83bb)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,2,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe549-5fada04a4fa8b16d1f0e10bf;c1cd834b-400f-4c64-88f6-6f9a7b83741d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,2,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54a-23e338502c23b5fd70e2c406;2cf556c1-5c85-4d87-94cd-5e516f2c0fc8)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,2,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54a-4197f19c659f897e047e74bc;b29085fe-ce04-454f-9a8c-8b89f279d31e)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,3,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54a-6f67024f16b3daa172bc6f70;0d2189dc-ac9a-4bc6-a11a-0ac431601ada)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,3,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54a-3702898a22b7fc3f4643cf47;4279aa76-d2c5-4a03-b2c7-480443b8ff48)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,3,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54a-2247917633fa1d470df41a57;e523c1be-74b7-4214-819c-e22d01798b4c)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,3,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54a-0c1640e0752064cb6d74232b;68fdd180-5276-4819-9474-5c534c4733c1)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,4,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54a-0b585e2d65750bd458e561fa;352da733-e3ee-43e5-b94a-5fb1b8a39ae9)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,4,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54b-3ee3ba20287430da6434dce1;6b2a53a8-c755-471e-b563-e0e74d42e03d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,4,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54b-5abb69271ad150cb56e8c659;a7fdf756-cacc-414c-b5be-9cac9c02f7a2)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,4,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54b-01118d067f29dcda64bdd34f;a542d90a-e4a6-4b8f-95b9-422137253afb)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,5,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54b-5aa9b8137b02a658227ddd50;2827521d-3277-49c7-9eef-c9edd3a9431a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,5,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54b-46b458650575bc3b79306f6a;45fb380f-784b-4034-9979-61bb8a4a0aee)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,5,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54c-580add940bec5cd11c3e5301;4a794638-88a1-487a-8afe-ec8a12a1a59f)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,5,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54c-5c1ada6d0c2fe53f432c00f2;a35f0ba3-d9a0-4931-afb1-70082bcfb4da)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,6,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54c-77feaf8f72a8696b397bdd75;6e47db91-7148-4ea3-a65f-da2e010d29a9)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,6,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54c-241102ac1aca6bb335c95324;40ecdaa9-1571-486e-8f58-64e5700d1fdd)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,6,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54c-02392f3243670d6a4951bbcf;18957d0f-b1a5-4416-bc8a-3f00462d2180)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,6,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54d-2529b42456c197f05a8f7ef0;8e2f57b9-b3fa-4ceb-85ad-4bc648ddaa3a)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,7,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54d-6e902686582802a545ef1c8d;d09979fa-25ff-449d-ac78-48da77cda4f8)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,7,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54d-1fd5d57516e9fc3a5bca5e51;832eafc8-7726-4179-b17c-faf5d8e8e046)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,7,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54d-471059f80c492583711bebad;134af672-7a99-4e31-8880-2543244d1b55)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,7,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54d-101197dc4b61e9ae03fef037;42e2ddf5-62b6-4ab7-95b0-569bc2fb4aeb)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,8,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54e-31d7158d264f95c52a8c68f4;1904f794-5769-4762-a924-8841ba87f701)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,8,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54e-5f176b3f1e9aa1076cc4185a;da0aee86-4bab-4541-8bb6-bdf4aab7ea87)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,8,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54e-35f34f9b075fc9ee3a79500c;e14f85fd-2851-4d7b-870c-5622cd6c307a)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,8,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54e-09cb21da53c529b32974aa76;260e45ab-6fbe-46db-8289-6060ff03d545)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,9,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54e-7418b4152855d2c20ce260d5;a2c9d27d-6346-4a82-9274-66105b1bf645)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,9,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54e-7d60b34d6c4afa924b6be973;e8961148-e1e6-4720-b3d3-e13a6d6e84de)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,9,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54f-0bf68c975531dd04070c1380;6f60c528-ddb0-49cd-b2c2-653926c630f7)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,9,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54f-09d12c7a31d57e8a7bae20cc;8b7017b5-298a-4533-aa60-82f9e50b2fd8)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,10,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54f-71fc3a0259d96f452a9fe04a;6cdf394a-2381-4acd-9ecf-f0b537c3586d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,10,meta-llama/Llama-3.1-8B-Instruct,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe54f-364fc853761560e2708d4393;095201c8-d617-4001-895f-63c2e2252be0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,10,meta-llama/Llama-3.2-8B-Instruct,with_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54f-5e1b085740c76eac2d307bc0;61832f54-0d62-4f95-ba15-5cb0e957cdf6)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,10,meta-llama/Llama-3.2-8B-Instruct,without_logprobs,"404 Client Error. (Request ID: Root=1-69ebe54f-7b8a33b55848231227ae0ab2;f8fbd4ac-3e25-49ee-a716-283b6c093fb4)
+
+Repository Not Found for url: https://huggingface.co/api/models/meta-llama/Llama-3.2-8B-Instruct?expand=inferenceProviderMapping.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication"
+ag_news,llama_8b,11,meta-llama/Llama-3.1-8B-Instruct,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-69ebe550-045639be06672d233ae7ac79;3499448b-dcda-4a6b-9d62-ce10e823482d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,1,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qg4shevn86pe941dz2z0a)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+ag_news,gpt_oss_20b,2,openai/gpt-oss-20b,with_logprobs,"(Request ID: req_01kq0qg5vhfya9cgmf2n1ypmaz)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+ag_news,gpt_oss_20b,2,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe566-5a198aaa4b3cb9164ac1f5f3;408f8ca5-e1d5-4a40-8962-405fa6aa37e9)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,3,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe566-403bdb875a0b375c65c69dc9;1681cffc-0c20-4e43-b02e-6ff0a4c93a68)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,3,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe566-663dd1fb29b8fdb829b96528;cd292e36-8bc7-4dfe-9c4a-6664e26ce7c2)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,4,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe566-717509675ae8ccc92a46fc82;ee1a57c9-566a-4923-acdf-8b236b64cd83)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,4,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe567-0d80629907439ab57c19d460;41687a89-dbcb-470c-b7ef-57541d14a26b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,5,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe567-7dc66e2344a860e922d16719;17aac1c1-88bb-47aa-b193-5a275afab1e4)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,5,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe567-3c1d62af20ba4dd04210ff32;d459526e-6106-49e9-a70b-8f461697e174)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,6,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe567-0e6ca37a2d22b036412874f7;093c681e-a770-44bd-bf24-92113866ff2e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe567-1da015c61552e56e51e1a223;bbab6a0d-b997-45b1-9bcf-f6b44dd14f9f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,7,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe567-585743570fa4c5be00f53436;7c16c755-1be0-4559-b76b-bf34d4ba6827)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,7,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe568-49ec49264ac790083b7b45f9;a9cf74eb-6a26-4c1e-9d7a-b32ad8255545)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,8,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe568-0b2e7c4c0d9d0d55350b3a39;3865c373-dd04-43c7-bd98-0e1fa904cd63)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,8,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe568-4303f1006b8f3d9412a9a22b;fec3911c-5d4f-47b8-b54b-c6e90e89d0a0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,9,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe568-2807bc8455810a6509a8b3a8;41062e39-34ee-4077-87e7-3bcf1eca951a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,9,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe568-13bb7574777a3fa054def8d6;e836caa0-75c4-4deb-bbe5-26b9c2f18555)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,10,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe569-77adbdbe66b699e10cc91074;cff487ac-b3b9-4b93-a600-1a35b01c6b87)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,10,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe569-4dfeecbe092176457edd46b0;2e185d8c-30b4-4979-9a1a-1fffe98ea43b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,11,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe569-0af46ff7204a19af2721fbf3;23a658f8-cf33-499f-bcf3-11a571a79823)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,11,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe569-7b27d8e04b84bf630d968c06;27ba6aef-1865-4f6b-8326-ff84d4390c7c)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,12,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe569-5c126f9039dc91874724fbfd;bffa0ed3-77a6-4d64-957f-860e0fed8166)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,12,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe569-7238ef3c0bdfd6551304a040;50db1b58-b088-4946-a88a-dbcb520b073a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,13,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56a-45d32180348f05da1b93d3ec;2bda724d-4092-4239-aefe-797ae3a2ba2d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,13,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56a-40a62eb71b341d5f053c7980;0d58c88e-ff19-4be2-8f22-a3b371d857bf)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,14,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56a-382259da2a94c0024ee2af4d;7419934a-4328-46f6-95a1-fb5275e73923)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,14,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56a-3c3964084cbd1f705d4492ae;9fdc904f-4b9d-4fcc-812c-f69f2f2d801b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,15,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56a-1e81579e16d08d173a7cbbe5;c2096d30-ea77-4258-8bd5-63dc7ebf47ab)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,15,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56a-41b917ab4c87785a69125c03;d14921cb-c569-4357-a421-5135247b2433)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,16,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56b-3c568332217aaa881019a349;66cf90d4-e1ed-4733-87c6-2af2f57ea5b9)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,16,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56b-411241ad6ad55098782e65bd;0a62a007-c1e1-41f8-bd89-5bd00ba2f242)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,17,openai/gpt-oss-20b,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56b-2f68be575ddf67fa09b317e6;9d6bcad6-01fe-43b1-96f4-2cc9c12de097)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,17,openai/gpt-oss-20b,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/groq/openai/v1/chat/completions (Request ID: Root=1-69ebe56b-2000ea4f40341e1917c0bea4;6b45704f-f851-47dc-a9c5-f01409233f42)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56b-233c446a01a48c0a080b2d66;f463ae1a-d35f-424c-8a26-1e70610e0226)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56b-599284873d0e044870290a7d;8dcbb531-186f-4d31-8dba-ccb48df8b61b)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56c-2ec3de6d042de5cd11ec7055;b7cb6987-9777-4dc0-95d7-d4074e8a6221)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56c-565fd6fb3504de4a21127631;659cc0e1-4d5c-418d-b2ff-e1a1c5c2d2f1)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56c-652eb63f45283c5d2ba935f1;9b9bef44-df0c-4aa9-bbb8-497e2797c3d5)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56c-544e61c12eeb7bc204702b38;4c0e03cd-5ef4-4aa9-a896-ca0f977a8f18)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56c-3209ce1550aa54771f0940cc;1a0a7815-5e6a-4c98-bfb9-8f7c7cefa366)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56c-20c5a99859d8c5884888f5f5;a0930f67-3f37-427a-9a8f-af26dbf6a47f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56d-758740de5bafeb190a972a9d;b0114800-cdc9-479e-bed6-a7da5887e5ce)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56d-3cbdf99e0b7d15de697477b5;1714ea0a-8272-4703-8bfd-01b0ab97abac)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56d-3a0b8e1b6f64250e4f138a11;cbb960e0-9941-4e8a-a8c6-6fe7d83e2b44)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56d-632ca5e0579ee9784b15dc8f;12355df3-de89-425a-b66e-5636984b25fe)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56d-58e7e976304dc0713320f89b;919bf805-bd96-4135-88b1-e172b956186e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56d-36aa287345ba15d9188d5385;da8ffd15-bee3-4a8c-be56-ff4199ba3436)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56e-3c747c0334bc712c170bd853;d3f0f9f5-b146-4eae-9b6d-843ef0c82b3d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56e-285ff70449023fbe01162bc9;b55c7834-e5a6-4a3a-a50b-6d3163855390)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56e-5aefc8e50ff368f86c3194ea;3c776bcb-5db7-4f4f-bf7a-8ac5cce4cbb0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56e-3f34e86e167fc2aa01e0be04;67995557-3ebf-4a39-a6a7-d80eb1445aea)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56e-3dd50d2254442b346df81613;818cf8cb-77f8-41f0-95ef-70935eece857)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56f-4202c1e217ad83cc6dac0f32;fc055dfa-820d-4670-b68c-1e98d6506df9)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,11,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56f-51fc087758db0ca620281335;d9e9899b-7af6-4238-9356-7bd687a8d29e)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,11,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56f-6df1fa9457876bde196773ea;98fbf298-8e5f-4024-919f-3cab46b335b4)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,12,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56f-244dd03e47c02b4b18f2c9ce;2d11c99f-34e4-49b1-a3d2-d1751a5832cf)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,12,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56f-1d01e66a475386535ac00356;cda611d4-d840-464f-b07f-6a6b13222e8a)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,13,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe56f-3cacb38b210d2e7712d11228;ebf01598-a955-4159-8b0b-d1ee3f016707)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,13,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe570-380af6463cd17f6c5fb9b1ed;d191d83f-b173-418d-bcb9-094f5497de89)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,14,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe570-7938347f06fd45a656fe8b62;1d490b1e-78aa-47dc-9a4c-22336cfeb58f)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,14,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe570-4b595baf70050e5a4fecb12e;1b2e0146-ba56-4065-af2e-6b96b73d06d0)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,15,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe570-3e87db2b57601ed9678d4300;6cffe007-f624-4ca1-b773-f886089072a4)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,15,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe570-4a57c1c6208fad8d3d145ecd;bae301ad-4162-4260-a54e-1e1fce818442)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,16,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe570-6f6d92f258fe683f51121759;a429ff49-7168-4ec8-ae21-7229ecac7fde)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,16,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe571-1ffbfe9e107edb7954235fbf;e4d71a86-0ee1-46c3-8c70-767720afd48d)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,17,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe571-44e8156b453a858607ab3061;0f9f834e-0201-4f4d-ab4c-fe6373642044)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,17,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,"402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-69ebe571-2b91de776985a4647758390b;02d02e51-53ae-4821-b2e4-472b2e116fda)
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."

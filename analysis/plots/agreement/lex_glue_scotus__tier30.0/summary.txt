@@ -1,0 +1,8 @@
+group_key=lex_glue_scotus__tier30.0
+dataset_name=lex_glue_scotus
+tier_size=30
+runs_with_predictions=2
+items_intersection=30
+
+Top McNemar pairs (exact two-sided p):
+(no pairs)

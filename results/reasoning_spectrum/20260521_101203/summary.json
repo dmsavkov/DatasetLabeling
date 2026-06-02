@@ -1,0 +1,18 @@
+{
+  "tiers": [
+    {
+      "tier": 5,
+      "name": "gemma_native_heavy",
+      "model_id": null,
+      "top1_accuracy": null,
+      "gold_in_set_rate": null,
+      "confusion_rate": null,
+      "n_pred_labels_zero": null,
+      "n_pred_labels_multi": null,
+      "n_pred_labels_single": null,
+      "thoughts_token_count": null,
+      "elapsed_s": null,
+      "error": "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Thinking budget is not supported for this model.', 'status': 'INVALID_ARGUMENT'}}"
+    }
+  ]
+}

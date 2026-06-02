@@ -1,0 +1,18 @@
+{
+  "dataset_name": "pubmed_20k_rct",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "google_genai_batch:gemma-4-31b-it",
+  "metrics": {
+    "f1_macro": 0.7014826555682355,
+    "accuracy": 0.77
+  },
+  "extras": {
+    "infer_time_s": 424.3808396998793,
+    "usage": {
+      "in_tokens_total": 18727,
+      "out_tokens_total": 65497
+    }
+  },
+  "created_at": "2026-05-19T19:47:47.194027+00:00"
+}

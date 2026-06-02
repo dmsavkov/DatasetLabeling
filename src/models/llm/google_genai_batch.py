@@ -116,6 +116,8 @@ class GoogleGenaiBatchParams:
     retries: int = 20
     thinking_level: ThinkingLevelStr = "off"
     include_thoughts: bool = False
+    sequential_batches: bool = False
+    """If True, run batches in order with concurrency 1 (less API jitter, slower)."""
 
 
 def _messages_to_contents_and_system(
@@ -301,7 +303,8 @@ class GoogleGenaiBatchPredictor:
             raise ValueError("allowed_labels must be non-empty")
 
         bs = max(1, int(self._params.batch_size))
-        mc = max(1, int(self._params.max_concurrency))
+        sequential = bool(self._params.sequential_batches)
+        mc = 1 if sequential else max(1, int(self._params.max_concurrency))
         items = [BatchItem(id=str(i), text=t) for i, t in enumerate(texts)]
 
         batch_list: list[tuple[int, list[BatchItem]]] = []
@@ -315,7 +318,12 @@ class GoogleGenaiBatchPredictor:
                 preds_by_id = await self._apredict_one_batch(batch, allowed_labels=allowed_labels)
             return batch_idx, preds_by_id
 
-        results = await asyncio.gather(*(run_batch(i, b) for i, b in batch_list))
+        if sequential:
+            results: list[tuple[int, dict[str, Prediction]]] = []
+            for batch_idx, batch in batch_list:
+                results.append(await run_batch(batch_idx, batch))
+        else:
+            results = list(await asyncio.gather(*(run_batch(i, b) for i, b in batch_list)))
         results.sort(key=lambda x: x[0])
 
         out: list[Prediction] = [Prediction(pred_label=None) for _ in texts]

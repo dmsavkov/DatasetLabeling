@@ -1,0 +1,4 @@
+flat_i,gold_gepa,pred_gepa,gold_baseline,pred_baseline,sentence_idx,text,gepa_ok,base_ok
+3,results,conclusions,results,results,3,Respondents ' attitudes towards generics were mostly influenced by the opinions of doctors and pharmacists .,False,True
+7,results,methods,results,results,7,"There were @ households ( @,@ individuals ) in intervention villages and @ households ( @,@ individuals ) in control villages .",False,True
+8,conclusions,background,conclusions,conclusions,8,"Effects of poverty on children 's cognition are mostly mediated through parental education , birth size , growth in the first @ months , and home stimulation in the first @ years .",False,True

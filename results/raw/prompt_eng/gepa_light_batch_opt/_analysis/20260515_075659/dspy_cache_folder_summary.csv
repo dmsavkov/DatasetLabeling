@@ -1,0 +1,17 @@
+cache_folder,cache_db_bytes,rows_scanned,rows_parsed,batch_like_hits,top_models,db_mtime_utc
+000,630784,100,100,57,"{'gemma-4-31b-it': 61, 'gemini-3.1-flash-lite-preview': 32, 'gemma-4-26b-a4b-it': 4, 'gemma-3-4b-it': 2, 'gemini-3-flash-preview': 1}",2026-05-15T07:56:59.088782+00:00
+001,626688,98,97,54,"{'gemma-4-31b-it': 49, 'gemini-3.1-flash-lite-preview': 33, 'gemma-4-26b-a4b-it': 8, 'gemma-3-4b-it': 7}",2026-05-15T07:56:59.096012+00:00
+002,638976,98,98,50,"{'gemma-4-31b-it': 43, 'gemini-3.1-flash-lite-preview': 40, 'gemma-4-26b-a4b-it': 9, 'gemma-3-4b-it': 5, 'gemini-2.5-flash': 1}",2026-05-15T07:56:59.106449+00:00
+003,753664,115,115,71,"{'gemma-4-31b-it': 68, 'gemini-3.1-flash-lite-preview': 36, 'gemma-4-26b-a4b-it': 6, 'gemma-3-4b-it': 4, 'gemini-3-flash-preview': 1}",2026-05-15T07:56:59.112873+00:00
+004,581632,83,83,49,"{'gemma-4-31b-it': 42, 'gemini-3.1-flash-lite-preview': 30, 'gemma-4-26b-a4b-it': 8, 'gemini-3-flash-preview': 2, 'gemma-3-4b-it': 1}",2026-05-15T07:56:59.119435+00:00
+005,593920,90,90,52,"{'gemma-4-31b-it': 53, 'gemini-3.1-flash-lite-preview': 25, 'gemma-4-26b-a4b-it': 9, 'gemma-3-4b-it': 3}",2026-05-15T07:56:59.124422+00:00
+006,606208,85,84,59,"{'gemma-4-31b-it': 56, 'gemini-3.1-flash-lite-preview': 17, 'gemma-4-26b-a4b-it': 8, 'gemma-3-4b-it': 3}",2026-05-15T07:56:59.132611+00:00
+007,589824,96,96,48,"{'gemma-4-31b-it': 50, 'gemini-3.1-flash-lite-preview': 34, 'gemma-3-4b-it': 6, 'gemma-4-26b-a4b-it': 5, 'gemini-3-flash-preview': 1}",2026-05-15T07:56:59.139147+00:00
+008,733184,101,101,65,"{'gemma-4-31b-it': 65, 'gemini-3.1-flash-lite-preview': 22, 'gemma-4-26b-a4b-it': 10, 'gemma-3-4b-it': 4}",2026-05-15T07:56:59.144147+00:00
+009,569344,93,93,47,"{'gemma-4-31b-it': 46, 'gemini-3.1-flash-lite-preview': 34, 'gemma-3-4b-it': 8, 'gemma-4-26b-a4b-it': 3, 'gemini-2.5-flash': 2}",2026-05-15T07:56:59.144147+00:00
+010,450560,68,68,37,"{'gemini-3.1-flash-lite-preview': 29, 'gemma-4-31b-it': 28, 'gemma-4-26b-a4b-it': 7, 'gemma-3-4b-it': 3, 'gemini-2.5-flash': 1}",2026-05-15T07:56:59.144147+00:00
+011,720896,110,110,55,"{'gemma-4-31b-it': 56, 'gemini-3.1-flash-lite-preview': 41, 'gemma-4-26b-a4b-it': 8, 'gemma-3-4b-it': 4, 'gemini-2.5-flash': 1}",2026-05-15T07:56:59.164446+00:00
+012,692224,99,99,54,"{'gemma-4-31b-it': 54, 'gemini-3.1-flash-lite-preview': 27, 'gemma-4-26b-a4b-it': 9, 'gemma-3-4b-it': 8, 'gemini-2.5-flash': 1}",2026-05-15T07:56:59.169422+00:00
+013,708608,107,107,55,"{'gemma-4-31b-it': 50, 'gemini-3.1-flash-lite-preview': 43, 'gemma-4-26b-a4b-it': 11, 'gemma-3-4b-it': 2, 'gemini-3-flash-preview': 1}",2026-05-15T07:56:59.176055+00:00
+014,798720,116,116,69,"{'gemma-4-31b-it': 64, 'gemini-3.1-flash-lite-preview': 31, 'gemma-4-26b-a4b-it': 14, 'gemma-3-4b-it': 7}",2026-05-15T07:56:59.178498+00:00
+015,638976,106,106,52,"{'gemma-4-31b-it': 56, 'gemini-3.1-flash-lite-preview': 35, 'gemma-3-4b-it': 8, 'gemma-4-26b-a4b-it': 7}",2026-05-15T07:56:59.178498+00:00

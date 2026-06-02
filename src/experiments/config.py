@@ -24,6 +24,7 @@ class GoogleGenaiChatParams(BaseModel):
     retries: int = 20
     thinking_level: ThinkingLevelLiteral = "off"
     include_thoughts: bool = False
+    sequential_batches: bool = False
 
 
 class GoogleOpenAIChatParams(BaseModel):
@@ -96,10 +97,35 @@ class SetFitParams(BaseModel):
     epochs: int = 1
 
 
+class MultilabelConfusionProbeParams(BaseModel):
+    model_id: str
+    batch_size: int = 5
+    max_concurrency: int = 5
+    temperature: float = 0.0
+    max_tokens: int | None = None
+    retries: int = 20
+    thinking_level: ThinkingLevelLiteral = "off"
+    include_thoughts: bool = False
+
+
+class SelfDebateParams(BaseModel):
+    model_id: str
+    batch_size: int = 3
+    max_concurrency: int = 5
+    temperature_a: float = 0.0
+    pass_b_temperature: float = 0.5
+    max_tokens: int | None = None
+    retries: int = 20
+    thinking_level: ThinkingLevelLiteral = "off"
+    include_thoughts: bool = False
+
+
 ModelKind = Literal[
     "google_genai_chat",
     "google_openai_chat",
     "committee_llm",
+    "multilabel_confusion_probe",
+    "self_debate",
     "sklearn_svm",
     "sklearn_logreg",
     "tfidf_xgb",
@@ -158,10 +184,22 @@ class SetFitSpec(BaseModel):
     params: SetFitParams = Field(default_factory=SetFitParams)
 
 
+class MultilabelConfusionProbeSpec(BaseModel):
+    kind: Literal["multilabel_confusion_probe"]
+    params: MultilabelConfusionProbeParams
+
+
+class SelfDebateSpec(BaseModel):
+    kind: Literal["self_debate"]
+    params: SelfDebateParams
+
+
 ModelSpec = Union[
     GoogleGenaiChatSpec,
     GoogleOpenAIChatSpec,
     CommitteeLLMSpec,
+    MultilabelConfusionProbeSpec,
+    SelfDebateSpec,
     SklearnSvmSpec,
     SklearnLogRegSpec,
     TfidfXgbSpec,

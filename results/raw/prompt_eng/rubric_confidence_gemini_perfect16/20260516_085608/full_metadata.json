@@ -1,0 +1,31 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-16T09:02:49.750536+00:00",
+  "duration_seconds": 390.2199366001878,
+  "metrics": {
+    "accuracy_excluding_abstain_error": 0.6595744680851063,
+    "n": 47,
+    "n_abstain": 0,
+    "n_error": 0,
+    "rubric_histogram": {
+      "1": 0,
+      "2": 0,
+      "3": 14,
+      "4": 33
+    },
+    "mean_confidence_rubric": 3.702127659574468
+  },
+  "settings": {
+    "MODEL": "gemini-3.1-flash-lite-preview",
+    "EVAL_LIMIT": 47,
+    "FEWSHOT_JSON_PATH": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\artifacts\\fewshot\\perfect16_google_studio.json",
+    "fewshot_n": 16,
+    "RUBRIC_LEVELS": 4,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Discrete rubric 1\u20134; abstain only at level 1. Few-shot: perfect16 pool (16 examples) + 3 rubric calibration."
+}

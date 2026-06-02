@@ -1,0 +1,12 @@
+workflow,accuracy,macro_f1,weighted_f1,adjusted_distance,parse_error_count
+exp_full_features_reasons_flash_gemma,0.12,0.09,0.062,1.44,0
+exp_representative_prompt_flash_gemma,0.08,0.06136363636363636,0.04409090909090909,1.52,0
+exp_more_fewshot_flash_gemma,0.16,0.12483660130718954,0.13712418300653595,1.44,0
+exp_calibrated_rubric_flash_gemma,0.12,0.09,0.062,1.44,0
+exp_optimized_rubric_flash_gemma,0.12,0.08444444444444445,0.05866666666666667,1.4,0
+exp_assertion_hardened_flash_gemma,0.12,0.08705882352941177,0.06023529411764706,1.44,0
+exp_batch5_flash_gemma,0.12,0.09,0.062,1.44,0
+exp_two_call_extract_statements_flash_gemma,0.12,0.1522222222222222,0.11733333333333335,1.32,0
+exp_dynamic_top3_retrieval_flash_gemma,0.16,0.11782805429864254,0.12792760180995477,1.4,0
+exp_flash_direct_predictions,0.32,0.22999999999999998,0.28600000000000003,1.32,0
+exp_moe_flash_gemma_experts,0.16,0.1252136752136752,0.13324786324786325,1.4,0

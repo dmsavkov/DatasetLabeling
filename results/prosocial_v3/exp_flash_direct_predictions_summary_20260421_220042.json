@@ -1,0 +1,23 @@
+{
+  "workflow": "exp_flash_direct_predictions",
+  "metrics": {
+    "accuracy": 0.32,
+    "macro_f1": 0.22999999999999998,
+    "weighted_f1": 0.28600000000000003,
+    "adjusted_distance": 1.32,
+    "parse_error_count": 0
+  },
+  "artifacts": {
+    "predictions_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\exp_flash_direct_predictions_preds_test25_20260421_220042.csv"
+  },
+  "extra": {
+    "prediction_model": "gemini-3.1-flash-lite-preview",
+    "batch_size": 1,
+    "statement_extraction": false,
+    "dynamic_retrieval": false,
+    "moe_experts": [],
+    "timing_seconds": {
+      "inference": 349.94382960000075
+    }
+  }
+}

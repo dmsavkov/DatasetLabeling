@@ -1,0 +1,26 @@
+{
+  "dataset_name": "banking-10",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "multilabel_confusion_probe:gemma-4-31b-it",
+  "metrics": {
+    "f1_macro": 0.9549204127675803,
+    "accuracy": 0.9555555555555556
+  },
+  "extras": {
+    "infer_time_s": 722.8377694999799,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 180,
+      "n_confusing": 20,
+      "confusing_rate": 0.1,
+      "n_zero_labels": 20,
+      "n_multi_labels": 0
+    },
+    "usage": {
+      "in_tokens_total": 55409,
+      "out_tokens_total": 47003
+    }
+  },
+  "created_at": "2026-05-19T09:42:00.553276+00:00"
+}

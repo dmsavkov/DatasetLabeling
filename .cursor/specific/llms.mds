@@ -1,0 +1,15 @@
+---
+alwaysApply: false
+description: use when working with many specified LLMs
+---
+
+**Hugging Face:**
+- Qwen/Qwen2.5-1.5B-Instruct
+- meta-llama/Meta-Llama-3-8B-Instruct
+- openai/gpt-oss-20b
+- mistralai/Mixtral-8x22B-Instruct-v0.1
+
+**DO NOT:**
+- Change the version constraints (especially transformers<5.0)
+- Use Ollama SDK anywhere
+- Use any other models unless explicitly instructed

@@ -1,0 +1,434 @@
+{
+  "accuracy": 0.9,
+  "f1_macro": 0.9072739541160594,
+  "n_samples": 70,
+  "classification_report": {
+    "balance_not_updated_after_bank_transfer": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 8.0
+    },
+    "balance_not_updated_after_cheque_or_cash_deposit": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "card_payment_fee_charged": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1-score": 0.9,
+      "support": 9.0
+    },
+    "cash_withdrawal_charge": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "declined_cash_withdrawal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "direct_debit_payment_not_recognised": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "transaction_charged_twice": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "transfer_fee_charged": {
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1-score": 0.7692307692307693,
+      "support": 8.0
+    },
+    "transfer_not_received_by_recipient": {
+      "precision": 0.5833333333333334,
+      "recall": 1.0,
+      "f1-score": 0.7368421052631579,
+      "support": 7.0
+    },
+    "wrong_amount_of_cash_received": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+      "precision": 0.9401515151515152,
+      "recall": 0.9125,
+      "f1-score": 0.9072739541160594,
+      "support": 70.0
+    },
+    "weighted avg": {
+      "precision": 0.9349567099567099,
+      "recall": 0.9,
+      "f1-score": 0.8963582032003083,
+      "support": 70.0
+    }
+  },
+  "classification_report_text": "                                                  precision    recall  f1-score   support\n\n         balance_not_updated_after_bank_transfer       1.00      0.50      0.67         8\nbalance_not_updated_after_cheque_or_cash_deposit       1.00      1.00      1.00         7\n                        card_payment_fee_charged       0.82      1.00      0.90         9\n                          cash_withdrawal_charge       1.00      1.00      1.00         7\n                        declined_cash_withdrawal       1.00      1.00      1.00         6\n             direct_debit_payment_not_recognised       1.00      1.00      1.00         6\n                       transaction_charged_twice       1.00      1.00      1.00         6\n                            transfer_fee_charged       1.00      0.62      0.77         8\n              transfer_not_received_by_recipient       0.58      1.00      0.74         7\n                   wrong_amount_of_cash_received       1.00      1.00      1.00         6\n\n                                        accuracy                           0.90        70\n                                       macro avg       0.94      0.91      0.91        70\n                                    weighted avg       0.93      0.90      0.90        70\n",
+  "n_batches": 14,
+  "batch_results": [
+    {
+      "batch_id": 0,
+      "sample_ids": [
+        "train_2566",
+        "train_4711",
+        "train_6381",
+        "train_2420",
+        "train_3330"
+      ],
+      "gold": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "pred": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 1,
+      "sample_ids": [
+        "train_2831",
+        "train_8754",
+        "train_9508",
+        "train_5027",
+        "train_7278"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "transfer_not_received_by_recipient",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "card_payment_fee_charged"
+      ],
+      "batch_accuracy": 0.6
+    },
+    {
+      "batch_id": 2,
+      "sample_ids": [
+        "train_2780",
+        "train_8658",
+        "train_9382",
+        "train_4985",
+        "train_7259"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "transfer_not_received_by_recipient",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "batch_accuracy": 0.8
+    },
+    {
+      "batch_id": 3,
+      "sample_ids": [
+        "train_2866",
+        "train_8743",
+        "train_9369",
+        "train_5034",
+        "train_7282"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_not_received_by_recipient"
+      ],
+      "batch_accuracy": 0.8
+    },
+    {
+      "batch_id": 4,
+      "sample_ids": [
+        "train_2736",
+        "train_8640",
+        "train_9379",
+        "train_7171",
+        "train_2609"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "transfer_fee_charged",
+        "card_payment_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "transfer_fee_charged",
+        "card_payment_fee_charged"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 5,
+      "sample_ids": [
+        "train_2731",
+        "train_8771",
+        "train_9471",
+        "train_5015",
+        "train_7233"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "transfer_not_received_by_recipient",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "batch_accuracy": 0.8
+    },
+    {
+      "batch_id": 6,
+      "sample_ids": [
+        "train_2684",
+        "train_4765",
+        "train_6427",
+        "train_2369",
+        "train_3301"
+      ],
+      "gold": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "pred": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 7,
+      "sample_ids": [
+        "train_2631",
+        "train_4801",
+        "train_6326",
+        "train_2495",
+        "train_3347"
+      ],
+      "gold": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "pred": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 8,
+      "sample_ids": [
+        "train_8716",
+        "train_7166",
+        "train_2515",
+        "train_4709",
+        "train_6396"
+      ],
+      "gold": [
+        "balance_not_updated_after_bank_transfer",
+        "transfer_fee_charged",
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice"
+      ],
+      "pred": [
+        "balance_not_updated_after_bank_transfer",
+        "transfer_fee_charged",
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 9,
+      "sample_ids": [
+        "train_2656",
+        "train_4739",
+        "train_6460",
+        "train_2476",
+        "train_3302"
+      ],
+      "gold": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "pred": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 10,
+      "sample_ids": [
+        "train_2627",
+        "train_4654",
+        "train_6339",
+        "train_2490",
+        "train_3478"
+      ],
+      "gold": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "pred": [
+        "card_payment_fee_charged",
+        "direct_debit_payment_not_recognised",
+        "transaction_charged_twice",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "batch_accuracy": 1.0
+    },
+    {
+      "batch_id": 11,
+      "sample_ids": [
+        "train_2845",
+        "train_8737",
+        "train_9441",
+        "train_5031",
+        "train_7309"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "card_payment_fee_charged"
+      ],
+      "batch_accuracy": 0.8
+    },
+    {
+      "batch_id": 12,
+      "sample_ids": [
+        "train_2855",
+        "train_8659",
+        "train_9370",
+        "train_4951",
+        "train_7260"
+      ],
+      "gold": [
+        "transfer_not_received_by_recipient",
+        "balance_not_updated_after_bank_transfer",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "pred": [
+        "transfer_not_received_by_recipient",
+        "transfer_not_received_by_recipient",
+        "cash_withdrawal_charge",
+        "declined_cash_withdrawal",
+        "transfer_fee_charged"
+      ],
+      "batch_accuracy": 0.8
+    },
+    {
+      "batch_id": 13,
+      "sample_ids": [
+        "train_2586",
+        "train_2393",
+        "train_3458",
+        "train_2513",
+        "train_3384"
+      ],
+      "gold": [
+        "card_payment_fee_charged",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit",
+        "card_payment_fee_charged",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "pred": [
+        "card_payment_fee_charged",
+        "wrong_amount_of_cash_received",
+        "balance_not_updated_after_cheque_or_cash_deposit",
+        "card_payment_fee_charged",
+        "balance_not_updated_after_cheque_or_cash_deposit"
+      ],
+      "batch_accuracy": 1.0
+    }
+  ]
+}

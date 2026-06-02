@@ -1,0 +1,19 @@
+{
+  "dataset": "banking-10",
+  "gepa_sets_dir": "data\\huge_prediction_representatives\\banking-10\\20260520_115528",
+  "executor_model": "gemma-4-31b-it",
+  "reflector_model": "gemini-3.1-flash-lite-preview",
+  "batch_size": 5,
+  "minibatch_size": 4,
+  "num_candidates": 20,
+  "init_temperature": 1.0,
+  "num_shots": 0,
+  "max_bootstrapped_demos": 3,
+  "seed": 42,
+  "train_batches": 10,
+  "val_batches": 14,
+  "compile_seconds": 7777.359900199808,
+  "val_f1_macro": 0.9072739541160594,
+  "val_accuracy": 0.9,
+  "compiled_program_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\gepa_mipro\\banking-10\\optimize\\20260521_072114\\compiled_program"
+}

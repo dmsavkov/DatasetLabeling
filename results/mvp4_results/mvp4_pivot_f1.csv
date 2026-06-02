@@ -1,0 +1,6 @@
+dataset,gemini-3.1-flash-lite-preview_n30,gemma-3-4b-it_n30,setfit_MiniLM_n100,setfit_MiniLM_n1000,svm_tfidf_n100,svm_tfidf_n1000,xgboost_tfidf_n100,xgboost_tfidf_n1000,xgboost_tfidf_n2089,xgboost_tfidf_n5000
+ag_news,0.9329,0.8639,0.8687,0.8857,0.5967,0.8154,0.2927,0.109,,0.1121
+glue_sst2,1.0,1.0,0.7373,0.8242,0.5286,0.6803,0.4564,0.529,,0.5274
+lex_glue_scotus,0.2897,0.014,,,0.2924,0.5136,,0.131,,0.0211
+reward_bench,0.5167,0.5175,0.4373,0.5517,0.3313,0.4592,0.1041,0.1909,0.0492,
+tweet_eval_sentiment,0.8983,0.7211,0.565,0.6169,0.333,0.3894,0.3533,0.2975,,0.2758

@@ -1,0 +1,21 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-17T08:25:13.236309+00:00",
+  "duration_seconds": 634.7876885998994,
+  "metrics": {
+    "accuracy_excl_error": 0.7,
+    "n_error": 0
+  },
+  "settings": {
+    "MODEL": "gemma-4-31b-it",
+    "EVAL_N": 30,
+    "MIN_PER_CLASS": 5,
+    "FEWSHOT_N": 8,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Single-shot JSON classification; Gemini 3.1 default; stratified eval subset."
+}

@@ -1,0 +1,45 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-15T08:12:48.441631+00:00",
+  "duration_seconds": 565.5106599999126,
+  "metrics": {
+    "accuracy_excl_confusing": 0.6666666666666666,
+    "n": 20,
+    "n_confusing": 14,
+    "n_multi_match": 14,
+    "n_no_match": 0
+  },
+  "settings": {
+    "TOP2_MODEL": "gemma-4-31b-it",
+    "MATCH_MODEL": "gemini-3.1-flash-lite-preview",
+    "EVAL_LIMIT": 20,
+    "sample_ids": [
+      "test_17516",
+      "test_14870",
+      "test_8133",
+      "test_17934",
+      "test_18599",
+      "test_11745",
+      "test_27024",
+      "test_13952",
+      "test_10035",
+      "test_18679",
+      "test_5379",
+      "test_3875",
+      "test_21665",
+      "test_1627",
+      "test_6718",
+      "test_24798",
+      "test_17367",
+      "test_12888",
+      "test_13953",
+      "test_24822"
+    ],
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Gemma top-2 shortlist + Gemini boolean verifier per candidate; multi/no match \u2192 confusing."
+}

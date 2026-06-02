@@ -1,0 +1,23 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-11T09:26:44.831851+00:00",
+  "duration_seconds": 239.01722820010036,
+  "metrics": {
+    "accuracy": 0.8333333333333334,
+    "n_rows": 30
+  },
+  "settings": {
+    "FIRST_PASS_MODEL": "gemma-4-31b-it",
+    "SECOND_PASS_MODEL": "gemini-3.1-flash-lite-preview",
+    "BATCH_SIZE": 5,
+    "RETRIEVE_PER_LABEL": 5,
+    "TOP_M_PER_LABEL": 2,
+    "FULL_N": 30,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "First pass multi-label candidates \u2192 stratified retrieval + cross-encoder rerank \u2192 contrastive final judge."
+}

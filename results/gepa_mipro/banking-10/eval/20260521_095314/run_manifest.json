@@ -1,0 +1,14 @@
+{
+  "program_dir": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\gepa_mipro\\banking-10\\optimize\\20260521_072114\\compiled_program",
+  "eval_parquet": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\processed\\banking-10\\test\\tier_20\\samples.parquet",
+  "eval_tier": 10,
+  "eval_max_rows": 10,
+  "eval_rows_used": 10,
+  "dataset": "banking-10",
+  "batch_size": 5,
+  "n_batches": 2,
+  "n_sentences": 10,
+  "f1_macro": 0.7666666666666666,
+  "accuracy": 0.9,
+  "elapsed_s": 284.1529226000421
+}

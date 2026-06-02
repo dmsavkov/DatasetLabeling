@@ -10,12 +10,14 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
 	"fastembed>=0.7.1",
+	"dspy-ai>=2.6.0",
 	"numpy>=1.26.0",
 	"openai>=1.58.0",
 	"pandas>=2.2.0",
 	"pyarrow>=16.0.0",
 	"pydantic>=2.8.0",
 	"pyyaml>=6.0.2",
+	"loguru>=0.7.0",
 	"python-dotenv>=1.0.1",
 	"scikit-learn>=1.5.0",
 	"cleanlab>=2.7.0",
@@ -26,6 +28,8 @@ dependencies = [
 	"umap-learn>=0.5.6",
 	"xgboost>=2.0.0",
 	"google-genai>=1.74.0",
+	"matplotlib>=3.8.0",
+	"tqdm>=4.66.0",
 ]
 
 [tool.hatch.build.targets.wheel]
@@ -37,3 +41,13 @@ addopts = "-q"
 markers = [
 	"llm: live tests that hit external LLM providers (requires RUN_LLM_TESTS=1 and API keys)",
 ]
+
+[tool.basedpyright]
+exclude = ["**/*.ipynb"]
+ignore = ["**/*.ipynb"]
+typeCheckingMode = "off"
+
+[tool.ruff]
+exclude = ["**/*.ipynb"]
+ignore = ["**/*.ipynb"]
+typeCheckingMode = "off"

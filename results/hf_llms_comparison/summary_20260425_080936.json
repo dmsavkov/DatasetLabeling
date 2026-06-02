@@ -1,0 +1,28 @@
+{
+  "timestamp": "20260425_080936",
+  "n_prediction_rows": 600,
+  "n_unique_samples": 150,
+  "datasets": [
+    "ag_news",
+    "social_bias_frames",
+    "tweet_sentiment"
+  ],
+  "models": [
+    "qwen_1_5b",
+    "llama_8b",
+    "gpt_oss_20b",
+    "mixtral_8x22b"
+  ],
+  "resolved_model_ids": {
+    "llama_8b": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "gpt_oss_20b": "openai/gpt-oss-20b"
+  },
+  "logprobs_available_rate": 0.25,
+  "files": {
+    "predictions_long_csv": "results/hf_llms_comparison/predictions_long_20260425_080936.csv",
+    "predictions_long_jsonl": "results/hf_llms_comparison/predictions_long_20260425_080936.jsonl",
+    "predictions_wide_csv": "results/hf_llms_comparison/predictions_wide_20260425_080936.csv",
+    "metrics_csv": "results/hf_llms_comparison/metrics_20260425_080936.csv",
+    "errors_csv": "results/hf_llms_comparison/errors_20260425_080936.csv"
+  }
+}

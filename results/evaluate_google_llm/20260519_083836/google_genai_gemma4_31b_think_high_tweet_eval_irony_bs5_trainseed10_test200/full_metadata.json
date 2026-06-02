@@ -1,0 +1,16 @@
+{
+  "saved_utc": "2026-05-19T09:12:15.190076+00:00",
+  "duration_seconds": 590.4831878999248,
+  "metrics": {
+    "f1_macro": 0.9134221181024165,
+    "accuracy": 0.915
+  },
+  "extras": {
+    "infer_time_s": 589.512877699919,
+    "usage": {
+      "in_tokens_total": 26484,
+      "out_tokens_total": 31228
+    }
+  },
+  "notes": null
+}

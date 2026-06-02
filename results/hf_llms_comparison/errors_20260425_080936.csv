@@ -1,0 +1,633 @@
+dataset,model,batch_no,model_id,stage,attempt,error
+tweet_sentiment,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec71ed-79d39388617d826845e3263f;7542d6ba-199e-49ea-a9f6-3e1bd1ecee7b)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec71ed-424130d979d6320b5156d1d3;843f61c2-3abd-439b-bab4-2528ed8f6fd5)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,gpt_oss_20b,1,openai/gpt-oss-20b,with_logprobs,1,"(Request ID: req_01kq1st4kye29vsfczwaj84ykb)
+
+Bad request:
+{'message': '`logprobs` is not supported with this model', 'type': 'invalid_request_error', 'param': 'logprobs'}"
+tweet_sentiment,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec71f1-702f619f78231a76199e7890;5179ccc9-c8b6-4c0f-8d9b-73af578ada66)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec71f1-4896f6da424b4bd009605cba;da979eac-b8d5-49e4-ace7-3b5598edc44e)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec71f1-7e7049d7611099aa6d23af88;aac90a0b-289e-4d98-b1f9-860361bdfa55)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec71f1-3bd7121b6d00ffa929046532;9f5b1227-2b89-4165-935f-984d37ca1b98)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec71f5-704f04e761ec169f754c28b7;486abab0-8723-47d3-9ea9-48b5493b8025)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec71f5-052c27001d487bcf6c4f84c1;eeccb641-8724-43d3-a150-8a5ae8b6ab29)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec71f5-3c187c3b1e31f0066088f09e;0574c0c8-0748-4a13-b397-a3892597f115)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec71f5-25d1f5a4026d1fec3b811829;d41db06d-9fcd-4b9e-8955-312b62dd7119)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,llama_8b,3,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec71f5-58eac2911d7236aa0673f9a8;64c01a21-8b17-464b-a5d5-894ca0431cb1)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,llama_8b,3,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7213-01c3b2da6dfb35f632652300;e15882e9-b810-47a9-81ea-a1bda73cdeff)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7235-052e4b9027bb19d409c2d7dd;a7713f57-bdd0-42f1-9523-8c25cb8f0dd7)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7235-0fecb9fc55aa78ce72b5a5e3;40aefbd9-572f-4a98-92c1-320768aa271d)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7236-27984bac1facbd51357c3c8b;5fd1705e-0965-4cd9-a06e-9d0c26994b28)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7236-3e5406490ed082b12c2b10ac;9e60fee0-c251-4555-a5fb-609e29a9d154)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec723a-5ffb4a0b4d462dac54e010fd;821e34eb-f5bd-49b0-b6af-4e914a9a1557)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec723a-2c2defd54674de741925b9ac;8da9d23d-c61b-4256-96ad-1e276bbc9024)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec723a-1ccb7ba0605b6b3d729394d6;79f4f627-efbd-4306-b2ec-b1bda4904a6c)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec723a-202621b94778909d67ff55f3;0481be52-8730-429f-ad2b-2ed9bb132b1d)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,llama_8b,5,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec723a-1c8db4d94adfe2307bc1724e;b643a315-1405-4da2-8998-ca0b224acfca)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,llama_8b,5,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7258-5d894ac9037e58162a851a3a;bb7791a5-e5ee-43d4-8739-62213d8612a3)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec727b-34d1898c49c12ed97cb1e3d2;3471f7dd-932f-4aee-9da1-629e140eb704)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec727b-5dbca7bb70aaf5df514aa6b9;39af7594-955a-4a4c-b2f4-8362e66eb12b)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec727b-35b3639d1495715f1acaac42;e5800c54-7892-4853-8266-7d384c42e196)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec727b-7a789c7056fcde5d75735ec3;ab433ed5-2842-4595-b4b6-5b35d06ebb7f)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec727e-264270071de002782dee6686;4443f976-c2e4-4bef-9c20-13df385c88e9)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec729c-606110987fcb34914309cddb;5cacb74c-918a-472e-b45f-d622774bdc52)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec72bb-62f20e2c5d71c6054833865f;2b8805fe-1ba6-43ff-a68f-2341a2ac91f0)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec72bb-1c4189964054f59d660c585b;87fc947c-1e85-4f1e-a17d-7f84d9102fd7)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec72bb-5f3f62a14e6fa51f013bcfec;582379f4-cdb8-4d47-a229-b571c4ea10e5)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec72bb-2c83b76d000690841e5deb2c;6898194f-8738-481a-9fde-45e693e39575)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec72bf-441196e0041a46d03a809cbf;f8d51de1-2898-482a-b0d8-59d2febe379e)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec72bf-5825baf42f47c88741fb6478;21ad5430-af32-468f-8e3c-ec6e4730334f)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec72bf-746a9a3062116b0a73e656b4;e46b72c8-770b-412c-8458-eb6fcc339d76)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec72bf-2f6555fd6b66aab92cc7fb74;4e92be8a-dd27-40ba-98cc-c1836f8889e7)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,llama_8b,8,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec72bf-63427b3f7858d3cc798ec7fc;9ca5a023-a1ff-4483-bd24-5b95c71e078a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,llama_8b,8,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec72de-00fb89377a0ffaeb20cbd42e;3bb27874-dab0-4096-85d0-40fe596193dc)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec72ff-084276e706cc70eb74c39db7;922f4a2e-aab9-49d1-b601-444460524633)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec72ff-1e36e40c34e2b8cc065e6be0;8909f3b9-dbcc-4ac4-85ec-f30f119f162d)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec72ff-51e773562c8f98924e9e0892;1539ad3f-5ad6-44a8-95cf-ee284eeaf801)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec72ff-1b34393c66e280a25b4afec5;e36b762e-8630-4c53-9a6a-1ee4ec9bbd56)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,gpt_oss_20b,9,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7302-0c7f3db04d9b528608af04e7;bdce0980-7381-4c57-852b-ae140ba76ebf)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+tweet_sentiment,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7321-206d206a17f3c87666bdffd2;46526661-4758-43f3-b416-ed47f11619ba)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7321-4e431b332ca60bc40585ab6a;29bfa36c-f85d-4ae3-81b8-a4a756d12040)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7321-5c645c7e696c88b2122e8e15;533c2679-41a8-468d-a9f9-66ebf64f024c)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7321-7ef1e9305d6014c113af79d2;c62a461e-5f1a-4ee8-bc9b-5e12403ffc14)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7324-71702a395c2ebf6b0925b916;9a7d438f-3f12-475c-a741-d99d98f61678)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+tweet_sentiment,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7324-3091c66446a7979f6c6cbb68;01c94f06-4313-4899-b2b0-828ed86cb30e)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7324-1c7f2835748d50147b144df2;40a03322-a2ef-475d-a777-ddcba7f79bb7)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7325-4424f3df11eaaafc7bcd9701;59adaaf1-5be3-4bdb-b5f4-0596306d38dd)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,llama_8b,1,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7325-6c0db7fe2973a0e558d65c19;ee594de9-f35f-4a5d-adc9-c49047f0768e)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,llama_8b,1,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7343-0e63230239dfffa2557e0547;61ffac17-b0fe-4833-a5b5-270b1eaf2e85)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7364-14f0f3597f68f3c41c8bf498;25dd0bc7-0e48-47fd-a1b9-d682eb719f95)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7364-6ab761aa20c30b8b4d97b0b7;0f7706bb-a17f-4e64-a8dd-ea1dfa352ad5)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7364-247deda350d51bf77bec81ca;69b2834f-c27e-41da-8063-79cf360e9e81)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7364-74f3cb7c5471cc081dd0958c;bcb19243-9888-49fe-a3db-a861e5cc083f)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,gpt_oss_20b,2,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7367-0d9490901b4a23ed0d73260c;4c4cef4a-e682-49f4-849b-f5636c96cb7a)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,gpt_oss_20b,2,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7385-3b0048b04adb5c9800e238e5;3bd6e671-9d8f-4680-8e0b-486cbe64c364)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec73a4-6e9cad8a5605956e418034a7;634b717a-d7c9-42ef-9cff-d2847d393d6d)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec73a4-676b6e9f79024a655eec2084;45c711b8-a3ed-4155-b7ec-acdd85c6a1d4)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec73a4-6367d3047a23936560af0344;e33cbbb7-1a65-48a3-8ac9-f77a394045db)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec73a4-467d06377962478d1904135d;e7a0cbee-8010-481b-98c3-0cf882a9dc45)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec73a8-06b44aef3ea6288e36863df7;86831417-9897-4ba2-812e-747ac2a0a5d5)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec73a8-4acb997d4426f33465f12d9e;85631644-c40a-45d3-ad75-c86c96654c96)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec73a8-225fe6753ea423ac4ff43e05;4d08d48e-9ee0-4ca9-a796-f06d98061798)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec73a8-5bbe0f8f0d7aca9c3206936b;54c9a679-39f8-4580-b89b-8af3852c1ec6)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,llama_8b,4,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec73a8-60ca37350b205ff51732376c;7b63a688-5569-48ee-9315-1502285d4cd5)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,llama_8b,4,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec73c6-7845a9781d6bd2904775f4c3;f08d707b-457c-48e8-aecf-fbe1aab076bc)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec73e8-22951c1d6cbbaf8804b7f9c6;4794e29f-8d2d-4795-9eb3-be97108cb71f)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec73e8-23789ee81453b008703038df;9720adff-5b68-44c8-9ba4-6b1c4c4c1eac)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec73e8-122e59b5720fe7433fc97a24;e5f93d14-f565-4a9c-8620-e74346f60de1)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec73e8-7b4119da3dcd2ddc37a3c8c8;c04cfab8-4bbf-48c1-8f74-c9a13c429977)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,gpt_oss_20b,5,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec73eb-3ad4589a4fbff0631740df6c;ee9d35e6-46d6-41b3-8b8e-cfe3d3609911)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,gpt_oss_20b,5,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7409-465d563b577ad8ea7015de7f;1c35b267-7ddd-4902-912a-8ec0f90b434d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7428-7ee66d09037db7df7a8d9621;daadbe0d-90f3-45a9-9858-b99960873b0d)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7428-2eb4670428a47d78609b2765;4dbbabd2-44b1-4f31-baa0-4a607ab80fec)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7428-520b80ae6bd69643101d471a;dfdcee9f-c073-457d-914e-4ed8d5722abf)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7428-5a8969ac146d240901cf40ff;1b437205-0059-4c72-9d29-f4eff5e91827)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec742b-4f7779e0231d4cd72c01d124;779df068-00dc-4fa4-b61f-0552d6392698)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec742c-2b0045e9068d028c62663f09;ebb427bd-b428-4934-9372-a83c077c29e6)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec742c-30cba1d529a6ecdf5135f423;0c5601ac-4ce8-45d3-9156-a6764fa9a3cd)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec742c-43870ae5623dae446b5ab3a2;a1721d6d-6c14-4971-82b9-6be1558f7ca7)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,llama_8b,7,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec742c-19cf8caa167b290c43fd6c69;9d839510-d993-4f4e-a60d-37c9fd8a85a0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec744e-667412e750647cd119fa1fe3;f86b4c7a-9ecc-4ba7-96e9-f8d0b08ab08b)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec744e-7858eeeb0dde362231747425;60e17723-69b0-4fbd-8f4c-27cadb4bc6ef)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec744e-33854cb47f8709dd49249082;0e5e0dac-203b-42ea-bd65-690645f1c2c8)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec744e-0ddb9c48369731202ae2f762;a48b8fbd-495d-41f5-8e41-252d66a32888)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,gpt_oss_20b,8,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7451-33e459374f4d68394c0b78c2;03abf487-5074-45bb-b95f-cd30499022df)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,gpt_oss_20b,8,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec746f-37be96336191d08736c51e75;ad0112e9-79c6-45ee-877a-1f6d73528ee6)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec748e-667f48d533f0928a20a7c2dd;0eb04b04-536e-46f8-9266-aea031d7c8d4)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec748e-79e11c8d78c8c73a6b77bea2;564b71bc-e4f8-4e06-9913-99998ba3465d)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec748e-1a74b670791121e13a73af06;dfe97b8d-36f4-49a9-87ac-731a650f729b)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec748e-188d971609facdbe102dda25;2c88dd03-c6f7-470b-be14-8c0ebd0faa92)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7493-75f07cda5bb9476a3183edd9;34a865cc-31b1-4cb8-9210-751ebbb4681e)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7493-74ed72953dddfe62573e303e;07541486-fe4d-4c7d-8357-f0ce17f62d58)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7493-798eab777d93f77b57bcb54c;a4cddf9d-ef18-4276-9a90-9e077d7a5b22)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7493-278c035761286125562105b8;0dd662ef-f0d6-46fc-9e9b-c90d291f5a37)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,llama_8b,10,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7493-7b7d88bb1a56891836f7ba5f;1731a1e9-d91a-4480-8399-cb5e5599de64)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,llama_8b,10,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec74b1-2515ae777ec3e4ce5571eee8;d7d4dae1-eb0b-4791-828f-9c7ce6cec1a8)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+social_bias_frames,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec74d3-630fe95055def8c312441462;3502259c-f75a-4157-81af-b67cf7dfb588)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+social_bias_frames,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec74d3-5050900412386ebb5cc458d9;04af4228-c728-4970-bba0-153cda7114e5)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec74d3-1ffc069328028acb374c93b7;1098b388-5fcc-4399-9fcc-9bb235843783)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,1,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec74d4-221544381502b0b5114f9f19;d046f1b4-faad-43b1-96cd-5523d48c7783)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,gpt_oss_20b,1,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec74d7-2902110a2fd0eaa86ac018f7;c4928ef7-1958-419b-baa7-391fb67a1e7c)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,1,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec74f5-660953c2685617896a7b8fc6;915d3608-abf8-4127-88e7-40e80b40145d)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7514-05bc4f912755c0074a58dddd;f8902e1c-add8-43c8-8845-312fac04cb91)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,1,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7514-67a6bdf64d250c5c075a8618;fd3e71b6-9c6a-4213-8be2-5748236e6bb8)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7514-33b632355529279b08c5346d;71c53813-590f-4efc-8bb8-597b535a05cd)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,2,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7514-16b7098a4a61884154d4a42e;b38baed8-dae6-47f8-a979-5c565a2895b9)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7518-1a5f353929a81594628041fa;213850c7-99a5-4b94-9cb3-1b68beac5897)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,2,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7518-7a1bab0e5c1ab44c2543d011;62aacb71-10d7-4924-b149-74c9a7304495)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7518-6f0ce8f33716594e0e177d69;73f02486-c4b2-4139-9842-04e21d1fdc15)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,3,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7518-531d7c9b63060de170fab0d1;4c402767-fff1-450d-81dd-cd2ab4529b25)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,llama_8b,3,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7518-66b52450016c61a411f0c1be;c89a32b6-1fa5-431c-8348-e1ea75d17993)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,3,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7536-0358c2576a78384113895116;20027d25-9a7c-4dc3-9c04-d05dd03b3de0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,3,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7557-63ddcb1873b932c23e667f30;e83e13b8-47d3-4ace-8c0b-9f046c206bc2)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec7576-1bd3873366908f3538106987;1d3def46-4274-4a18-b37c-b7454da3f831)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,3,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec7576-38b3baef16ad34a46f24720e;eec3c389-1611-4811-add6-48c69534bb8f)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec7576-6cbef5410dbbe58b447fced5;a00d12d3-04c8-49a0-9578-4d29d01df8ae)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,4,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec7576-6a6a327352afe4f964ff11f5;31adbb6a-5c2d-468e-b527-19895f6ae819)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec757a-34211c153eef0f1d4add7ea9;40b9d5be-829a-4be8-889e-942f468287ab)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,4,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec757a-422046220dd55c8541386f52;6b385ee5-6424-44f8-b4e8-3a45c4c6827e)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec757a-5e1af9946758bf200095b297;3488f72c-ba8f-4f7f-a023-80dd52b3a10b)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,5,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec757a-51c76f945b7b04520361992b;8741a2dc-1a49-4b5b-95aa-4908285d1ecb)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,llama_8b,5,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec757a-1c191d593bc2249876e6bbf9;067e0d01-9791-469d-9cf2-cf71b182d322)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,5,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec7599-5c25184c2e3a477137b97bec;05fda09f-ccb8-400b-a3cc-126888492675)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec75bb-29fb1c0d7231d3f73f7e0b4d;a7f40007-b53a-46fd-b414-900be16d82cb)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,5,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec75bb-4831035e4001ec7b7ec65ea1;c2544488-b583-4916-abde-d62a076a8c8f)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec75bb-16b11db52a11bc7e4fe3e1ad;49574b13-4a8c-4596-8dca-6b22779a62ab)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,6,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec75bb-54b0ab1500a710fe613a1f12;ca8ea7b7-6b7f-4c90-95b8-9540cc3d38f8)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec75be-007450770c3f7dc16b507296;c18558e3-979b-40d1-8b0c-10c0b913b5ae)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,6,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec75dc-05971f9608950cc6230aa143;97794a53-c871-4d7d-a6be-17b8f003d1cd)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec75fb-1cf775462a3babd031376a21;040cdde1-dedb-490a-828f-9d9d60dfbceb)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,6,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec75fb-6504b5ff3d9eb3d2028dadda;760add63-e8e4-4df3-8c72-9ebc7c99cdcc)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec75fb-66b5a544330d85a80ca99274;45af90ed-72dc-43a1-900c-5118431951ce)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,7,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec75fb-3b4dfe862d7bf4ee4af98af6;b687f471-2d4f-4057-a5a9-a69b81e0ca2f)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec75ff-2af098e715567e89608a6940;18b76a3f-ca51-43e0-b701-a82e607537d0)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,7,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec75ff-16f5e47b495ce2f10b2acf2d;079ea645-1ecc-434c-83f5-f432e8db13c1)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec75ff-7206cd5e2eb8efec676e239c;d70ae28b-861d-4091-adce-2d082d7740c3)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,8,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec75ff-0c66f7294623189e00997968;499c1ef8-f2b5-448c-9a73-e70bf8c9612c)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,llama_8b,8,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec75ff-3e9a561d1ce3ae164a274608;f918f76f-4936-4f2f-8cb8-f1f837342bc1)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,8,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec761d-060f53f506ce7aad5884a1f8;fc6e5307-86ac-4e96-8b3e-328a66e28ab0)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,8,openai/gpt-oss-20b,without_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec763e-2712473a5574a6be1462e1ff;da99952a-2ee7-4fc6-8aad-939ca8ea44aa)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,gpt_oss_20b,8,openai/gpt-oss-20b,without_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec765c-0a8d0b0b1cb42f6876b098c7;9f035ac1-686e-4a42-bb8a-b4a9a717f057)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec767b-2955fc156bcc37ec197e1dc4;815d8589-4dd2-4841-9b87-a0e22f6e0a9e)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,8,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec767b-597aaa3775133d4619bada64;d7c17a85-233e-4755-aaca-eabdbd38058a)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec767b-43633e8d57f3995559f4238e;3d8f2056-7717-4efa-b4e8-d472807d64df)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,9,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec767b-128a47d804c171443312bbb8;89ef7313-94f7-4785-9509-f9da7a4e0abe)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec767e-792fd49e1f35ad4f0ff91879;2008d662-2ed2-4c08-8924-9413263f7b46)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,9,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec767f-23300d6b3699248d65062dec;63a872a6-f6b1-4ce7-8a2a-d7e7f7bfb2f3)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,with_logprobs,1,"(Request ID: Root=1-69ec767f-0c1bbc0f43bfb23062c9b713;93defb10-ba90-41d9-8779-3ade519d6937)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,qwen_1_5b,10,Qwen/Qwen2.5-1.5B-Instruct,without_logprobs,1,"(Request ID: Root=1-69ec767f-4fd6ef547e6933637f5ff521;8f1d75c6-5d26-41f8-ad06-80bda5750c7c)
+
+Bad request:
+{'message': ""The requested model 'Qwen/Qwen2.5-1.5B-Instruct' is not supported by any provider you have enabled."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,llama_8b,10,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,1,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec767f-65bdb07768272bea650f2afc;3982e5f5-6db9-4160-abd6-7e087b484097)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,llama_8b,10,meta-llama/Meta-Llama-3-8B-Instruct,with_logprobs,2,"Client error '402 Payment Required' for url 'https://router.huggingface.co/v1/chat/completions' (Request ID: Root=1-69ec769d-732e87ce3de6a6637525e935;b2693eba-7919-4e41-83f6-7eb15d366d9b)
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+
+You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage."
+ag_news,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,with_logprobs,1,"(Request ID: Root=1-69ec76bf-46ac7fda3f5224f64374f4f2;2aab725c-9bae-4f73-9278-400e4f3b82fb)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"
+ag_news,mixtral_8x22b,10,mistralai/Mixtral-8x22B-Instruct-v0.1,without_logprobs,1,"(Request ID: Root=1-69ec76bf-3a7dbb4003274e6230977a84;ef8eb582-3abd-4cc4-a632-a55a8ebe58cf)
+
+Bad request:
+{'message': ""The requested model 'mistralai/Mixtral-8x22B-Instruct-v0.1' is not a chat model."", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}"

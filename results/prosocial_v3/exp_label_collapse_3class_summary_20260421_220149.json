@@ -1,0 +1,13 @@
+{
+  "workflow": "exp_label_collapse_3class",
+  "based_on": "exp_full_features_reasons_flash_gemma",
+  "metrics": {
+    "accuracy": 0.56,
+    "macro_f1": 0.3074074074074074,
+    "weighted_f1": 0.5231111111111111,
+    "parse_error_count": 0
+  },
+  "artifacts": {
+    "predictions_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\exp_label_collapse_3class_preds_test25_20260421_220149.csv"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_slug": "bootstrap_batch_cot",
+  "run_id": "20260512_102342",
+  "started_utc": "2026-05-12T10:23:42.030907+00:00",
+  "settings": {
+    "PRELIM_N": "5",
+    "PRELIM_ONLY": "1",
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+  "prompt_eng_results_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+}

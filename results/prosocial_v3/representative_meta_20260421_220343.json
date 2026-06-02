@@ -1,0 +1,104 @@
+{
+  "fastembed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "unanimous_total": 86160,
+  "representative_total": 86160,
+  "top100_total": 61,
+  "kmeans": {
+    "casual": {
+      "status": "ok",
+      "k": 20,
+      "size": 23903,
+      "cluster_counts": {
+        "0": 1205,
+        "1": 1506,
+        "2": 1910,
+        "3": 1420,
+        "4": 586,
+        "5": 770,
+        "6": 1695,
+        "7": 1408,
+        "8": 1275,
+        "9": 889,
+        "10": 641,
+        "11": 1966,
+        "12": 887,
+        "13": 1000,
+        "14": 994,
+        "15": 1004,
+        "16": 1003,
+        "17": 724,
+        "18": 1768,
+        "19": 1252
+      }
+    },
+    "possibly_needs_caution": {
+      "status": "empty",
+      "k": 0,
+      "size": 0
+    },
+    "probably_needs_caution": {
+      "status": "empty",
+      "k": 0,
+      "size": 0
+    },
+    "needs_caution": {
+      "status": "ok",
+      "k": 20,
+      "size": 59339,
+      "cluster_counts": {
+        "0": 3052,
+        "1": 2463,
+        "2": 3263,
+        "3": 2240,
+        "4": 4034,
+        "5": 2212,
+        "6": 2486,
+        "7": 1962,
+        "8": 4264,
+        "9": 3878,
+        "10": 3146,
+        "11": 3503,
+        "12": 2573,
+        "13": 1601,
+        "14": 2793,
+        "15": 1293,
+        "16": 4254,
+        "17": 2999,
+        "18": 3837,
+        "19": 3486
+      }
+    },
+    "needs_intervention": {
+      "status": "ok",
+      "k": 20,
+      "size": 2918,
+      "cluster_counts": {
+        "0": 137,
+        "1": 202,
+        "2": 138,
+        "3": 245,
+        "4": 102,
+        "5": 148,
+        "6": 81,
+        "7": 148,
+        "8": 97,
+        "9": 65,
+        "10": 158,
+        "11": 134,
+        "12": 237,
+        "13": 113,
+        "14": 54,
+        "15": 167,
+        "16": 162,
+        "17": 205,
+        "18": 184,
+        "19": 141
+      }
+    }
+  },
+  "artifacts": {
+    "representative_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_clustered_dataset_20260421_220343.csv",
+    "top100_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_top100_dataset_20260421_220343.csv",
+    "embedding_npy": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_embeddings_20260421_220343.npy"
+  }
+}

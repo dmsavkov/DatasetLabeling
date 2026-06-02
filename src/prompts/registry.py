@@ -4,6 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 
 from .baseline import BatchItem, build_llm_batch_messages
+from .prompt_eng import build_multilabel_confusion_messages, build_self_debate_pass_a_messages
 
 
 PromptBuilder = Callable[
@@ -52,11 +53,41 @@ def _engineered_brief_rationale_v1(
     return msgs
 
 
+def _multilabel_confusion_probe_v1(
+    *,
+    allowed_labels: list[str],
+    items: list[BatchItem],
+    few_shot: list[tuple[str, str]] | None = None,
+) -> list[dict[str, str]]:
+    return build_multilabel_confusion_messages(
+        allowed_labels=allowed_labels, items=items, few_shot=few_shot
+    )
+
+
+def _self_debate_pass_a_v1(
+    *,
+    allowed_labels: list[str],
+    items: list[BatchItem],
+    few_shot: list[tuple[str, str]] | None = None,
+) -> list[dict[str, str]]:
+    return build_self_debate_pass_a_messages(
+        allowed_labels=allowed_labels, items=items, few_shot=few_shot
+    )
+
+
 PROMPTS: dict[str, PromptSpec] = {
     "baseline_v1": PromptSpec(prompt_id="baseline_v1", build_messages=_baseline_v1),
     "engineered_brief_rationale_v1": PromptSpec(
         prompt_id="engineered_brief_rationale_v1",
         build_messages=_engineered_brief_rationale_v1,
+    ),
+    "multilabel_confusion_probe_v1": PromptSpec(
+        prompt_id="multilabel_confusion_probe_v1",
+        build_messages=_multilabel_confusion_probe_v1,
+    ),
+    "self_debate_pass_a_v1": PromptSpec(
+        prompt_id="self_debate_pass_a_v1",
+        build_messages=_self_debate_pass_a_v1,
     ),
 }
 

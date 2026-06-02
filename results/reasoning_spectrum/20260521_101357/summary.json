@@ -1,0 +1,88 @@
+{
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "pure_intuition",
+      "model_id": "gemini-3.1-flash-lite-preview",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.4,
+      "confusion_rate": 0.2,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 1,
+      "n_pred_labels_single": 4,
+      "thoughts_token_count": null,
+      "elapsed_s": 0.989,
+      "error": null
+    },
+    {
+      "tier": 2,
+      "name": "surface_external_cot",
+      "model_id": "gemini-3.1-flash-lite-preview",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.2,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": null,
+      "elapsed_s": 1.2531,
+      "error": null
+    },
+    {
+      "tier": 3,
+      "name": "micro_internal",
+      "model_id": "gemini-3.5-flash",
+      "top1_accuracy": 0.4,
+      "gold_in_set_rate": 0.4,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": 651,
+      "elapsed_s": 3.9874,
+      "error": null
+    },
+    {
+      "tier": 4,
+      "name": "deep_internal",
+      "model_id": "gemini-3.5-flash",
+      "top1_accuracy": 0.4,
+      "gold_in_set_rate": 0.4,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": 1260,
+      "elapsed_s": 6.5047,
+      "error": null
+    },
+    {
+      "tier": 5,
+      "name": "gemma_native_heavy",
+      "model_id": "gemma-4-26b-a4b-it",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.2,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": 807,
+      "elapsed_s": 35.8612,
+      "error": null
+    },
+    {
+      "tier": 6,
+      "name": "gemma_overclocked_booster",
+      "model_id": "gemma-4-31b-it",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.2,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": 932,
+      "elapsed_s": 29.6145,
+      "error": null
+    }
+  ]
+}

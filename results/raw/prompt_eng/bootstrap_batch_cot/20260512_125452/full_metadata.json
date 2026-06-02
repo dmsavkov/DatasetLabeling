@@ -1,0 +1,24 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-12T13:12:30.308537+00:00",
+  "duration_seconds": 1001.477004500106,
+  "metrics": {
+    "accuracy": 0.72,
+    "n_samples": 50,
+    "n_batches": 10
+  },
+  "settings": {
+    "EXECUTOR_MODEL": "gemma-4-31b-it",
+    "EVAL_N": 50,
+    "TRAIN_N": 50,
+    "BATCH_SIZE": 5,
+    "MIN_PER_CLASS": 8,
+    "max_bootstrapped_demos": 2,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "25",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "BootstrapFewShot compile over batched 5-sentence CoT classifier, batch prompt includes allowed labels."
+}

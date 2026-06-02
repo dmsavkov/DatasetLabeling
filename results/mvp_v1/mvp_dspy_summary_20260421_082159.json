@@ -1,0 +1,179 @@
+{
+  "workflow": "dspy_phi3_fewshot_cot",
+  "model": "phi3:3.8b",
+  "sample_sizes": {
+    "sample_50": 50,
+    "train": 25,
+    "test": 25
+  },
+  "timing_seconds": {
+    "compile": 583.2904328000004,
+    "inference": 514.5110229999991,
+    "total": 1097.8014557999995
+  },
+  "metrics": {
+    "accuracy": 0.32,
+    "macro_f1": 0.2293916609706083,
+    "weighted_f1": 0.2719343814080656,
+    "report": {
+      "casual": {
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1-score": 0.2857142857142857,
+        "support": 4.0
+      },
+      "possibly_needs_caution": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "probably_needs_caution": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 3.0
+      },
+      "needs_caution": {
+        "precision": 0.375,
+        "recall": 0.2727272727272727,
+        "f1-score": 0.3157894736842105,
+        "support": 11.0
+      },
+      "needs_intervention": {
+        "precision": 0.42857142857142855,
+        "recall": 0.75,
+        "f1-score": 0.5454545454545454,
+        "support": 4.0
+      },
+      "accuracy": 0.32,
+      "macro avg": {
+        "precision": 0.2007142857142857,
+        "recall": 0.30454545454545456,
+        "f1-score": 0.2293916609706083,
+        "support": 25.0
+      },
+      "weighted avg": {
+        "precision": 0.26557142857142857,
+        "recall": 0.32,
+        "f1-score": 0.2719343814080656,
+        "support": 25.0
+      }
+    }
+  },
+  "used_prompt": {
+    "reasoning": "ChainOfThought",
+    "optimizer": "BootstrapFewShot"
+  },
+  "used_indexes": {
+    "sample_50": [
+      9962,
+      10380,
+      6069,
+      6802,
+      3984,
+      3103,
+      7132,
+      7305,
+      803,
+      16429,
+      8353,
+      22815,
+      19354,
+      7002,
+      18805,
+      12737,
+      13264,
+      6420,
+      2944,
+      4541,
+      765,
+      14141,
+      23386,
+      9764,
+      789,
+      7947,
+      16221,
+      10411,
+      23426,
+      23904,
+      5004,
+      297,
+      22020,
+      161,
+      17097,
+      13215,
+      40,
+      20083,
+      9267,
+      13683,
+      1604,
+      20057,
+      14976,
+      17905,
+      1460,
+      17178,
+      16964,
+      17595,
+      2501,
+      24231
+    ],
+    "train_25": [
+      17595,
+      6069,
+      7002,
+      297,
+      18805,
+      9962,
+      13683,
+      9764,
+      6802,
+      12737,
+      16964,
+      13215,
+      14976,
+      7947,
+      765,
+      17178,
+      2944,
+      23386,
+      17097,
+      14141,
+      24231,
+      6420,
+      789,
+      7132,
+      13264
+    ],
+    "test_25": [
+      3984,
+      2501,
+      23904,
+      1460,
+      8353,
+      9267,
+      803,
+      5004,
+      4541,
+      161,
+      40,
+      20057,
+      19354,
+      17905,
+      16429,
+      7305,
+      10411,
+      1604,
+      3103,
+      16221,
+      23426,
+      10380,
+      20083,
+      22020,
+      22815
+    ]
+  },
+  "artifacts": {
+    "predictions_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\mvp_dspy_preds_25test_20260421_082159.csv"
+  }
+}

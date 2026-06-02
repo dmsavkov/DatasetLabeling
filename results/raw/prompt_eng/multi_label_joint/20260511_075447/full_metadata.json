@@ -1,0 +1,55 @@
+{
+  "phase": "full",
+  "saved_utc": "2026-05-11T07:56:56.737168+00:00",
+  "duration_seconds": 107.07592580001801,
+  "metrics": {
+    "exact_match_accuracy": 0.85,
+    "micro_f1": 0.9047619047619048,
+    "macro_f1": 0.7047619047619047,
+    "n_texts": 20,
+    "n_mismatched": 3,
+    "confusion_cases_sample": [
+      {
+        "text": "There have been several studies of atrial fibrillation ( AF ) over the past decades ; however , data from Chinese patients are scarce .",
+        "true_labels": [
+          "objective"
+        ],
+        "predicted_labels": [
+          "background"
+        ]
+      },
+      {
+        "text": "Effects of poverty on children 's cognition are mostly mediated through parental education , birth size , growth in the first @ months , and home stimulation in the first @ years .",
+        "true_labels": [
+          "conclusions"
+        ],
+        "predicted_labels": [
+          "conclusions",
+          "results"
+        ]
+      },
+      {
+        "text": "The isolated use of tacrolimus and the combined use of tacrolimus and olopatadine seems to have the same efficacy , although controlled studies with larger samples are required to confirm this hypothesis .",
+        "true_labels": [
+          "conclusions"
+        ],
+        "predicted_labels": [
+          "conclusions",
+          "results"
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "model": "openai/gemini-3.1-flash-lite-preview",
+    "FULL_N": 20,
+    "num_retries": 30,
+    "multi_label_joint": true,
+    "PRELIM_MAX_RETRIES": "3",
+    "MAIN_MAX_RETRIES": "30",
+    "project_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "save_root": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research",
+    "prompt_eng_results_root_resolved": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\raw\\prompt_eng"
+  },
+  "notes": "Parallel per-text; each text runs a single LM call for joint multi-label prediction."
+}

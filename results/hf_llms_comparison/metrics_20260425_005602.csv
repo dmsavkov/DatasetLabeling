@@ -1,0 +1,16 @@
+dataset,model,n_samples,coverage,accuracy,macro_f1,weighted_f1,all_agree_rate,major_vote_accuracy
+ag_news,qwen_1_5b,50,0.0,,,,0.0,0.2
+ag_news,llama_8b,50,0.34,0.5882352941176471,0.5324675324675324,0.5332314744079449,0.0,0.2
+ag_news,gpt_oss_20b,50,0.0,,,,0.0,0.2
+ag_news,mixtral_8x22b,50,0.0,,,,0.0,0.2
+ag_news,major_vote,50,0.34,0.5882352941176471,0.5324675324675324,0.5332314744079449,0.0,0.2
+lex_scotus,qwen_1_5b,50,0.0,,,,0.0,0.0
+lex_scotus,llama_8b,50,0.0,,,,0.0,0.0
+lex_scotus,gpt_oss_20b,50,0.0,,,,0.0,0.0
+lex_scotus,mixtral_8x22b,50,0.0,,,,0.0,0.0
+lex_scotus,major_vote,50,0.0,,,,0.0,0.0
+tweet_sentiment,qwen_1_5b,50,0.94,0.6170212765957447,0.5044091710758377,0.5713159968479118,0.0,0.48
+tweet_sentiment,llama_8b,50,0.82,0.6829268292682927,0.6351254480286738,0.6733805402570154,0.0,0.48
+tweet_sentiment,gpt_oss_20b,50,0.12,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.0,0.48
+tweet_sentiment,mixtral_8x22b,50,0.0,,,,0.0,0.48
+tweet_sentiment,major_vote,50,0.64,0.75,0.6425925925925926,0.7335069444444444,0.0,0.48

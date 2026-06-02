@@ -1,0 +1,27 @@
+{
+  "workflow": "exp_moe_flash_gemma_experts",
+  "metrics": {
+    "accuracy": 0.16,
+    "macro_f1": 0.1252136752136752,
+    "weighted_f1": 0.13324786324786325,
+    "adjusted_distance": 1.4,
+    "parse_error_count": 0
+  },
+  "artifacts": {
+    "predictions_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\exp_moe_flash_gemma_experts_preds_test25_20260421_220149.csv"
+  },
+  "extra": {
+    "prediction_model": "gemma-3-4b-it",
+    "batch_size": 1,
+    "statement_extraction": false,
+    "dynamic_retrieval": false,
+    "moe_experts": [
+      "gemma-3-4b-it",
+      "gemma-3-12b-it",
+      "gemma-3-27b-it"
+    ],
+    "timing_seconds": {
+      "inference": 66.62764369999059
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "created_utc": "2026-05-21T10:30:48.235932+00:00",
+  "suite": "banking_confusing20",
+  "dataset": "banking",
+  "n_items": 20,
+  "batch_size": 5,
+  "n_batch_requests_per_tier": 4,
+  "n_tiers": 6,
+  "total_api_calls_est": 24,
+  "samples": [
+    {
+      "id": "0",
+      "sample_id": "test_1053",
+      "text": "cash deposit to my account has shown a red flag.",
+      "gold_label": "balance_not_updated_after_cheque_or_cash_deposit",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "1",
+      "sample_id": "test_1067",
+      "text": "Why does my account not accept cash deposits?",
+      "gold_label": "balance_not_updated_after_cheque_or_cash_deposit",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "2",
+      "sample_id": "test_1484",
+      "text": "what is this charge on my account",
+      "gold_label": "direct_debit_payment_not_recognised",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "3",
+      "sample_id": "test_1485",
+      "text": "im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.",
+      "gold_label": "direct_debit_payment_not_recognised",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "4",
+      "sample_id": "test_1486",
+      "text": "someone stole my money",
+      "gold_label": "direct_debit_payment_not_recognised",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "5",
+      "sample_id": "test_1489",
+      "text": "I may have a fraud charge on my debit statement.",
+      "gold_label": "direct_debit_payment_not_recognised",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "6",
+      "sample_id": "test_1512",
+      "text": "I am concerned about the security in my account and would like to make a dispute.",
+      "gold_label": "direct_debit_payment_not_recognised",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "7",
+      "sample_id": "test_2213",
+      "text": "I recently got a new place while I'm staying abroad and have been using this account to manage payments, but suddenly I am seeing fees increase. Where are these additional fees coming from?",
+      "gold_label": "transfer_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "8",
+      "sample_id": "test_2231",
+      "text": "In the past month I often used this account to manage payments for my new holiday villa. Now all of a sudden your fees have increased exorbitantly! Don't you have a rewards programme for frequent users?",
+      "gold_label": "transfer_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "9",
+      "sample_id": "test_2233",
+      "text": "What extra charges are there?",
+      "gold_label": "transfer_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "10",
+      "sample_id": "test_2236",
+      "text": "I was charged for something I didn't expect",
+      "gold_label": "transfer_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "11",
+      "sample_id": "test_2685",
+      "text": "How long does it take for an international transfer into my account?",
+      "gold_label": "balance_not_updated_after_bank_transfer",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "12",
+      "sample_id": "test_824",
+      "text": "So what items  actually come  with  extra  fees",
+      "gold_label": "card_payment_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "13",
+      "sample_id": "test_828",
+      "text": "For the first time I got a fee on my account. How do I know when you charge these fees?",
+      "gold_label": "card_payment_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "14",
+      "sample_id": "test_830",
+      "text": "Is using my card free?",
+      "gold_label": "card_payment_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "15",
+      "sample_id": "test_832",
+      "text": "What fees apply when using a card?",
+      "gold_label": "card_payment_fee_charged",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "16",
+      "sample_id": "test_846",
+      "text": "How can the recipient see my money transaction?",
+      "gold_label": "transfer_not_received_by_recipient",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "17",
+      "sample_id": "test_852",
+      "text": "transaction failed?",
+      "gold_label": "transfer_not_received_by_recipient",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "18",
+      "sample_id": "test_866",
+      "text": "Im waiting for my transaction to go through.",
+      "gold_label": "transfer_not_received_by_recipient",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    },
+    {
+      "id": "19",
+      "sample_id": "test_868",
+      "text": "Is there a reason why my transaction is taking so long?",
+      "gold_label": "transfer_not_received_by_recipient",
+      "source_is_confusing": true,
+      "prior_pred_labels": [],
+      "prior_n_pred_labels": 0
+    }
+  ],
+  "tiers_planned": [
+    "pure_intuition",
+    "surface_external_cot",
+    "micro_internal",
+    "deep_internal",
+    "gemma_native_heavy",
+    "gemma_overclocked_booster"
+  ],
+  "allowed_labels": [
+    "balance_not_updated_after_bank_transfer",
+    "balance_not_updated_after_cheque_or_cash_deposit",
+    "card_payment_fee_charged",
+    "cash_withdrawal_charge",
+    "declined_cash_withdrawal",
+    "direct_debit_payment_not_recognised",
+    "transaction_charged_twice",
+    "transfer_fee_charged",
+    "transfer_not_received_by_recipient",
+    "wrong_amount_of_cash_received"
+  ],
+  "source_predictions_path": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\results\\prompt_eng\\20260519_092956\\multilabel_confusion_probe\\multilabel_gemma4_31b_think_high_banking10_test200\\full_predictions.json"
+}

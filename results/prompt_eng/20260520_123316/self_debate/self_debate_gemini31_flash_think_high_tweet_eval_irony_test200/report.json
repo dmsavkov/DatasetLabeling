@@ -1,0 +1,26 @@
+{
+  "dataset_name": "tweet_eval_irony",
+  "split_name": "experiment",
+  "tier_size": 200,
+  "predictor_name": "self_debate:gemini-3.1-flash-lite-preview",
+  "metrics": {
+    "f1_macro": 0.8976126775056597,
+    "accuracy": 0.8994974874371859
+  },
+  "extras": {
+    "infer_time_s": 1490.4135237997398,
+    "confusion_stats": {
+      "n_total": 200,
+      "n_scored": 199,
+      "n_confusing": 1,
+      "confusing_rate": 0.005,
+      "n_zero_labels": 0,
+      "n_multi_labels": 0
+    },
+    "usage": {
+      "in_tokens_total": 23408,
+      "out_tokens_total": 80542
+    }
+  },
+  "created_at": "2026-05-20T13:13:30.935427+00:00"
+}

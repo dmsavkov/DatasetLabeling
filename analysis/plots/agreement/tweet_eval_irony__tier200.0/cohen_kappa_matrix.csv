@@ -1,0 +1,17 @@
+,gemini_b25_unshuffled_banking-10_test200,gemini_banking-10_test200,self_debate_gemini31_flash_think_low_tweet_eval_,google_genai_gemma4_31b_think_high_tweet_eval_ir,google_genai_gemini31_flash_think_high_tweet_eva,self_debate_gemma4_31b_think_high_tweet_eval_iro,multilabel_gemini31_flash_think_high_tweet_eval_,gemini_tweet_irony_test200,multilabel_gemini31_flash_think_low_tweet_eval_i,self_debate_gemini31_flash_think_high_tweet_eval,multilabel_gemma4_31b_think_high_tweet_eval_iron,google_genai_gemini31_flash_think_low_tweet_eval,google_genai_gemma3_27b_tweet_eval_irony_bs10_tr,google_genai_gemma3_27b_tweet_eval_irony_bs5_tra,google_genai_gemma3_27b_tweet_eval_irony_bs3_tra,gemma_tweet_eval_irony_test200
+gemini_b25_unshuffled_banking-10_test200,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gemini_banking-10_test200,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+self_debate_gemini31_flash_think_low_tweet_eval_,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+google_genai_gemma4_31b_think_high_tweet_eval_ir,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+google_genai_gemini31_flash_think_high_tweet_eva,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+self_debate_gemma4_31b_think_high_tweet_eval_iro,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+multilabel_gemini31_flash_think_high_tweet_eval_,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+gemini_tweet_irony_test200,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+multilabel_gemini31_flash_think_low_tweet_eval_i,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+self_debate_gemini31_flash_think_high_tweet_eval,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+multilabel_gemma4_31b_think_high_tweet_eval_iron,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+google_genai_gemini31_flash_think_low_tweet_eval,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+google_genai_gemma3_27b_tweet_eval_irony_bs10_tr,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+google_genai_gemma3_27b_tweet_eval_irony_bs5_tra,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+google_genai_gemma3_27b_tweet_eval_irony_bs3_tra,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+gemma_tweet_eval_irony_test200,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

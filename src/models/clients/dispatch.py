@@ -55,7 +55,7 @@ def get_llm_backend(model_id: str) -> LLMBackend:
 
     mid = model_id.strip()
 
-    if mid in {"gemini-3.1-flash-lite-preview", "gemma-3-4b-it"}:
+    if mid in {"gemini-3.1-flash-lite-preview", "gemma-3-4b-it", "gemma-4-31b-it"}:
         client = AsyncOpenAI(api_key=_google_genai_api_key(), base_url=_GOOGLE_GENAI_OPENAI_BASE_URL, max_retries=20)
         return LLMBackend(kind="openai_compat_chat", client=client)
 
@@ -71,7 +71,10 @@ def get_google_openai_chat_backend(model_id: str) -> LLMBackend:
     """
 
     mid = model_id.strip()
-    if mid not in {"gemini-3.1-flash-lite-preview", "gemma-3-4b-it"}:
-        raise ValueError(f"Unknown Google model_id {mid!r}. Supported: gemini-3.1-flash-lite-preview, gemma-3-4b-it")
+    if mid not in {"gemini-3.1-flash-lite-preview", "gemma-3-4b-it", "gemma-4-31b-it"}:
+        raise ValueError(
+            f"Unknown Google model_id {mid!r}. Supported: gemini-3.1-flash-lite-preview, "
+            "gemma-3-4b-it, gemma-4-31b-it"
+        )
     return get_llm_backend(mid)
 

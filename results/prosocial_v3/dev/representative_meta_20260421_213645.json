@@ -1,0 +1,80 @@
+{
+  "fastembed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "unanimous_total": 93,
+  "representative_total": 93,
+  "top100_total": 38,
+  "kmeans": {
+    "casual": {
+      "status": "ok",
+      "k": 15,
+      "size": 15,
+      "cluster_counts": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1
+      }
+    },
+    "possibly_needs_caution": {
+      "status": "empty",
+      "k": 0,
+      "size": 0
+    },
+    "probably_needs_caution": {
+      "status": "empty",
+      "k": 0,
+      "size": 0
+    },
+    "needs_caution": {
+      "status": "ok",
+      "k": 20,
+      "size": 77,
+      "cluster_counts": {
+        "0": 2,
+        "1": 4,
+        "2": 4,
+        "3": 5,
+        "4": 3,
+        "5": 5,
+        "6": 3,
+        "7": 6,
+        "8": 1,
+        "9": 4,
+        "10": 4,
+        "11": 3,
+        "12": 3,
+        "13": 5,
+        "14": 6,
+        "15": 4,
+        "16": 7,
+        "17": 2,
+        "18": 1,
+        "19": 5
+      }
+    },
+    "needs_intervention": {
+      "status": "ok",
+      "k": 1,
+      "size": 1,
+      "cluster_counts": {
+        "0": 1
+      }
+    }
+  },
+  "artifacts": {
+    "representative_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_clustered_dataset_20260421_213645.csv",
+    "top100_dataset_csv": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_top100_dataset_20260421_213645.csv",
+    "embedding_npy": "D:\\Coding\\VSCFiles\\IndependentProjects\\AI\\uni-judge-research\\data\\results\\prosocial_v3\\representative_embeddings_20260421_213645.npy"
+  }
+}

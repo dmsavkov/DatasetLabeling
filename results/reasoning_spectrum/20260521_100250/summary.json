@@ -1,0 +1,13 @@
+{
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "pure_intuition",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.4,
+      "thoughts_token_count": null,
+      "elapsed_s": 1.3695,
+      "error": null
+    }
+  ]
+}

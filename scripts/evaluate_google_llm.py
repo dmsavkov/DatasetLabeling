@@ -87,6 +87,7 @@ async def arun_google_eval_suite(
     models: tuple[_ModelSpec, ...],
     run: bool,
     seed: int,
+    sequential_batches: bool = False,
 ) -> dict[str, Any]:
     stamp = _utc_stamp()
     out_root = results_root / stamp
@@ -121,6 +122,7 @@ async def arun_google_eval_suite(
                             "retries": 20,
                             "thinking_level": ms.thinking_level,
                             "include_thoughts": ms.include_thoughts,
+                            "sequential_batches": bool(sequential_batches),
                         },
                     },
                 }
@@ -179,6 +181,11 @@ def main() -> None:
     )
     _ = ap.add_argument("--seed", type=int, default=42)
     _ = ap.add_argument("--dry-run", action="store_true", help="Print planned runs JSON only.")
+    _ = ap.add_argument(
+        "--sequential-batches",
+        action="store_true",
+        help="Run LLM batches one-at-a-time in order (slower; may reduce run-to-run jitter).",
+    )
     args = ap.parse_args()
 
     test_tier = 20 if args.test_tier_only else 200
@@ -208,6 +215,7 @@ def main() -> None:
             models=models,
             run=True,
             seed=int(args.seed),
+            sequential_batches=bool(args.sequential_batches),
         )
     )
     print(json.dumps({"results_dir": summary["results_dir"], "ran": summary["ran"]}, indent=2))

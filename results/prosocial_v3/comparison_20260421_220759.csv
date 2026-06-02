@@ -1,0 +1,4 @@
+workflow,accuracy,macro_f1,weighted_f1,adjusted_distance,parse_error_count
+exp_full_features_reasons_flash_gemma,0.16,0.15666666666666668,0.11533333333333333,1.44,0
+exp_representative_prompt_flash_gemma,0.16,0.12410256410256411,0.13702564102564102,1.48,0
+exp_moe_flash_gemma_experts,0.16,0.1581699346405229,0.11712418300653596,1.36,0

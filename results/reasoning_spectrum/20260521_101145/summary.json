@@ -1,0 +1,18 @@
+{
+  "tiers": [
+    {
+      "tier": 2,
+      "name": "surface_external_cot",
+      "model_id": "gemini-3.1-flash-lite-preview",
+      "top1_accuracy": 0.2,
+      "gold_in_set_rate": 0.2,
+      "confusion_rate": 0.0,
+      "n_pred_labels_zero": 0,
+      "n_pred_labels_multi": 0,
+      "n_pred_labels_single": 5,
+      "thoughts_token_count": null,
+      "elapsed_s": 1.6953,
+      "error": null
+    }
+  ]
+}

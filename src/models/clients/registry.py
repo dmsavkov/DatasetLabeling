@@ -123,7 +123,7 @@ _MODEL_CAPABILITIES: dict[str, ModelCapabilities] = {
     # does not reliably honor system prompts.
     "gemma-3-4b-it": ModelCapabilities(supports_system_prompt=False),
     "gemma-3-27b-it": ModelCapabilities(supports_system_prompt=False),
-    "gemma-4-31b-it": ModelCapabilities(supports_system_prompt=False),
+    "gemma-4-31b-it": ModelCapabilities(supports_system_prompt=True),
 }
 
 
@@ -139,6 +139,7 @@ def _bootstrap_default_registry() -> None:
     for mid in (
         "gemini-3.1-flash-lite-preview",
         "gemma-3-4b-it",
+        "gemma-4-31b-it",
     ):
         default_registry.register(mid, _google)
 
